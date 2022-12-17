@@ -1,0 +1,2 @@
+execute if entity @s[tag=emp_sent_wheat] run loot insert ~ ~ ~ loot empires:station/free_stuff/wheat_field
+execute if entity @s[tag=emp_sent_coal] run loot insert ~ ~ ~ loot empires:station/free_stuff/mine

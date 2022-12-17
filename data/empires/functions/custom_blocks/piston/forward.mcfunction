@@ -1,0 +1,6 @@
+execute if score $facing piston_data matches 0 if score $progress piston_data matches 5.. if block ~ ~ ~ moving_piston store success score $moved piston_data run setblock ~ ~-1 ~ air
+execute if score $facing piston_data matches 1 if score $progress piston_data matches 5.. if block ~ ~ ~ moving_piston store success score $moved piston_data run setblock ~ ~1 ~ air
+execute if score $facing piston_data matches 2 if score $progress piston_data matches 5.. if block ~ ~ ~ moving_piston store success score $moved piston_data run setblock ~ ~ ~-1 air
+execute if score $facing piston_data matches 3 if score $progress piston_data matches 5.. if block ~ ~ ~ moving_piston store success score $moved piston_data run setblock ~ ~ ~1 air
+execute if score $facing piston_data matches 4 if score $progress piston_data matches 5.. if block ~ ~ ~ moving_piston store success score $moved piston_data run setblock ~-1 ~ ~ air
+execute if score $facing piston_data matches 5 if score $progress piston_data matches 5.. if block ~ ~ ~ moving_piston store success score $moved piston_data run setblock ~1 ~ ~ air

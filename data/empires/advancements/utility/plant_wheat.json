@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:wheat"
+      }
+    }
+  },
+  "rewards": {
+    "function": "empires:building/start_plant_wheat"
+  }
+}

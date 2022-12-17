@@ -1,0 +1,1 @@
+execute unless data block ~ ~ ~ Items[{Slot:0b}] run function empires:custom_blocks/port/arrive_name

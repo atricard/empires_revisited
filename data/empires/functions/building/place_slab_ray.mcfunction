@@ -1,0 +1,3 @@
+execute if block ~ ~ ~ #minecraft:slabs as @e[type=glow_item_frame,tag=empbl_inactive,limit=1,sort=nearest,distance=..20] run function empires:building/end_slab_ray
+execute if score #raycast emp_raycast_limit matches 1..40 run scoreboard players remove #raycast emp_raycast_limit 1
+execute unless block ~ ~ ~ #minecraft:slabs if score #raycast emp_raycast_limit matches 1..40 positioned ^ ^ ^0.25 run function empires:building/place_slab_ray

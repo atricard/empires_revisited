@@ -1,0 +1,33 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:wooden_pickaxe"
+      },
+      "title": {
+        "text": "Toolmaking",
+        "color": "white"
+      },
+      "description": [
+        {
+          "text": "Unlocks: ",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "text": "House, Port, Field, Mining Base",
+          "color": "green",
+          "italic": false
+        }
+      ],
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": false
+    },
+    "parent": "empires:discovered/root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

@@ -1,0 +1,2 @@
+scoreboard players add @s emp_production 2
+tellraw @s [{"text":"<⚑>","color":"#00BFFF"},{"text":" Turn ","color":"white"},{"score":{"name":"@s","objective":"emp_turn"},"color":"white"},{"text":": ","color":"white"},{"selector":"@e[type=glow_item_frame,tag=empbl_building,sort=nearest,limit=1]"},{"text":" made ","color":"white"},{"text":"2 ","color":"white","bold":true},{"text":"Production Point.","color":"white"}]

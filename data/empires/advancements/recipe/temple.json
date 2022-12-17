@@ -1,0 +1,36 @@
+{
+  "parent": "empires:recipe/main",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "emp_production": {
+                "min": 6
+              },
+              "tech_religion": {
+                "min": 100
+              }
+            }
+          }
+        ],
+        "items": [
+          {
+            "tag": "empires:gui_items",
+            "nbt": "{buy_temple:1b}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "empires:player/recipe/cost_06",
+    "loot": [
+      "empires:custom_blocks/temple"
+    ]
+  }
+}

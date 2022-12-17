@@ -1,0 +1,20 @@
+{
+    "pack": {
+      "pack_format": 10,
+      "description": [
+        {
+          "text": "Empires by atricard and MindlessReader",
+          "color": "gold",
+          "bold": false
+        }
+      ]
+    },
+    "filter": {
+      "block": [
+        {
+          "namespace": "minecraft",
+          "path": "advancements/.*"
+        }
+      ]
+    }
+  }

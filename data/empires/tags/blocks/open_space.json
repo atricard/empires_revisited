@@ -1,0 +1,13 @@
+{
+    "values":[
+        "air",
+        "cave_air",
+        "void_air",
+        "lava",
+        "water",
+        "seagrass",
+        "tall_seagrass",
+        "grass",
+        "tall_grass"
+    ]
+   }

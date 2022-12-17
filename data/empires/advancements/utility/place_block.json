@@ -1,0 +1,49 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "mainhand": {
+                    "items": [
+                      "minecraft:wheat_seeds"
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "mainhand": {
+                    "tag": "minecraft:slabs"
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "location": {
+          "block": {
+            "tag": "empires:valid_solid_block"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "empires:building/start_place_block"
+  }
+}

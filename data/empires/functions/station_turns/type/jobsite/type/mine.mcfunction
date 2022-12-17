@@ -1,0 +1,3 @@
+execute as @a[predicate=empires:production_id] run function empires:station_turns/type/jobsite/production_strengths/i
+execute unless data block ~ ~ ~ Items[{Slot:18b}].tag.storage unless data block ~ ~ ~ Items[{Slot:9b}] run loot replace block ~ ~ ~ container.9 loot empires:station/free_stuff/mine
+execute if data block ~ ~ ~ Items[{Slot:18b}].tag.storage run function empires:station_turns/type/jobsite/sent_material/building

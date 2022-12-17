@@ -1,0 +1,89 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:jigsaw",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Storage Document",
+                "color": "green",
+                "italic": false,
+                "underlined": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{storage:1b,CustomModelData:440002}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "-----------",
+                  "color": "yellow",
+                  "italic": false
+                },
+                {
+                  "selector": "@s",
+                  "color": "light_gray",
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "At (",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "score": {
+                      "name": "@s",
+                      "objective": "emp_pos_x"
+                    },
+                    "color": "yellow",
+                    "italic": false
+                  },
+                  {
+                    "text": ", ",
+                    "italic": false
+                  },
+                  {
+                    "score": {
+                      "name": "@s",
+                      "objective": "emp_pos_y"
+                    },
+                    "color": "yellow",
+                    "italic": false
+                  },
+                  {
+                    "text": ", ",
+                    "italic": false
+                  },
+                  {
+                    "score": {
+                      "name": "@s",
+                      "objective": "emp_pos_z"
+                    },
+                    "color": "yellow",
+                    "italic": false
+                  },
+                  {
+                    "text": ")",
+                    "italic": false
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

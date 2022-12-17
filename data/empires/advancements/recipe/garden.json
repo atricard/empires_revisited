@@ -1,0 +1,37 @@
+{
+    "parent": "empires:recipe/main",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "emp_production": {
+                  "min": 10
+                },
+                "tech_irrigation": {
+                  "min": 100
+                }
+              }
+            }
+          ],
+          "items": [
+            {
+              "tag": "empires:gui_items",
+              "nbt": "{buy_garden:1b}"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "empires:player/recipe/cost_10",
+      "loot": [
+        "empires:custom_blocks/garden"
+      ]
+    }
+  }
+  

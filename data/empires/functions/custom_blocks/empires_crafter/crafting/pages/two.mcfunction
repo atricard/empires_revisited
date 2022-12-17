@@ -1,0 +1,29 @@
+#Disable
+execute unless data block ~ ~ ~ Items[{Slot:0b}].tag.gui run item replace block ~ ~ ~ container.0 with structure_void{display:{Name:'{"text":"Slot Disabled","color":"red","italic":false}'},CustomModelData:1,gui:1b}
+execute unless data block ~ ~ ~ Items[{Slot:1b}].tag.gui run item replace block ~ ~ ~ container.1 with structure_void{display:{Name:'{"text":"Slot Disabled","color":"red","italic":false}'},CustomModelData:1,gui:1b}
+execute unless data block ~ ~ ~ Items[{Slot:2b}].tag.gui run item replace block ~ ~ ~ container.2 with structure_void{display:{Name:'{"text":"Slot Disabled","color":"red","italic":false}'},CustomModelData:1,gui:1b}
+execute unless data block ~ ~ ~ Items[{Slot:3b}].tag.gui run item replace block ~ ~ ~ container.3 with structure_void{display:{Name:'{"text":"Slot Disabled","color":"red","italic":false}'},CustomModelData:1,gui:1b}
+execute unless data block ~ ~ ~ Items[{Slot:4b}].tag.gui run item replace block ~ ~ ~ container.4 with structure_void{display:{Name:'{"text":"Slot Disabled","color":"red","italic":false}'},CustomModelData:1,gui:1b}
+execute unless data block ~ ~ ~ Items[{Slot:5b}].tag.gui run item replace block ~ ~ ~ container.5 with structure_void{display:{Name:'{"text":"Slot Disabled","color":"red","italic":false}'},CustomModelData:1,gui:1b}
+execute unless data block ~ ~ ~ Items[{Slot:6b}].tag.gui run item replace block ~ ~ ~ container.6 with structure_void{display:{Name:'{"text":"Slot Disabled","color":"red","italic":false}'},CustomModelData:1,gui:1b}
+execute unless data block ~ ~ ~ Items[{Slot:7b}].tag.gui run item replace block ~ ~ ~ container.7 with structure_void{display:{Name:'{"text":"Slot Disabled","color":"red","italic":false}'},CustomModelData:1,gui:1b}
+execute unless data block ~ ~ ~ Items[{Slot:8b}].tag.gui run item replace block ~ ~ ~ container.8 with structure_void{display:{Name:'{"text":"Slot Disabled","color":"red","italic":false}'},CustomModelData:1,gui:1b}
+execute unless data block ~ ~ ~ Items[{Slot:9b}].tag.gui run item replace block ~ ~ ~ container.9 with structure_void{display:{Name:'{"text":"Slot Disabled","color":"red","italic":false}'},CustomModelData:1,gui:1b}
+execute unless data block ~ ~ ~ Items[{Slot:10b}].tag.gui run item replace block ~ ~ ~ container.10 with structure_void{display:{Name:'{"text":"Slot Disabled","color":"red","italic":false}'},CustomModelData:1,gui:1b}
+execute unless data block ~ ~ ~ Items[{Slot:11b}].tag.gui run item replace block ~ ~ ~ container.11 with structure_void{display:{Name:'{"text":"Slot Disabled","color":"red","italic":false}'},CustomModelData:1,gui:1b}
+execute unless data block ~ ~ ~ Items[{Slot:12b}].tag.gui run item replace block ~ ~ ~ container.12 with structure_void{display:{Name:'{"text":"Slot Disabled","color":"red","italic":false}'},CustomModelData:1,gui:1b}
+execute unless data block ~ ~ ~ Items[{Slot:13b}].tag.gui run item replace block ~ ~ ~ container.13 with structure_void{display:{Name:'{"text":"Slot Disabled","color":"red","italic":false}'},CustomModelData:1,gui:1b}
+execute unless data block ~ ~ ~ Items[{Slot:14b}].tag.gui run item replace block ~ ~ ~ container.14 with structure_void{display:{Name:'{"text":"Slot Disabled","color":"red","italic":false}'},CustomModelData:1,gui:1b}
+execute unless data block ~ ~ ~ Items[{Slot:15b}].tag.gui run item replace block ~ ~ ~ container.15 with structure_void{display:{Name:'{"text":"Slot Disabled","color":"red","italic":false}'},CustomModelData:1,gui:1b}
+execute unless data block ~ ~ ~ Items[{Slot:16b}].tag.gui run item replace block ~ ~ ~ container.16 with structure_void{display:{Name:'{"text":"Slot Disabled","color":"red","italic":false}'},CustomModelData:1,gui:1b}
+execute unless data block ~ ~ ~ Items[{Slot:17b}].tag.gui run item replace block ~ ~ ~ container.17 with structure_void{display:{Name:'{"text":"Slot Disabled","color":"red","italic":false}'},CustomModelData:1,gui:1b}
+execute unless data block ~ ~ ~ Items[{Slot:18b}].tag.gui run item replace block ~ ~ ~ container.18 with structure_void{display:{Name:'{"text":"Slot Disabled","color":"red","italic":false}'},CustomModelData:1,gui:1b}
+execute unless data block ~ ~ ~ Items[{Slot:19b}].tag.gui run item replace block ~ ~ ~ container.19 with structure_void{display:{Name:'{"text":"Slot Disabled","color":"red","italic":false}'},CustomModelData:1,gui:1b}
+execute unless data block ~ ~ ~ Items[{Slot:20b}].tag.gui run item replace block ~ ~ ~ container.20 with structure_void{display:{Name:'{"text":"Slot Disabled","color":"red","italic":false}'},CustomModelData:1,gui:1b}
+execute unless data block ~ ~ ~ Items[{Slot:21b}].tag.gui run item replace block ~ ~ ~ container.21 with structure_void{display:{Name:'{"text":"Slot Disabled","color":"red","italic":false}'},CustomModelData:1,gui:1b}
+execute unless data block ~ ~ ~ Items[{Slot:22b}].tag.gui run item replace block ~ ~ ~ container.22 with structure_void{display:{Name:'{"text":"Slot Disabled","color":"red","italic":false}'},CustomModelData:1,gui:1b}
+execute unless data block ~ ~ ~ Items[{Slot:23b}].tag.gui run item replace block ~ ~ ~ container.23 with structure_void{display:{Name:'{"text":"Slot Disabled","color":"red","italic":false}'},CustomModelData:1,gui:1b}
+execute unless data block ~ ~ ~ Items[{Slot:24b}].tag.gui run item replace block ~ ~ ~ container.24 with structure_void{display:{Name:'{"text":"Slot Disabled","color":"red","italic":false}'},CustomModelData:1,gui:1b}
+execute unless data block ~ ~ ~ Items[{Slot:25b}].tag.gui run item replace block ~ ~ ~ container.25 with structure_void{display:{Name:'{"text":"Slot Disabled","color":"red","italic":false}'},CustomModelData:1,gui:1b}
+#Page Change (all pages)
+item replace block ~ ~ ~ container.26 with structure_void{display:{Name:'{"text":"Page 2/2","color":"#ff4500","bold":true,"italic":false}'},HideFlags:32,CustomModelData:2,gui:1b} 1

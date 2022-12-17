@@ -1,0 +1,10 @@
+{
+    "values":[
+        "minecraft:structure_void",
+        "minecraft:wooden_pickaxe",
+        "minecraft:campfire",
+        "minecraft:writable_book",
+        "minecraft:water_bucket",
+        "minecraft:birch_boat"
+    ]
+   }

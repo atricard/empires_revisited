@@ -1,0 +1,18 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:placed_block",
+        "conditions": {
+          "location": {
+            "block": {
+              "tag": "minecraft:slabs"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "empires:building/start_place_slab"
+    }
+  }
+  
