@@ -1,11 +1,10 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:allay_spawn_egg",
-      "nbt": "{CustomModelData:440000}"
+      "item": "minecraft:knowledge_book"
     },
     "title": {
-      "text": "Empires Technology",
+      "text": "Invention Log",
       "color": "white",
       "bold": false
     },

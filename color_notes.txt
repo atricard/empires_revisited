@@ -1,0 +1,12 @@
+#00bfff - Empires Datapack
+#24015b - Disabled Slot
+#ff0099 - Selection Slot
+#ba55d3 - Motivation
+#ff7f27 - Production
+#276fff - Invention
+
+white - Text
+gold - Arrows/Direction for now?
+green - Building Names, Completion
+gray - Transitions, "/", ":", etc.
+yellow - Descriptions, Pronouns

@@ -24,10 +24,6 @@ execute if data block ~ ~ ~ Items[{Slot:22b}] unless data block ~ ~ ~ Items[{Slo
 execute if data block ~ ~ ~ Items[{Slot:23b}] unless data block ~ ~ ~ Items[{Slot:23b}].tag.gui run function empires:custom_blocks/reject_item/23
 execute if data block ~ ~ ~ Items[{Slot:24b}] unless data block ~ ~ ~ Items[{Slot:24b}].tag.gui run function empires:custom_blocks/reject_item/24
 execute if data block ~ ~ ~ Items[{Slot:25b}] unless data block ~ ~ ~ Items[{Slot:25b}].tag.gui run function empires:custom_blocks/reject_item/25
-#Change Page
 execute if data block ~ ~ ~ Items[{Slot:26b}] unless data block ~ ~ ~ Items[{Slot:26b}].tag.gui run function empires:custom_blocks/reject_item/26
-execute unless data block ~ ~ ~ Items[{Slot:26b}].tag.gui run function empires:custom_blocks/empires_crafter/crafting/change_page
 #End
 tag @e[type=item,tag=rejected_item,limit=1,sort=nearest] remove rejected_item
-#
-function empires:custom_blocks/empires_crafter/crafting/refresh

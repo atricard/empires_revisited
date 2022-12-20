@@ -1,12 +1,11 @@
 advancement grant @s only empires:discovered/toolmaking
 particle enchant ~ ~ ~ 0 0 0 1 9 normal
 playsound block.enchantment_table.use master @a
+#Tech and Production
 scoreboard players add @s emp_production 25
-#Tech Reset
-scoreboard players set @s tech_irrigation 0
-scoreboard players set @s tech_religion 0
-scoreboard players set @s tech_sailing 0
-scoreboard players set @s tech_writing 0
+scoreboard players add @s emp_production_cap 25
+scoreboard players add @s emp_invention 0
+scoreboard players add @s emp_invention_cap 25
 #Items
 loot give @s loot empires:custom_blocks/empires_crafter
 tellraw @s [{"text":"<⚑> ","color":"#00bfff","bold":false},{"text":"You Received:","color":"white","italic": true},{"text":" Building Crafter","color":"#00bfff"},{"text":",","color":"white"},{"text":" Building Crafter Guide","color":"reset"},{"text":",","color":"white"},{"text":" Technology Guide","color":"reset"}]

@@ -1,6 +1,10 @@
 {
     "values":[
         "minecraft:structure_void",
+        "minecraft:allay_spawn_egg",
+        "minecraft:knowledge_book",
+        "minecraft:diamond",
+        "minecraft:emerald",
         "minecraft:wooden_pickaxe",
         "minecraft:campfire",
         "minecraft:writable_book",
