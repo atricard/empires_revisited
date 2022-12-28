@@ -1,11 +1,11 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:writable_book"
+        "item": "minecraft:spruce_sign"
       },
       "title": {
         "text": "Writing",
-        "color": "white"
+        "color": "#40e0d0"
       },
       "description": [
         {
@@ -27,7 +27,11 @@
     "criteria": {
       "requirement": {
         "trigger": "minecraft:impossible"
-      }
     }
+  },
+  "rewards": {
+    "function": "empires:empires_crafter/crafting/select/tech/sound"
   }
+}
+
   

@@ -1,0 +1,76 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:jigsaw",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Citizen Document",
+                "color": "green",
+                "italic": false,
+                "underlined": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{citizen:1b,CustomModelData:440000,emp_motivation:101}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "-----------",
+                  "color": "yellow",
+                  "italic": false
+                },
+                {
+                  "text": "Name: ",
+                  "color": "gray",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "selector": "@e[type=armor_stand,tag=the_almighty_namer,sort=nearest,limit=1]",
+                      "color": "yellow",
+                      "italic": false
+                    }
+                  ]
+                },
+                [
+                  {
+                    "text": "Motivation: ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  [
+                    {
+                      "text": "null",
+                      "color": "#dc143c",
+                      "bold": false,
+                      "italic": false,
+                      "extra": [
+                        {
+                          "text": "%",
+                          "color": "gray",
+                          "bold": false,
+                          "italic": false
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

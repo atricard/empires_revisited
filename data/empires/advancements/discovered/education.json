@@ -1,0 +1,37 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:lectern"
+      },
+      "title": {
+        "text": "Education",
+        "color": "#40e0d0"
+      },
+      "description": [
+        {
+          "text": "Unlocks: ",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "text": "University",
+          "color": "green",
+          "italic": false
+        }
+      ],
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": false
+    },
+    "parent": "empires:discovered/math",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "empires:empires_crafter/crafting/select/tech/sound"
+  }
+}
+
+  

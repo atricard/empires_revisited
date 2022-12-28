@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:allay_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Market\",\"italic\":false,\"color\":\"green\"}',Lore:['{\"text\":\"Building\",\"color\":\"yellow\",\"italic\":false}']},CustomModelData:440001,EntityTag:{id:\"minecraft:area_effect_cloud\",Duration:1,Radius:0f,Age:1,Tags:[\"empbl_init\",\"market\"]}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

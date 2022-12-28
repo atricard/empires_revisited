@@ -1,0 +1,37 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:tnt"
+      },
+      "title": {
+        "text": "Gunpowder",
+        "color": "#40e0d0"
+      },
+      "description": [
+        {
+          "text": "Unlocks: ",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "text": "Blast Mine",
+          "color": "green",
+          "italic": false
+        }
+      ],
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": false
+    },
+    "parent": "empires:discovered/ironworking",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "empires:empires_crafter/crafting/select/tech/sound"
+  }
+}
+
+  

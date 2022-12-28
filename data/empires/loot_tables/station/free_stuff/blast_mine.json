@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:raw_iron",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 7
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

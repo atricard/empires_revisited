@@ -1,2 +1,1 @@
-execute unless data block ~ ~ ~ Items[{Slot:18b}].tag.storage unless data block ~ ~ ~ Items[{Slot:9b}] run loot replace block ~ ~ ~ container.9 loot empires:station/free_stuff/wheat_field
-execute if data block ~ ~ ~ Items[{Slot:18b}].tag.storage run function empires:station_turns/type/jobsite/sent_material/building
+execute if data block ~ ~ ~ Items[{Slot:9b}].tag.storage run function empires:station_turns/type/jobsite/sent_material/building

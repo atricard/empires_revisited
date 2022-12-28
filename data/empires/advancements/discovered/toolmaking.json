@@ -14,7 +14,7 @@
           "italic": false
         },
         {
-          "text": "House, Port, Field, Mining Base",
+          "text": "House, Field, Mine",
           "color": "green",
           "italic": false
         }
@@ -28,6 +28,8 @@
       "requirement": {
         "trigger": "minecraft:impossible"
       }
-    }
+    },
+    "rewards": {
+      "function": "empires:empires_crafter/crafting/select/tech/sound"
   }
-  
+}

@@ -1,0 +1,2 @@
+give @s carrot_on_a_stick{display:{Name:'{"text":"Treasure Hunter Unit","color":"green","italic":false}',Lore:['{"text":"Placed on Fisheries","color":"yellow","italic":false}']}']},CustomModelData:440000,HideFlags:34,unit_doc:1b} 1
+scoreboard players remove @s emp_money 25

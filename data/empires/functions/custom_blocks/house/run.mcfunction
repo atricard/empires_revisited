@@ -1,11 +1,5 @@
-#Set Requirements
-execute if entity @s[tag=!set_goal] run function empires:custom_blocks/house/set_goal
-#Reject Items from wrong slots
-function empires:custom_blocks/house/reject
+function empires:reject_item/slots/1_locked
+execute if data block ~ ~ ~ Items[{Slot:0b}].tag.blank_peon run function empires:custom_blocks/house/arrive_name
+execute if data block ~ ~ ~ Items[{Slot:0b}].tag.blank_professional run function empires:custom_blocks/house/arrive_name
 #Detect Occupied
-execute store success score @s emp_has_head if data block ~ ~ ~ Items[{Slot:0b}].tag.citizen
-execute if data block ~ ~ ~ Items[{Slot:0b}].tag.citizen positioned ~ ~2 ~ unless entity @e[type=snowball,tag=empbl_icon,distance=..0.1] run summon snowball ~ ~ ~ {Tags:["empbl_icon","villager_icon"],NoGravity:1b,Item:{id:"minecraft:jigsaw",Count:1b,tag:{CustomModelData:440000}}}
-#Broken/Drop Item Conditions
-execute if entity @s[tag=empbl_inactive] if entity @e[type=glow_item_frame,tag=empbl_building,distance=0.1..1] run function empires:custom_blocks/suffer
-#Piston Break
-execute unless block ~ ~ ~ barrel run function empires:custom_blocks/house/drop
+execute if predicate empires:half_time if data block ~ ~ ~ Items[{Slot:0b}].tag.citizen run particle glow ~ ~0.5 ~ 0.5 0.5 0.5 0 1 normal

@@ -24,8 +24,8 @@
             "name": "@e[type=glow_item_frame,tag=house,distance=..1,sort=nearest,limit=1]",
             "objective": "emp_motivation"
           },
-          "color": "#ba55d3",
-          "bold": true,
+          "color": "#dc143c",
+          "bold": false,
           "italic": false,
           "extra": [
             {

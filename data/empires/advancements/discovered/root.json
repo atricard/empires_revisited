@@ -30,6 +30,6 @@
     }
   },
   "rewards": {
-    "function": "empires:discovered/start"
+    "function": "empires:player/join_datapack"
   }
 }

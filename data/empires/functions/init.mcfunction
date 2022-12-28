@@ -12,7 +12,7 @@ scoreboard objectives add emp_wheat_goal dummy
     #Empires Turn
 scoreboard objectives add emp_turn dummy
 scoreboard objectives add emp_id dummy
-scoreboard objectives add emp_has_head dummy
+scoreboard objectives add emp_cooldown dummy
     #Jobsite Block Coords
 scoreboard objectives add emp_pos_x dummy
 scoreboard objectives add emp_pos_y dummy
@@ -23,6 +23,10 @@ scoreboard objectives add emp_production dummy
 scoreboard objectives add emp_production_cap dummy
 scoreboard objectives add emp_invention dummy
 scoreboard objectives add emp_invention_cap dummy
+scoreboard objectives add emp_money dummy
+scoreboard objectives add emp_money_cap dummy
+scoreboard objectives add emp_food dummy
+scoreboard objectives add emp_food_cap dummy
 #Shops
 scoreboard objectives add emp_crafter_page dummy
 scoreboard objectives add emp_has_gui dummy

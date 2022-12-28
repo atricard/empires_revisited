@@ -1,0 +1,11 @@
+execute unless data block ~ ~ ~ Items[{Slot:0b}].tag.gui if score @s[advancements={empires:discovered/printing=false}] emp_invention matches 300.. run function empires:empires_crafter/crafting/select/tech/transactions/printing
+execute unless data block ~ ~ ~ Items[{Slot:1b}].tag.gui if score @s[advancements={empires:discovered/guilding=false}] emp_invention matches 300.. run function empires:empires_crafter/crafting/select/tech/transactions/guilding
+execute unless data block ~ ~ ~ Items[{Slot:2b}].tag.gui if score @s[advancements={empires:discovered/math=false}] emp_invention matches 300.. run function empires:empires_crafter/crafting/select/tech/transactions/math
+execute unless data block ~ ~ ~ Items[{Slot:3b}].tag.gui if score @s[advancements={empires:discovered/ballistics=false}] emp_invention matches 300.. run function empires:empires_crafter/crafting/select/tech/transactions/ballistics
+execute unless data block ~ ~ ~ Items[{Slot:4b}].tag.gui if score @s[advancements={empires:discovered/mercantilism=false}] emp_invention matches 450.. run function empires:empires_crafter/crafting/select/tech/transactions/mercantilism
+execute unless data block ~ ~ ~ Items[{Slot:5b}].tag.gui if score @s[advancements={empires:discovered/steampower=false}] emp_invention matches 450.. run function empires:empires_crafter/crafting/select/tech/transactions/steampower
+execute unless data block ~ ~ ~ Items[{Slot:6b}].tag.gui if score @s[advancements={empires:discovered/banking=false}] emp_invention matches 450.. run function empires:empires_crafter/crafting/select/tech/transactions/banking
+execute unless data block ~ ~ ~ Items[{Slot:7b}].tag.gui if score @s[advancements={empires:discovered/education=false}] emp_invention matches 450.. run function empires:empires_crafter/crafting/select/tech/transactions/education
+execute unless data block ~ ~ ~ Items[{Slot:8b}].tag.gui if score @s[advancements={empires:discovered/steelworking=false}] emp_invention matches 450.. run function empires:empires_crafter/crafting/select/tech/transactions/steelworking
+#Click Sound
+execute as @p[scores={emp_has_gui=1..}] run function empires:empires_crafter/crafting/click

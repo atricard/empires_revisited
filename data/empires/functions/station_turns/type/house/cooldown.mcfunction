@@ -1,0 +1,1 @@
+scoreboard players add @s emp_cooldown 1

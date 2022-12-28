@@ -5,7 +5,7 @@
     },
     "title": {
       "text": "Irrigation",
-      "color": "white"
+      "color": "#40e0d0"
     },
     "description": [
       {
@@ -28,5 +28,8 @@
     "requirement": {
       "trigger": "minecraft:impossible"
     }
+  },
+  "rewards": {
+    "function": "empires:empires_crafter/crafting/select/tech/sound"
   }
 }
