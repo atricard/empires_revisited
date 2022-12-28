@@ -1,10 +1,10 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:deepslate_bricks"
+        "item": "minecraft:chest"
       },
       "title": {
-        "text": "Fortification",
+        "text": "Commercial Goods",
         "color": "#40e0d0"
       },
       "description": [
@@ -14,7 +14,7 @@
           "italic": false
         },
         {
-          "text": "Imperviousness Buff",
+          "text": "Warehouse",
           "color": "green",
           "italic": false
         }
@@ -23,7 +23,7 @@
       "show_toast": true,
       "announce_to_chat": false
     },
-    "parent": "empires:discovered/stonemasonry",
+    "parent": "empires:discovered/gunpowder",
     "criteria": {
       "requirement": {
         "trigger": "minecraft:impossible"
@@ -33,3 +33,5 @@
     "function": "empires:empires_crafter/crafting/select/tech/sound"
   }
 }
+
+  

@@ -6,13 +6,13 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:raw_iron",
+            "name": "minecraft:diamond",
             "functions": [
               {
                 "function": "minecraft:set_count",
                 "count": {
-                  "min": 1,
-                  "max": 7
+                  "min": 0,
+                  "max": 1
                 }
               }
             ]

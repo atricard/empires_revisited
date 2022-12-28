@@ -1,0 +1,1 @@
+execute unless data block ~ ~ ~ Items[{Slot:0b}].tag.storage run function empires:reject_item/slots/insert_storage_doc

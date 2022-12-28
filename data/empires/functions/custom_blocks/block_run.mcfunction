@@ -2,7 +2,8 @@
 function empires:custom_blocks/hopper_lock
 execute unless predicate empires:in_overworld run function empires:custom_blocks/suffer
 #Slots
-execute if entity @s[tag=empbl_building] run function empires:custom_blocks/slots
+execute if entity @s[tag=empbl_building,tag=!warehouse] run function empires:custom_blocks/slots
+execute if entity @s[tag=empbl_building,tag=warehouse] run function empires:custom_blocks/warehouse_slots
 #Block Types
 execute if entity @s[tag=empires_crafter] run function empires:empires_crafter/crafting/main
 execute if entity @s[tag=house] run function empires:custom_blocks/house/run
@@ -14,6 +15,7 @@ execute if entity @s[tag=temple] run function empires:custom_blocks/temple/run
 execute if entity @s[tag=watermill] run function empires:custom_blocks/watermill/run
 execute if entity @s[tag=storehouse] run function empires:custom_blocks/storehouse/run
 execute if entity @s[tag=mason] run function empires:custom_blocks/mason/run
+execute if entity @s[tag=blacksmith] run function empires:custom_blocks/blacksmith/run
 execute if entity @s[tag=observatory] run function empires:custom_blocks/observatory/run
 execute if entity @s[tag=hospital] run function empires:custom_blocks/hospital/run
 execute if entity @s[tag=lumbermill] run function empires:custom_blocks/lumbermill/run
@@ -22,6 +24,7 @@ execute if entity @s[tag=blast_mine] run function empires:custom_blocks/blast_mi
 execute if entity @s[tag=arena] run function empires:custom_blocks/arena/run
 execute if entity @s[tag=factory] run function empires:custom_blocks/factory/run
 execute if entity @s[tag=workshop] run function empires:custom_blocks/workshop/run
+execute if entity @s[tag=warehouse] run function empires:custom_blocks/warehouse/run
 execute if entity @s[tag=harbor] run function empires:custom_blocks/harbor/run
 execute if entity @s[tag=power_plant] run function empires:custom_blocks/power_plant/run
 execute if entity @s[tag=bank] run function empires:custom_blocks/bank/run

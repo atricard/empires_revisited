@@ -3,6 +3,7 @@ execute if entity @s[tag=mine] run loot insert ~ ~ ~ loot empires:station/free_s
 execute if entity @s[tag=fishery] run loot insert ~ ~ ~ loot minecraft:gameplay/fishing/fish
 execute if entity @s[tag=watermill] run loot insert ~ ~ ~ loot empires:station/free_stuff/watermill
 execute if entity @s[tag=mason] run loot insert ~ ~ ~ loot empires:station/free_stuff/mason
+execute if entity @s[tag=blacksmith] run loot insert ~ ~ ~ loot empires:station/free_stuff/blacksmith
 #Lumbermill Wood
 execute if entity @s[tag=lumbermill] if biome ~ ~ ~ #is_forest unless biome ~ ~ ~ dark_forest unless biome ~ ~ ~ birch_forest unless biome ~ ~ ~ old_growth_birch_forest run loot insert ~ ~ ~ loot empires:station/free_stuff/lumbermill_oak
 execute if entity @s[tag=lumbermill] if biome ~ ~ ~ birch_forest run loot insert ~ ~ ~ loot empires:station/free_stuff/lumbermill_birch

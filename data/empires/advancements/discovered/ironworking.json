@@ -1,7 +1,7 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:iron_axe"
+        "item": "minecraft:rail"
       },
       "title": {
         "text": "Ironworking",
@@ -14,7 +14,7 @@
           "italic": false
         },
         {
-          "text": "Guard Unit, Swordsman Unit",
+          "text": "Blacksmith",
           "color": "green",
           "italic": false
         }

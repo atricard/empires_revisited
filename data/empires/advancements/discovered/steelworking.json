@@ -23,7 +23,7 @@
       "show_toast": true,
       "announce_to_chat": false
     },
-    "parent": "empires:discovered/ballistics",
+    "parent": "empires:discovered/commercial_goods",
     "criteria": {
       "requirement": {
         "trigger": "minecraft:impossible"

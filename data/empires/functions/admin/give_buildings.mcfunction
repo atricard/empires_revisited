@@ -8,6 +8,7 @@ loot give @s loot empires:custom_blocks/temple
 loot give @s loot empires:custom_blocks/watermill
 loot give @s loot empires:custom_blocks/storehouse
 loot give @s loot empires:custom_blocks/mason
+loot give @s loot empires:custom_blocks/blacksmith
 loot give @s loot empires:custom_blocks/observatory
 loot give @s loot empires:custom_blocks/hospital
 loot give @s loot empires:custom_blocks/lumbermill
@@ -16,6 +17,7 @@ loot give @s loot empires:custom_blocks/blast_mine
 loot give @s loot empires:custom_blocks/arena
 loot give @s loot empires:custom_blocks/factory
 loot give @s loot empires:custom_blocks/workshop
+loot give @s loot empires:custom_blocks/warehouse
 loot give @s loot empires:custom_blocks/harbor
 loot give @s loot empires:custom_blocks/power_plant
 loot give @s loot empires:custom_blocks/bank

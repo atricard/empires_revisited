@@ -3,6 +3,7 @@ execute if entity @s[tag=mine] run summon marker ~ ~ ~ {Tags:["emp_sent_material
 execute if entity @s[tag=fishery] run summon marker ~ ~ ~ {Tags:["emp_sent_material","fishery"]}
 execute if entity @s[tag=watermill] run summon marker ~ ~ ~ {Tags:["emp_sent_material","watermill"]}
 execute if entity @s[tag=mason] run summon marker ~ ~ ~ {Tags:["emp_sent_material","mason"]}
+execute if entity @s[tag=blacksmith] run summon marker ~ ~ ~ {Tags:["emp_sent_material","blacksmith"]}
 execute if entity @s[tag=lumbermill] run summon marker ~ ~ ~ {Tags:["emp_sent_material","lumbermill"]}
 execute if entity @s[tag=blast_mine] run summon marker ~ ~ ~ {Tags:["emp_sent_material","blast_mine"]}
 execute if entity @s[tag=factory] run summon marker ~ ~ ~ {Tags:["emp_sent_material","factory"]}

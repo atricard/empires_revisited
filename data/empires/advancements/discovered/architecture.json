@@ -1,20 +1,20 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:fire_charge"
+        "item": "minecraft:polished_deepslate"
       },
       "title": {
-        "text": "Ballistics",
+        "text": "Architecture",
         "color": "#40e0d0"
       },
       "description": [
         {
-          "text": "Unlocks: ",
+          "text": "Buff: ",
           "color": "white",
           "italic": false
         },
         {
-          "text": "Cannon Unit",
+          "text": "Bricks and Polished Overworld Stone Blocks add an extra half block to incomplete buildings.",
           "color": "green",
           "italic": false
         }
@@ -23,7 +23,7 @@
       "show_toast": true,
       "announce_to_chat": false
     },
-    "parent": "empires:discovered/gunpowder",
+    "parent": "empires:discovered/stonemasonry",
     "criteria": {
       "requirement": {
         "trigger": "minecraft:impossible"
@@ -33,5 +33,3 @@
     "function": "empires:empires_crafter/crafting/select/tech/sound"
   }
 }
-
-  
