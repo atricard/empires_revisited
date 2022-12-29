@@ -8,4 +8,6 @@ kill @e[type=armor_stand,tag=the_almighty_namer]
 #???
 function empires:custom_blocks/house/motivate_init
 #Messages
-execute as @a[predicate=empires:message_id] run tellraw @s [{"text":"<⚑>","color":"#00BFFF"},{"text":" Turn ","color":"white"},{"score":{"name":"@s","objective":"emp_turn"},"color":"white"},{"text":": ","color":"white"},{"nbt":"Items[{Slot:0b}].tag.name_data","block":"~ ~ ~","interpret":true,"color":"yellow"},{"text":" arrived. Welcome!","color":"green"}]
+playsound block.enchantment_table.use block @a
+playsound entity.villager.celebrate block @a
+#execute as @a[predicate=empires:message_id] run tellraw @s [{"text":"<⚑>","color":"#00BFFF"},{"text":" Turn ","color":"white"},{"score":{"name":"@s","objective":"emp_turn"},"color":"white"},{"text":": ","color":"white"},{"nbt":"Items[{Slot:0b}].tag.name_data","block":"~ ~ ~","interpret":true,"color":"yellow"},{"text":" arrived. Welcome!","color":"green"}]

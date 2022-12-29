@@ -10,6 +10,6 @@ execute if entity @s[tag=factory] run summon marker ~ ~ ~ {Tags:["emp_sent_mater
 execute if entity @s[tag=workshop] run summon marker ~ ~ ~ {Tags:["emp_sent_material","workshop"]}
 execute if entity @s[tag=harbor] run summon marker ~ ~ ~ {Tags:["emp_sent_material","harbor"]}
 #Message
-execute as @a[predicate=empires:message_id] run tellraw @s [{"text":"<⚑>","color":"#00BFFF"},{"text":" Turn ","color":"white"},{"score":{"name":"@s","objective":"emp_turn"},"color":"white"},{"text":": ","color":"white"},{"selector":"@e[type=glow_item_frame,tag=empbl_building,distance=..1,sort=nearest,limit=1]","color":"reset"},{"text":" sent materials to a Storehouse.","color":"white"}]
+execute as @a[predicate=empires:message_id] run tellraw @s [{"text":"<⚑>","color":"#00BFFF"},{"text":" Turn ","color":"white"},{"score":{"name":"@s","objective":"emp_turn"},"color":"white"},{"text":": ","color":"white"},{"selector":"@e[type=glow_item_frame,tag=empbl_building,distance=..1,sort=nearest,limit=1]","color":"reset"},{"text":" sent materials to a storage building.","color":"white"}]
 #Send
 execute as @e[type=marker,tag=emp_sent_material] run function empires:station_turns/type/jobsite/sent_material/item

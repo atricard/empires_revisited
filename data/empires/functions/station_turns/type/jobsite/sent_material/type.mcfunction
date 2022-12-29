@@ -1,6 +1,6 @@
 execute if entity @s[tag=wheat_field] run loot insert ~ ~ ~ loot empires:station/free_stuff/wheat_field
 execute if entity @s[tag=mine] run loot insert ~ ~ ~ loot empires:station/free_stuff/mine
-execute if entity @s[tag=fishery] run loot insert ~ ~ ~ loot minecraft:gameplay/fishing/fish
+execute if entity @s[tag=fishery] run loot insert ~ ~ ~ loot empires:station/free_stuff/fishery
 execute if entity @s[tag=watermill] run loot insert ~ ~ ~ loot empires:station/free_stuff/watermill
 execute if entity @s[tag=mason] run loot insert ~ ~ ~ loot empires:station/free_stuff/mason
 execute if entity @s[tag=blacksmith] run loot insert ~ ~ ~ loot empires:station/free_stuff/blacksmith
