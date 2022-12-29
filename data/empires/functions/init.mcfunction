@@ -13,6 +13,7 @@ scoreboard objectives add emp_wheat_goal dummy
 scoreboard objectives add emp_turn dummy
 scoreboard objectives add emp_id dummy
 scoreboard objectives add emp_cooldown dummy
+scoreboard objectives add emp_skip_turn trigger
     #Jobsite Block Coords
 scoreboard objectives add emp_pos_x dummy
 scoreboard objectives add emp_pos_y dummy

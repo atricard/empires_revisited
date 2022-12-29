@@ -13,3 +13,5 @@ gold - Arrows/Direction for now?
 green - Building Names, Completion
 gray - Transitions, "/", ":", etc.
 yellow - Descriptions, Pronouns
+
+<⚑>

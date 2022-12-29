@@ -1,5 +1,6 @@
 scoreboard players add @s emp_turn 1
-tag @s remove emp_skip_block
-tellraw @s [{"text":"<⚑> ","color":"#00BFFF"},{"text":"Time marches on... A turn has passed for everyone online.","color":"aqua"}]
+tellraw @s [{"text":"<⚑> ","color":"#00BFFF"},{"text":"You skipped to the next turn.","color":"aqua"}]
 title @s title [{"text":"Turn ","color":"#00BFFF"},{"score":{"name":"@s","objective":"emp_turn"},"color":"#00BFFF"}]
+tag @s add emp_skip_block
+scoreboard players reset @s emp_skip_turn
 playsound entity.player.levelup player @a

@@ -1,0 +1,2 @@
+tellraw @s [{"text":"<⚑> ","color":"#00BFFF"},{"text":"Buffer period has ended: ","color":"aqua"},{"text":"[Click here to skip this turn]","color":"gold","underlined":true,"hoverEvent":{"action":"show_text","contents":[{"text":"Clicking here will skip this turn!","color":"green","italic":true}]},"clickEvent":{"action":"run_command","value":"/trigger emp_skip_turn"}}]
+playsound entity.experience_orb.pickup player @a
