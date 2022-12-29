@@ -7,7 +7,8 @@ scoreboard players remove @s emp_motivation 2
 execute if entity @s[tag=emp_accident_construction] run function empires:station_turns/type/house/events/type/construction
 execute if entity @s[tag=emp_accident_fell] run function empires:station_turns/type/house/events/type/fell
         #Sickness
-execute if data block ~ ~ ~ Items[{Slot:0b}].tag.sick if entity @s[tag=emp_accident_sickness] run function empires:station_turns/type/house/events/type/sickness_continue
+execute if entity @e[type=glow_item_frame,tag=hospital,tag=!empbl_inactive,distance=..50] if data block ~ ~ ~ Items[{Slot:0b}].tag.sick run function empires:custom_blocks/hospital/cure
+execute if data block ~ ~ ~ Items[{Slot:0b}].tag.sick run function empires:station_turns/type/house/events/type/sickness_continue
 execute unless data block ~ ~ ~ Items[{Slot:0b}].tag.sick if entity @s[tag=emp_accident_sickness] run function empires:station_turns/type/house/events/type/sickness
         #Others
 execute if entity @s[tag=emp_accident_sawblade] run function empires:station_turns/type/house/events/type/sawblade
