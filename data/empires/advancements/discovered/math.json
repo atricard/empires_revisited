@@ -9,12 +9,12 @@
       },
       "description": [
         {
-          "text": "Unlocks: ",
+          "text": "Buff: ",
           "color": "white",
           "italic": false
         },
         {
-          "text": "Scales Buff",
+          "text": "Citizen Motivation increases 3% when a Market is within 50 blocks per turn",
           "color": "green",
           "italic": false
         }

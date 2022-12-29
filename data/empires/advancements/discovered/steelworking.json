@@ -9,12 +9,12 @@
       },
       "description": [
         {
-          "text": "Unlocks: ",
+          "text": "Buff: ",
           "color": "white",
           "italic": false
         },
         {
-          "text": "Shoreline Industry Buff",
+          "text": "Extra 2🪓 from Harbors per turn",
           "color": "green",
           "italic": false
         }

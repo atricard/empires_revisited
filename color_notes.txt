@@ -5,7 +5,7 @@
 #d2691e - Production
 #40e0d0 - Invention
 #228b22 - Food
-#ffd700 - Money
+#ffd700 - ⓓ
 
 white - Text
 red - Not Accepted

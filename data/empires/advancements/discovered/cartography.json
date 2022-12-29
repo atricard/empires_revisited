@@ -9,12 +9,12 @@
       },
       "description": [
         {
-          "text": "Unlocks: ",
+          "text": "Buff: ",
           "color": "white",
           "italic": false
         },
         {
-          "text": "Treasure Hunter Unit",
+          "text": "Extra 3 ⓓ from Fisheries per turn",
           "color": "green",
           "italic": false
         }

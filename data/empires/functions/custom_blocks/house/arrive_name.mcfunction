@@ -6,6 +6,6 @@ execute if data block ~ ~ ~ Items[{Slot:0b,tag:{treasure_hunter:1b}}].tag.blank_
 execute as @e[type=armor_stand,tag=the_almighty_namer,sort=nearest,limit=1] run data modify block ~ ~ ~ Items[{Slot:0b}].tag.name_data set from entity @s ArmorItems[3].tag.display.Name
 kill @e[type=armor_stand,tag=the_almighty_namer]
 #???
-function empires:station_turns/type/house/motivate
+function empires:custom_blocks/house/motivate_init
 #Messages
 execute as @a[predicate=empires:message_id] run tellraw @s [{"text":"<⚑>","color":"#00BFFF"},{"text":" Turn ","color":"white"},{"score":{"name":"@s","objective":"emp_turn"},"color":"white"},{"text":": ","color":"white"},{"nbt":"Items[{Slot:0b}].tag.name_data","block":"~ ~ ~","interpret":true,"color":"yellow"},{"text":" arrived. Welcome!","color":"green"}]

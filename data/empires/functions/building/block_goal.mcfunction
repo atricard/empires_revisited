@@ -3,7 +3,7 @@ tellraw @a[tag=emp_block_display] [{"text":"<⚑> ","color":"#00bfff"},{"selecto
 #Fun Stuff!
 playsound entity.player.levelup block @a
 playsound block.smithing_table.use block @a
-particle enchanted_hit ~ ~0.5 ~ 0.6 0.6 0.6 0.1 15 normal 
+execute at @s run particle enchanted_hit ~ ~0.5 ~ 0.6 0.6 0.6 0.1 15 normal 
 #IMPORTANT: Turn matching
 scoreboard players operation @s emp_turn = @a[tag=emp_block_display] emp_turn
 #End

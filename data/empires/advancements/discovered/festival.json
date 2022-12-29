@@ -9,12 +9,12 @@
       },
       "description": [
         {
-          "text": "Unlocks: ",
+          "text": "Buff: ",
           "color": "white",
           "italic": false
         },
         {
-          "text": "Feast Buff",
+          "text": "Extra 5🍖 from Temples per turn",
           "color": "green",
           "italic": false
         }

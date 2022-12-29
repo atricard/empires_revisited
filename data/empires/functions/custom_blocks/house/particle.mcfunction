@@ -1,0 +1,2 @@
+execute if data block ~ ~ ~ Items[{Slot:0b}].tag.citizen run particle glow ~ ~0.5 ~ 0.5 0.5 0.5 0 1 normal
+execute if score @s emp_motivation matches ..10 run particle angry_villager ~ ~0.5 ~ 0.5 0.5 0.5 0 2 normal

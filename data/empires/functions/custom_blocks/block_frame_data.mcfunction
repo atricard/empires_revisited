@@ -1,5 +1,5 @@
 #VERY IMPORTANT: Match Player ID
-scoreboard players operation @s emp_id = @a[scores={emp_use_allay_egg=1..},distance=..10,limit=1,sort=nearest] emp_id
+scoreboard players operation @s emp_id = @a[scores={emp_use_allay_egg=1..},distance=..10,limit=1] emp_id
 #Nameplate Stuff
 data modify entity @s CustomName set from block ~ ~ ~ Text1
 summon minecraft:area_effect_cloud ~ ~0.65 ~ {CustomName:'{"text":"Nameplate (BUG)"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["empbl_nameplate"]}

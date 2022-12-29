@@ -1,0 +1,18 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:placed_block",
+        "conditions": {
+          "location": {
+            "block": {
+              "tag": "empires:architecture_block"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "empires:building/start_place_block_arch"
+    }
+  }
+  

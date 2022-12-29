@@ -20,7 +20,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{citizen:1b,CustomModelData:440000,emp_motivation:51}"
+              "tag": "{citizen:1b,CustomModelData:440000,emp_motivation:50}"
             },
             {
               "function": "minecraft:set_lore",
