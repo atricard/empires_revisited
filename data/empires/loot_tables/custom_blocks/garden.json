@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Garden\",\"italic\":false,\"color\":\"green\"}',Lore:['{\"text\":\"Building\",\"color\":\"yellow\",\"italic\":false}']},CustomModelData:440001,EntityTag:{id:\"minecraft:area_effect_cloud\",Duration:1,Radius:0f,Age:1,Tags:[\"empbl_init\",\"garden\"]}}"
+              "tag": "{display:{Name:'{\"text\":\"Garden\",\"italic\":false,\"color\":\"green\"}',Lore:['{\"text\":\"--Building--\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"+5 🍖\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"+2% Motivation (50 Blocks)\",\"color\":\"yellow\",\"italic\":false}']},CustomModelData:440001,EntityTag:{id:\"minecraft:area_effect_cloud\",Duration:1,Radius:0f,Age:1,Tags:[\"empbl_init\",\"garden\"]}}"
             }
           ]
         }

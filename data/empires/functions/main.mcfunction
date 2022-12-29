@@ -1,5 +1,6 @@
 #Gui and Crafting
 execute as @a store success score @s emp_has_gui run clear @s #empires:gui_items{gui:1b}
+execute as @e[type=item,nbt={Item:{id:"minecraft:crafting_table",Count:1b}}] at @s if entity @e[type=item,nbt={Item:{id:"minecraft:dirt",Count:1b}},distance=..0.5] run function empires:empires_crafter/floor_craft
 #Custom Block Placing and Functions
 execute as @e[type=area_effect_cloud,tag=empbl_init] at @s run function empires:custom_blocks/block_egg
 execute as @e[type=glow_item_frame,tag=empbl] at @s run function empires:custom_blocks/block_run

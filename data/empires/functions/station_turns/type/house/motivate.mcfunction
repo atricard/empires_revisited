@@ -22,7 +22,7 @@ execute if entity @e[type=glow_item_frame,tag=garden,tag=!empbl_inactive,distanc
 execute if entity @e[type=glow_item_frame,tag=market,tag=!empbl_inactive,tag=emp_buff_math,distance=..50] run scoreboard players add @s emp_motivation 3
 execute if entity @e[type=glow_item_frame,tag=arena,tag=!empbl_inactive,distance=..50] run scoreboard players add @s emp_motivation 9
 execute if entity @e[type=glow_item_frame,tag=factory,tag=!empbl_inactive,distance=..50] run scoreboard players remove @s emp_motivation 8
-execute if entity @e[type=glow_item_frame,tag=power_plant,tag=!empbl_inactive,distance=..50] run scoreboard players add @s emp_motivation 5
+execute if entity @e[type=glow_item_frame,tag=power_plant,tag=!empbl_inactive,distance=25..50] run scoreboard players add @s emp_motivation 5
 #Remove Event Tags
 tag @s remove emp_accident_construction
 tag @s remove emp_accident_fell
