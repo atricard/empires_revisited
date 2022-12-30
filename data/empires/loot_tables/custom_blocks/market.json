@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Market\",\"italic\":false,\"color\":\"green\"}',Lore:['{\"text\":\"--Building--\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"+2 ⓓ\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"+3 🧪\",\"color\":\"yellow\",\"italic\":false}']},CustomModelData:440001,EntityTag:{id:\"minecraft:area_effect_cloud\",Duration:1,Radius:0f,Age:1,Tags:[\"empbl_init\",\"market\"]}}"
+              "tag": "{display:{Name:'{\"text\":\"Market\",\"italic\":false,\"color\":\"green\"}',Lore:['{\"text\":\"--Building--\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\" +2 ⓓ\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\" +3 🧪\",\"color\":\"yellow\",\"italic\":false}']},CustomModelData:440001,EntityTag:{id:\"minecraft:area_effect_cloud\",Duration:1,Radius:0f,Age:1,Tags:[\"empbl_init\",\"market\"]}}"
             }
           ]
         }

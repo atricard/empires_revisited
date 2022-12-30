@@ -4,7 +4,7 @@
 #dc143c - Motivation
 #d2691e - Production
 #40e0d0 - Invention
-#228b22 - Food
+#32cd32 - Food
 #ffd700 - ⓓ
 
 white - Text
