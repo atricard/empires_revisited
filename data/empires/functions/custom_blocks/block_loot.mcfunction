@@ -1,4 +1,5 @@
 execute if entity @s[tag=empires_crafter] run loot spawn ~ ~ ~ loot empires:custom_blocks/empires_crafter
+#Buildings
 execute if entity @s[tag=house] run loot spawn ~ ~ ~ loot empires:custom_blocks/house
 execute if entity @s[tag=wheat_field] run loot spawn ~ ~ ~ loot empires:custom_blocks/wheat_field
 execute if entity @s[tag=mine] run loot spawn ~ ~ ~ loot empires:custom_blocks/mine

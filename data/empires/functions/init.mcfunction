@@ -31,3 +31,5 @@ scoreboard objectives add emp_food_cap dummy
 #Shops
 scoreboard objectives add emp_crafter_page dummy
 scoreboard objectives add emp_has_gui dummy
+#Items
+scoreboard objectives add emp_use_wfoas minecraft.used:warped_fungus_on_a_stick

@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Plague Vial\",\"italic\":false,\"color\":\"green\"}',Lore:['{\"text\":\"Right-click to infect the nearest House within 15 blocks.\",\"color\":\"red\",\"italic\":false}']},Enchantments:[{}],CustomModelData:440000,plague_vial:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -6,6 +6,8 @@ execute as @e[type=glow_item_frame,tag=empbl_building,tag=!empbl_inactive,distan
 #Triggers
 scoreboard players enable @s emp_skip_turn
 execute if entity @s[tag=!emp_skip_block] if score @s emp_skip_turn matches 1.. run function empires:player/skip
+#WFOAS
+execute if score @s emp_use_wfoas matches 1.. run function empires:player/reset_wfoas
 #Score Caps
 scoreboard players operation @s emp_production < @s emp_production_cap
 scoreboard players operation @s emp_invention < @s emp_invention_cap

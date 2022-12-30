@@ -3,4 +3,4 @@ execute unless data block ~ ~ ~ Items[{Slot:21b}].tag.gui run tellraw @s [{"text
 execute unless data block ~ ~ ~ Items[{Slot:23b}].tag.gui run tellraw @s [{"text":"<⚑> ","color":"#00BFFF"},{"text":"You have: ","color":"white"},{"score":{"name":"@s","objective":"emp_food"},"color":"#32cd32"},{"text":"/","color":"gray"},{"score":{"name":"@s","objective":"emp_food_cap"},"color":"#32cd32"},{"text":"🍖","color":"#32cd32"}]
 execute unless data block ~ ~ ~ Items[{Slot:25b}].tag.gui run tellraw @s [{"text":"<⚑> ","color":"#00BFFF"},{"text":"You have: ","color":"white"},{"score":{"name":"@s","objective":"emp_money"},"color":"#ffd700"},{"text":"/","color":"gray"},{"score":{"name":"@s","objective":"emp_money_cap"},"color":"#ffd700"},{"text":"ⓓ","color":"#ffd700"}]
 #Click Sound
-execute as @p[scores={emp_has_gui=1..}] run function empires:empires_crafter/crafting/click
+function empires:empires_crafter/crafting/click

@@ -7,4 +7,4 @@ execute unless data block ~ ~ ~ Items[{Slot:5b}].tag.gui if score @s[advancement
 execute unless data block ~ ~ ~ Items[{Slot:6b}].tag.gui if score @s[advancements={empires:discovered/education=false}] emp_invention matches 450.. run function empires:empires_crafter/crafting/select/tech/transactions/education
 execute unless data block ~ ~ ~ Items[{Slot:7b}].tag.gui if score @s[advancements={empires:discovered/steelworking=false}] emp_invention matches 450.. run function empires:empires_crafter/crafting/select/tech/transactions/steelworking
 #Click Sound
-execute as @p[scores={emp_has_gui=1..}] run function empires:empires_crafter/crafting/click
+function empires:empires_crafter/crafting/click
