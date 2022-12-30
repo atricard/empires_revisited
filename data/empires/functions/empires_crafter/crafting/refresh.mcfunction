@@ -7,5 +7,7 @@ execute if score @s emp_crafter_page matches 3 run function empires:empires_craf
 execute if score @s emp_crafter_page matches 4 run function empires:empires_crafter/crafting/pages/tech_ii
 #Citizen Menu
 execute if score @s emp_crafter_page matches 5 run function empires:empires_crafter/crafting/pages/citizen
-#Citizen Menu
+#Shop Menu
 execute if score @s emp_crafter_page matches 6 run function empires:empires_crafter/crafting/pages/shop
+#Info Menu
+execute if score @s emp_crafter_page matches 7 run function empires:empires_crafter/crafting/pages/info

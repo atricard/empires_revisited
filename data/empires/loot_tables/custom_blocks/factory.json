@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Factory\",\"italic\":false,\"color\":\"green\"}',Lore:['{\"text\":\"- Building -\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"+14 🪓\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"-8% Motivation (50 Blocks)\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"Sent Materials: Crossbow, Slimeball, and Saddle\",\"color\":\"yellow\",\"italic\":false}']},CustomModelData:440001,EntityTag:{id:\"minecraft:area_effect_cloud\",Duration:1,Radius:0f,Age:1,Tags:[\"empbl_init\",\"factory\"]}}"
+              "tag": "{display:{Name:'{\"text\":\"Factory\",\"italic\":false,\"color\":\"green\"}',Lore:['{\"text\":\"- Jobsite Building -\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"+14 🪓\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"-8% Motivation (50 Blocks)\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"Sent Materials: Crossbow, Slimeball, and Saddle\",\"color\":\"yellow\",\"italic\":false}']},CustomModelData:440001,EntityTag:{id:\"minecraft:area_effect_cloud\",Duration:1,Radius:0f,Age:1,Tags:[\"empbl_init\",\"factory\"]}}"
             }
           ]
         }

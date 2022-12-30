@@ -9,6 +9,13 @@
 #32cd32 - 🍖 Food
 #ffd700 - ⓓ Money
 
+Building Types:
+---------------
+- Generic Building -
+- Farm Building -
+- Storage Building -
+- Jobsite Building -
+- Amenity Building -
 
 white - Text
 red - Not Accepted

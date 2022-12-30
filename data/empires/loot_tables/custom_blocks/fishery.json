@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Fishery\",\"italic\":false,\"color\":\"green\"}',Lore:['{\"text\":\"- Building -\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"+4 🍖\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"+1 🧪\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"Sent Materials: Raw Cod, Raw Salmon, and Pufferfish\",\"color\":\"yellow\",\"italic\":false}']},CustomModelData:440001,EntityTag:{id:\"minecraft:area_effect_cloud\",Duration:1,Radius:0f,Age:1,Tags:[\"empbl_init\",\"fishery\"]}}"
+              "tag": "{display:{Name:'{\"text\":\"Fishery\",\"italic\":false,\"color\":\"green\"}',Lore:['{\"text\":\"- Farm Building -\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"+4 🍖\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"+1 🧪\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"Sent Materials: Raw Cod, Raw Salmon, and Pufferfish\",\"color\":\"yellow\",\"italic\":false}']},CustomModelData:440001,EntityTag:{id:\"minecraft:area_effect_cloud\",Duration:1,Radius:0f,Age:1,Tags:[\"empbl_init\",\"fishery\"]}}"
             }
           ]
         }
