@@ -1,17 +1,18 @@
+<⚑>
+
 #00bfff - Empires Datapack
 #24015b - Disabled Slot
 #ff0099 - Selection Slot
 #dc143c - Motivation
-#d2691e - Production
-#40e0d0 - Invention
-#32cd32 - Food
-#ffd700 - ⓓ
+#d2691e - 🪓 Production
+#40e0d0 - 🧪 Invention
+#32cd32 - 🍖 Food
+#ffd700 - ⓓ Money
+
 
 white - Text
 red - Not Accepted
-gold - Arrows/Direction for now?
+gold - Arrows/Direction (Used for skip option button)
 green - Building Names, Completion
 gray - Transitions, "/", ":", etc.
 yellow - Descriptions, Pronouns
-
-<⚑>

@@ -1,4 +1,7 @@
 advancement grant @s only empires:discovered/toolmaking
+tag @s add emp_joined
+scoreboard players set @s emp_turn 0
+#Particle
 particle enchant ~ ~ ~ 0 0 0 1 9 normal
 playsound block.enchantment_table.use master @a
 #Tech and Production
@@ -11,7 +14,7 @@ scoreboard players set @s emp_money_cap 25
 scoreboard players set @s emp_food 25
 scoreboard players set @s emp_food_cap 25
 #Items
-loot give @s loot empires:empires_crafter
+loot give @s loot empires:custom_blocks/empires_crafter
 tellraw @s [{"text":"<⚑> ","color":"#00bfff","bold":false},{"text":"You Received:","color":"white","italic": true},{"text":" Empires Crafter","color":"#00bfff"},{"text":",","color":"white"},{"text":" Empires Crafter Guide","color":"reset"},{"text":",","color":"white"},{"text":" Technology Guide","color":"reset"}]
 give @s written_book{display:{Name:'{"text":"Guide: Empires Crafter","color":"#00BBFF","italic":false}',Lore:['{"text":"A short Empires mechanic guide.","color":"yellow","italic":true}']},title:"Empires Crafter Guide",author:"atricard",generation:3,resolved:1b,pages:['[{"text":"The Empires Crafter shows a multi-page menu of all recipes, which cost 🪓 points.\\n\\nEach player\'s 🪓 points can be viewed by pressing \\""},{"keybind":"key.playerlist"},{"text":"\\"."}]','{"text":"The recipes are represented by their respective technology icon, and you can only craft a Building if you have unlocked the required technology."}']} 1
 give @s written_book{display:{Name:'{"text":"Guide: Technology","color":"#00BBFF","italic":false}',Lore:['{"text":"A short Empires mechanic guide.","color":"yellow","italic":true}']},title:"Technology Guide",author:"atricard",generation:3,resolved:1b,pages:['[{"text":"The Empires Technology Tree can be viewed by pressing \\""},{"keybind":"key.advancements"},{"text":"\\".\\n\\nAs progression continues within the datapack, more Technologies are discovered by a player-- unlocking more advanced buildings."}]']} 1

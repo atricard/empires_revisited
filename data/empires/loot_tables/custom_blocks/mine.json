@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Mine\",\"italic\":false,\"color\":\"green\"}',Lore:['{\"text\":\"--Building--\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\" +1 🪓\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\" +1 🧪\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"Sent Materials: Coal\",\"color\":\"yellow\",\"italic\":false}']},CustomModelData:440001,EntityTag:{id:\"minecraft:area_effect_cloud\",Duration:1,Radius:0f,Age:1,Tags:[\"empbl_init\",\"mine\"]}}"
+              "tag": "{display:{Name:'{\"text\":\"Mine\",\"italic\":false,\"color\":\"green\"}',Lore:['{\"text\":\"- Building -\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"+1 🪓\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"+1 🧪\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"Sent Materials: Coal\",\"color\":\"yellow\",\"italic\":false}']},CustomModelData:440001,EntityTag:{id:\"minecraft:area_effect_cloud\",Duration:1,Radius:0f,Age:1,Tags:[\"empbl_init\",\"mine\"]}}"
             }
           ]
         }
