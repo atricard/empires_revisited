@@ -1,2 +1,1 @@
-playsound ui.button.click block @s
-scoreboard players reset @s emp_has_gui
+playsound ui.button.click block @p[scores={emp_has_gui=1..}]
