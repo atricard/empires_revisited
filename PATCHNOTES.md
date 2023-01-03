@@ -20,6 +20,7 @@ __Empires Patch Notes: v0.1.0__
         - *Motivation decreases by 2% each Turn, and can be lowered further by random events that mostly predicate on nearby Bulletins*
     - Citizens can work jobs at other Bulletins through assignment at Houses
     - Certain jobsites that are being worked by a Citizen can send materials to storage though storage assignment at Jobsites
+- Added Plague Vial item, forces a sickness event at the nearest House when used
 
 __Empires Patch Notes: v0.1.1__
 - Downgraded to 1.19 from 1.19.3
