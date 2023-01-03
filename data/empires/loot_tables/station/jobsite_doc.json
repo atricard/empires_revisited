@@ -20,7 +20,7 @@
               },
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{jobsite:1b,CustomModelData:440001}"
+                "tag": "{jobsite:1b,CustomModelData:440001,kill_doc:1b}"
               },
               {
                 "function": "minecraft:set_lore",

@@ -13,6 +13,7 @@ scoreboard objectives remove emp_turn
 scoreboard objectives remove emp_id
 scoreboard objectives remove emp_cooldown
 scoreboard objectives remove emp_skip_turn
+scoreboard objectives remove emp_vote_turn
     #Jobsite Block Coords
 scoreboard objectives remove emp_pos_x
 scoreboard objectives remove emp_pos_y

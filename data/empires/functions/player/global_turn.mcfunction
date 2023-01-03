@@ -1,5 +1,5 @@
 scoreboard players add @s emp_turn 1
-tag @s remove emp_skip_block
+tag @a remove emp_voted_turn
 execute if predicate empires:seasons/spring run function empires:player/seasons/spring
 execute if predicate empires:seasons/summer run function empires:player/seasons/summer
 execute if predicate empires:seasons/autumn run function empires:player/seasons/autumn
