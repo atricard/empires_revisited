@@ -1,7 +1,0 @@
-[submodule "emp_rv_datapack"]
-	path = include/emp_rv_datapack
-	url = https://github.com/atricard/empires_revisited/tree/master/emp_rv_datapack
-
-[submodule "emp_rv_resourcepack"]
-	path = include/emp_rv_resourcepack
-	url = https://github.com/atricard/empires_revisited/tree/master/emp_rv_resourcepack
