@@ -9,6 +9,8 @@
 #32cd32 - 🍖 Food
 #ffd700 - ⓓ Money
 
+#ffd700 - Seasons
+
 Building Types:
 ---------------
 - Generic Building -

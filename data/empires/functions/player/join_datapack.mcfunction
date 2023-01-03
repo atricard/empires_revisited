@@ -15,7 +15,7 @@ scoreboard players set @s emp_food 25
 scoreboard players set @s emp_food_cap 25
 #Items
 loot give @s loot empires:custom_blocks/empires_crafter
-tellraw @s [{"text":"<⚑> ","color":"#00bfff","bold":false},{"text":"You Received:","color":"white","italic": true},{"text":" Empires Crafter","color":"#00bfff"},{"text":",","color":"white"}]
+tellraw @s [{"text":"<⚑> ","color":"#00bfff","bold":false},{"text":"You Received:","color":"white","italic": true},{"text":" Empires Crafter","color":"#00bfff"}]
 #Player ID
 execute unless score @s emp_id matches -2147483648..2147483647 run scoreboard players add $player emp_id 1
 execute unless score @s emp_id matches -2147483648..2147483647 run scoreboard players operation @s emp_id = $player emp_id

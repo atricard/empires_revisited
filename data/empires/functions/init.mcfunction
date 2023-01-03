@@ -1,4 +1,4 @@
-tellraw @a [{"text":"<⚑>","color":"#00bfff","bold":false},{"text":" Reloaded! (for better or worse)","color":"gray","italic":true}]
+tellraw @a [{"text":"<⚑>","color":"#00bfff","bold":false},{"text":" Empires Revisited ","color":"gray","italic":true},{"text":"v0.1.1-beta1","color":"aqua","underlined":true},{"text":" reloaded.","color":"gray","italic":true}]
 #Scoreboard Objectives
     #Building Detector Block Counts
 scoreboard objectives add emp_use_allay_egg minecraft.used:minecraft.allay_spawn_egg

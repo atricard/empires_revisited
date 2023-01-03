@@ -12,7 +12,7 @@
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "text": "Citizen Document",
+                "text": "Golem Document",
                 "color": "green",
                 "italic": false,
                 "underlined": false

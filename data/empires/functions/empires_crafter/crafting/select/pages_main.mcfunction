@@ -1,3 +1,5 @@
+#Reject Items
+function empires:empires_crafter/crafting/reject
 #Main Menu Portal
 execute if score @s emp_crafter_page matches 0 run function empires:empires_crafter/crafting/select/hub/all
 execute if score @s emp_crafter_page matches 1 run function empires:empires_crafter/crafting/select/buildings/all_i

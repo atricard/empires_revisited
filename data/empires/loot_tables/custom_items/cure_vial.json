@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Cure Vial\",\"italic\":false,\"color\":\"green\"}',Lore:['{\"text\":\"Right-click to cure the nearest House within 15 blocks.\",\"color\":\"green\",\"italic\":false}']},Enchantments:[{}],CustomModelData:440001,cure_vial:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
