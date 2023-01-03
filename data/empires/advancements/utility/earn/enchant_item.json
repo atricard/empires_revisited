@@ -1,0 +1,10 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:enchanted_item"
+		}
+	},
+	"rewards": {
+		"function": "empires:player/earn/enchanted_item"
+	}
+}

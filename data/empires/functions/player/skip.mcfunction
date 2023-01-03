@@ -4,4 +4,4 @@ title @s title [{"text":"Turn ","color":"#00BFFF"},{"score":{"name":"@s","object
 scoreboard players add @s emp_food 1
 tag @s add emp_skip_block
 scoreboard players reset @s emp_skip_turn
-playsound entity.player.levelup player @a
+playsound item.book.page_turn player @s

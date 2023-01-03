@@ -1,4 +1,5 @@
 #Turns
+execute as @s[tag=emp_skip_block] run scoreboard players reset @s emp_skip_turn
 execute if entity @s[tag=emp_joined] if predicate empires:turn_force run function empires:player/global_turn
 execute if entity @s[tag=emp_joined] if predicate empires:turn_opt run function empires:player/skip_option
 #Turn Catch Up Thing

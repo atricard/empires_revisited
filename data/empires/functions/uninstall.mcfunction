@@ -32,5 +32,6 @@ scoreboard objectives remove emp_crafter_page
 scoreboard objectives remove emp_has_gui
 #Items
 scoreboard objectives remove emp_use_wfoas
+scoreboard objectives remove emp_plant_seed
 #KILL!!!!
 kill @e[tag=empbl]

@@ -1,0 +1,39 @@
+{
+	"criteria": {
+		"beetroots": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"block": "minecraft:beetroots"
+			}
+		},
+		"melon_stem": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"block": "minecraft:melon_stem"
+			}
+		},
+		"pumpkin_stem": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"block": "minecraft:pumpkin_stem"
+			}
+		},
+		"wheat": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"block": "minecraft:wheat"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"wheat",
+			"pumpkin_stem",
+			"melon_stem",
+			"beetroots"
+		]
+	],
+	"rewards": {
+		"function": "empires:player/earn/plant_seed"
+	}
+}

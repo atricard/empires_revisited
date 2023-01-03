@@ -1,0 +1,10 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:bred_animals"
+		}
+	},
+	"rewards": {
+		"function": "empires:player/earn/breed_animal"
+	}
+}
