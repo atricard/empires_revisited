@@ -8,12 +8,12 @@ __Empires Patch Notes: v0.1.0__
     - Money (circle with “d”), used for miscellaneous items
         - *Added unique capacities to all Points/Currencies*
 - Blocks can be placed within a 20 metre radius of the incomplete Building Bulletin until the goal displayed above the hotbar is met
-- Added global “Turns”
+- Added global “Turns” (60 minutes)
     - 20 minutes after a global Turn, players can individually skip to the next one
 - Building Bulletins track what Turn the owner is on, and when the owner loads the chunks that they’re in, they will catch up accordingly
 - Every global Turn, everyone online receives one (1) Food point
     - This way, players whose Citizens have died and have no Food can wait through Turns to retry the game.
-- Citizens through spending Food Points in the Empires Crafter
+- Citizens acquired through spending Food Points in the Empires Crafter
     - Citizens have a unique name
     - Citizens have a stat called “Motivation”, from 0-100%
         - *Motivation is raised by having Amenity Bulletins closeby*
@@ -32,3 +32,9 @@ __Empires Patch Notes: v0.1.2__
 - Added extra ways besides waiting to regain 1 Food Point after a "Game Over", these include breeding animals and planting 32 seeds or stems collectively.
     - 1 Invention Point is also rewarded for enchanting an item.
 - Added the Cure Vial, an antidote that works the same as the Plague Vial
+
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Thanks for reading! @here
