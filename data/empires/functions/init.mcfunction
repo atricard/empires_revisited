@@ -11,6 +11,7 @@ scoreboard objectives add emp_block_goal dummy
 scoreboard objectives add emp_wheat_goal dummy
     #Empires Turn
 scoreboard objectives add emp_turn dummy
+scoreboard objectives add emp_turn_lock dummy
 scoreboard objectives add emp_id dummy
 scoreboard objectives add emp_cooldown dummy
 scoreboard objectives add emp_vote_turn dummy

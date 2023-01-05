@@ -10,3 +10,5 @@ execute if entity @s[tag=blast_mine] run function empires:station_turns/type/job
 execute if entity @s[tag=factory] run function empires:station_turns/type/jobsite/type/factory
 execute if entity @s[tag=workshop] run function empires:station_turns/type/jobsite/type/workshop
 execute if entity @s[tag=harbor] run function empires:station_turns/type/jobsite/type/harbor
+#Turn Catch-up
+scoreboard players operation @s emp_turn_lock = @e[type=marker,tag=emp_sent_worker,sort=nearest,limit=1] emp_turn

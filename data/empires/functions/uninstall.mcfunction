@@ -10,6 +10,7 @@ scoreboard objectives remove emp_block_goal
 scoreboard objectives remove emp_wheat_goal
     #Empires Turn
 scoreboard objectives remove emp_turn
+scoreboard objectives remove emp_turn_lock
 scoreboard objectives remove emp_id
 scoreboard objectives remove emp_cooldown
 scoreboard objectives remove emp_skip_turn
