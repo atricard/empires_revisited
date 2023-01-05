@@ -34,6 +34,9 @@ __Empires Patch Notes: v0.1.2__
     - 1 Invention Point is also rewarded for enchanting an item.
 - Added the Cure Vial, an antidote that works the same as the Plague Vial
 
+__Empires Patch Notes: v0.1.3__
+- Turns now force every morning in-game, players can vote to skip to the Next turn infinitely as long as everyone votes to skip.
+- Mines fixed.
 
 
 
