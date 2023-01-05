@@ -35,8 +35,15 @@ __Empires Patch Notes: v0.1.2__
 - Added the Cure Vial, an antidote that works the same as the Plague Vial
 
 __Empires Patch Notes: v0.1.3__
-- Turns now force every morning in-game, players can vote to skip to the Next turn infinitely as long as everyone votes to skip.
+- Turns now force every morning in-game, players can vote to skip to the Next turn infinitely as long as everyone votes to skip
+- Block goals for non-Wheat Field Bulletins have been reduced by 50 blocks. This is experimental and may be changed.
+- Starting Golem motivation is now 100%
+- Having multiple Golems assigned to a job will no longer produce multiples of the given items/points
+    - Instead, it will notify the player that there are multiple Golems assigned to it and that there is no benefit to that
+- Assigning your jobs to other people's Houses should give a warning message
+- Voting to skip to the next Turn now displays a message to everyone showing the amount of people who have voted and amount of people needed to affirm
 - Mines fixed.
+- Bug where Fisheries would cause Blast Mine accidents fixed.
 
 
 
