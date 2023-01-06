@@ -1,0 +1,3 @@
+tellraw @a[predicate=empires:message_id] [{"text":"<⚑>","color":"#00BFFF"},{"text":" Turn ","color":"white"},{"score":{"name":"@s","objective":"emp_turn"},"color":"white"},{"text":": ","color":"white"},{"nbt":"Items[{Slot:0b}].tag.name_data","block":"~ ~ ~","interpret":true,"color":"yellow"},{"text":"'s sickness was cured! (+7% Motivation)","color":"green"}]
+scoreboard players add @s emp_motivation 7
+data remove block ~ ~ ~ Items[{Slot:0b}].tag.sick

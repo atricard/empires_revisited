@@ -1,3 +1,3 @@
-execute if data block ~ ~ ~ Items[{Slot:0b}].tag.citizen run particle glow ~ ~0.5 ~ 0.7 0.7 0.7 0 1 normal
-execute if data block ~ ~ ~ Items[{Slot:0b,tag:{citizen:1b}}].tag.sick run particle flame ~ ~0.5 ~ 0.7 0.7 0.7 0 3 normal
-execute if score @s emp_motivation matches 0..10 run particle angry_villager ~ ~0.2 ~ 0.7 0.7 0.7 0 1 normal
+execute if data block ~ ~ ~ Items[{Slot:0b}].tag.citizen unless data block ~ ~ ~ Items[{Slot:0b,tag:{citizen:1b}}].tag.sick run particle dust_color_transition 1.000 1.000 1.000 1 0.310 1.000 0.333 ~ ~0.5 ~ 0.55 0.55 0.55 0 5 normal
+execute if data block ~ ~ ~ Items[{Slot:0b,tag:{citizen:1b}}].tag.sick run particle dust_color_transition 0.420 0.451 0.020 1 0.686 0.820 0.027 ~ ~0.5 ~ 0.55 0.55 0.55 0 5 normal
+execute if score @s emp_motivation matches 0..10 run particle angry_villager ~ ~0.5 ~ 0.55 0.55 0.55 0 3 normal
