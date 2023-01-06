@@ -25,6 +25,7 @@ execute if entity @e[type=glow_item_frame,tag=factory,tag=!empbl_inactive,distan
 execute if entity @e[type=glow_item_frame,tag=power_plant,tag=!empbl_inactive,distance=25..50] run scoreboard players add @s emp_motivation 5
 #Overflow
 execute if score @s emp_motivation matches 101.. run scoreboard players set @s emp_motivation 100
+execute if score @s emp_motivation matches 0..10 run tellraw @a[predicate=empires:message_id] [{"text":"<⚑>","color":"#00BFFF"},{"text":" Turn ","color":"white"},{"score":{"name":"@s","objective":"emp_turn"},"color":"white"},{"text":": ","color":"white"},{"nbt":"Items[{Slot:0b}].tag.name_data","block":"~ ~ ~","interpret":true,"color":"yellow"},{"text":" is at 10% Motivation or less!","color":"yellow"}]
 #Remove Event Tags
 tag @s remove emp_accident_construction
 tag @s remove emp_accident_fell

@@ -1,0 +1,3 @@
+playsound entity.wandering_trader.yes block @a
+playsound entity.experience_orb.pickup block @a
+tellraw @s [{"text":"<⚑> ","color":"#00BFFF"},{"text":"Transaction successful! Your balance is now ","color":"green"},{"score":{"name":"@s","objective":"emp_production"},"color":"#d2691e"},{"text":"/","color":"gray"},{"score":{"name":"@s","objective":"emp_production_cap"},"color":"#d2691e"},{"text":"🪓","color":"#d2691e"}]
