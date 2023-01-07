@@ -5,6 +5,6 @@
 		}
 	},
 	"rewards": {
-		"function": "empires:player/earn/enchanted_item"
+		"function": "empires:player/earn/enchant_item"
 	}
 }
