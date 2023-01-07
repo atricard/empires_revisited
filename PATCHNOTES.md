@@ -45,7 +45,13 @@ __Empires Patch Notes: v0.1.3__
 - Mines fixed.
 - Bug where Fisheries would cause Blast Mine accidents fixed.
 
-
+__Empires Patch Notes: v0.1.4__
+- Fixed the Cure Vial doing nothing
+- Being cured of sickness now gives a message on turn and adds 7% Motivation back
+- Turn locks now work the job correctly on the 1st turn
+- Added Building Shop sounds and messages
+- Added a timed predicate to loading turns-- hopefully halves lag and works
+- Document cooldowns now message the owner when they end.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Thanks for reading! @here
