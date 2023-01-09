@@ -1,0 +1,35 @@
+{
+	"condition": "minecraft:entity_scores",
+	"entity": "this",
+	"scores": {
+		"emp_id": {
+			"min": {
+				"type": "minecraft:score",
+				"target": {
+					"type": "minecraft:fixed",
+					"name": "$emp_id"
+				},
+				"score": "emp_id"
+			},
+			"max": {
+				"type": "minecraft:score",
+				"target": {
+					"type": "minecraft:fixed",
+					"name": "$emp_id"
+				},
+				"score": "emp_id"
+			}
+		},
+		"emp_turn": {
+			"min": 0,
+			"max": {
+				"type": "minecraft:score",
+				"target": {
+					"type": "minecraft:fixed",
+					"name": "$emp_turn"
+				},
+				"score": "emp_turn"
+			}
+		}
+	}
+}
