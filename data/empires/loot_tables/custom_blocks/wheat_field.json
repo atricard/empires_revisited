@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Wheat Field\",\"italic\":false,\"color\":\"green\"}',Lore:['{\"text\":\"- Farm Building -\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"+1 🍖\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"Sent Materials: Wheat\",\"color\":\"yellow\",\"italic\":false}']},CustomModelData:440001,EntityTag:{id:\"minecraft:area_effect_cloud\",Duration:1,Radius:0f,Age:1,Tags:[\"empbl_init\",\"wheat_field\"]}}"
+              "tag": "{display:{Name:'{\"text\":\"Field\",\"italic\":false,\"color\":\"green\"}',Lore:['{\"text\":\"- Farm Building -\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"+1 🍖\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"Harvests: Wheat, Potato, Carrot,\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"Beetroot, Pumpkin, Melon\",\"color\":\"yellow\",\"italic\":false}']},CustomModelData:440001,EntityTag:{id:\"minecraft:area_effect_cloud\",Duration:1,Radius:0f,Age:1,Tags:[\"empbl_init\",\"wheat_field\"]}}"
             }
           ]
         }

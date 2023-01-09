@@ -2,8 +2,8 @@
 function empires:custom_blocks/hopper_lock
 execute unless predicate empires:in_overworld run function empires:custom_blocks/suffer
 #Slots
-execute if entity @s[tag=empbl_building,tag=!warehouse] run function empires:custom_blocks/slots
-execute if entity @s[tag=empbl_building,tag=warehouse] run function empires:custom_blocks/warehouse_slots
+execute if entity @s[tag=empbl_building,tag=!storehouse] run function empires:custom_blocks/slots
+execute if entity @s[tag=empbl_building,tag=storehouse] run function empires:custom_blocks/warehouse_slots
 #Block Types
 execute if entity @s[tag=empires_crafter] run function empires:empires_crafter/crafting/main
 execute if entity @s[tag=house] run function empires:custom_blocks/house/run
@@ -24,11 +24,13 @@ execute if entity @s[tag=blast_mine] run function empires:custom_blocks/blast_mi
 execute if entity @s[tag=arena] run function empires:custom_blocks/arena/run
 execute if entity @s[tag=factory] run function empires:custom_blocks/factory/run
 execute if entity @s[tag=workshop] run function empires:custom_blocks/workshop/run
-execute if entity @s[tag=warehouse] run function empires:custom_blocks/warehouse/run
+execute if entity @s[tag=plantation] run function empires:custom_blocks/plantation/run
 execute if entity @s[tag=harbor] run function empires:custom_blocks/harbor/run
 execute if entity @s[tag=power_plant] run function empires:custom_blocks/power_plant/run
 execute if entity @s[tag=bank] run function empires:custom_blocks/bank/run
 execute if entity @s[tag=university] run function empires:custom_blocks/university/run
+#Generic
+execute if predicate empires:half_time if entity @s[tag=emp_jobsite] if data block ~ ~ ~ Items[{Slot:18b}].tag.golem_eye run function empires:custom_items/golem_eye/marker
 #End Stuff
 #Broken/Drop Item Conditions
 execute if entity @s[tag=empbl_inactive] if entity @e[type=glow_item_frame,tag=empbl_building,distance=0.1..1] run function empires:custom_blocks/suffer

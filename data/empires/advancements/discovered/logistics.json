@@ -4,7 +4,7 @@
         "item": "minecraft:chest"
       },
       "title": {
-        "text": "Commercial Goods",
+        "text": "Logistics",
         "color": "#40e0d0"
       },
       "description": [
@@ -14,7 +14,7 @@
           "italic": false
         },
         {
-          "text": "Warehouse",
+          "text": "Golem's Eye",
           "color": "green",
           "italic": false
         }

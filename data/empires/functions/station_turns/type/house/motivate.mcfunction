@@ -13,7 +13,6 @@ execute if data block ~ ~ ~ Items[{Slot:0b}].tag.sick run function empires:stati
 execute unless data block ~ ~ ~ Items[{Slot:0b}].tag.sick if entity @s[tag=emp_accident_sickness] run function empires:station_turns/type/house/events/type/sickness
         #Others
 execute if entity @s[tag=emp_accident_sawblade] run function empires:station_turns/type/house/events/type/sawblade
-execute if entity @s[tag=emp_accident_lost] run function empires:station_turns/type/house/events/type/lost
 execute if entity @s[tag=emp_accident_haggled] run function empires:station_turns/type/house/events/type/haggled
 execute if entity @s[tag=emp_accident_blast] run function empires:station_turns/type/house/events/type/blast
     #Buildings
@@ -32,7 +31,6 @@ tag @s remove emp_accident_construction
 tag @s remove emp_accident_fell
 tag @s remove emp_accident_sickness
 tag @s remove emp_accident_sawblade
-tag @s remove emp_accident_lost
 tag @s remove emp_accident_haggled
 tag @s remove emp_accident_blast
 tag @s remove emp_cured

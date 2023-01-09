@@ -16,7 +16,7 @@ blast_mine
 arena
 factory
 workshop
-warehouse
+plantation
 harbor
 power_plant
 bank

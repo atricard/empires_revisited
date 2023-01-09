@@ -1,10 +1,13 @@
-execute if entity @s[tag=wheat_field] run loot insert ~ ~ ~ loot empires:station/free_stuff/wheat_field
+execute if entity @s[tag=field_wheat] run loot insert ~ ~ ~ loot empires:station/free_stuff/field_wheat
+execute if entity @s[tag=field_carrot] run loot insert ~ ~ ~ loot empires:station/free_stuff/field_carrot
+execute if entity @s[tag=field_potato] run loot insert ~ ~ ~ loot empires:station/free_stuff/field_potato
+execute if entity @s[tag=field_beetroot] run loot insert ~ ~ ~ loot empires:station/free_stuff/field_beetroot
 execute if entity @s[tag=mine] run loot insert ~ ~ ~ loot empires:station/free_stuff/mine
 execute if entity @s[tag=fishery] run loot insert ~ ~ ~ loot empires:station/free_stuff/fishery
 execute if entity @s[tag=watermill] run loot insert ~ ~ ~ loot empires:station/free_stuff/watermill
 execute if entity @s[tag=mason] run loot insert ~ ~ ~ loot empires:station/free_stuff/mason
 execute if entity @s[tag=blacksmith] run loot insert ~ ~ ~ loot empires:station/free_stuff/blacksmith
-#Lumbermill Wood
+#Sawmill Wood
 #execute if entity @s[tag=lumbermill] if biome ~ ~ ~ #is_forest unless biome ~ ~ ~ dark_forest unless biome ~ ~ ~ birch_forest unless biome ~ ~ ~ old_growth_birch_forest run loot insert ~ ~ ~ loot empires:station/free_stuff/lumbermill_oak
 #execute if entity @s[tag=lumbermill] if biome ~ ~ ~ birch_forest run loot insert ~ ~ ~ loot empires:station/free_stuff/lumbermill_birch
 #execute if entity @s[tag=lumbermill] if biome ~ ~ ~ old_growth_birch_forest run loot insert ~ ~ ~ loot empires:station/free_stuff/lumbermill_birch
