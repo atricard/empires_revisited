@@ -3,6 +3,7 @@
 execute store result score @s emp_motivation run data get block ~ ~ ~ Items[{Slot:0b}].tag.emp_motivation
 #Daily Penalty
 scoreboard players remove @s emp_motivation 2
+scoreboard players remove @a[predicate=empires:message_id] emp_food 1
 #Events/Accidents
 execute if entity @s[tag=emp_accident_construction] run function empires:station_turns/type/house/events/type/construction
 execute if entity @s[tag=emp_accident_fell] run function empires:station_turns/type/house/events/type/fell
