@@ -10,5 +10,6 @@ execute unless data block ~ ~ ~ Items[{Slot:11b}].tag.gui if score @s emp_food m
 execute unless data block ~ ~ ~ Items[{Slot:4b}].tag.gui if score @s emp_money matches 25.. run function empires:empires_crafter/crafting/select/shop/transactions/plague_vial
 execute unless data block ~ ~ ~ Items[{Slot:5b}].tag.gui if score @s emp_money matches 10.. run function empires:empires_crafter/crafting/select/shop/transactions/golem_eye
 execute unless data block ~ ~ ~ Items[{Slot:13b}].tag.gui if score @s emp_money matches 25.. run function empires:empires_crafter/crafting/select/shop/transactions/cure_vial
+execute unless data block ~ ~ ~ Items[{Slot:14b}].tag.gui if score @s emp_money matches 10.. run function empires:empires_crafter/crafting/select/shop/transactions/golem_grave
 #Click Sound
 function empires:empires_crafter/crafting/click

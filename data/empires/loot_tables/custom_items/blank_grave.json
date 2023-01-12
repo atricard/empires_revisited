@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:dark_oak_sign",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"text\":\"Golem Grave Sign\",\"color\":\"yellow\",\"italic\":false}',Lore:['{\"text\":\"Engraved with the name of a Golem when it dies\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Place in 3rd slot of a House\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Do not place until engraved.\",\"color\":\"red\",\"italic\":false}']},blank_grave:1b}"
+						}
+					]
+				}
+			]
+		}
+	]
+}
