@@ -9,7 +9,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{display:{Name:'{\"text\":\"Engraved Golem Grave Sign\",\"color\":\"yellow\",\"italic\":false}',Lore:['{\"text\":\"Golem Name Here\",\"color\":\"gray\",\"italic\":false}']},blank_grave:1b,BlockEntityTag:{Color:\"white\",GlowingText:1b,Text1:'{\"text\":\"R.I.P.\",\"bold\":true}',Text2:'{\"text\":\"Golem Name Here\"}',Text4:'{\"text\":\"A great Golem.\"}'}}"
+							"tag": "{display:{Name:'{\"text\":\"Engraved Golem Grave Sign\",\"color\":\"yellow\",\"italic\":false}',Lore:['{\"text\":\"Golem Name Here\",\"color\":\"gray\",\"italic\":false}']},blank_grave:1b,BlockEntityTag:{Color:\"white\",GlowingText:1b,Text1:'{\"text\":\"R.I.P.\",\"bold\":true}',Text2:'{\"text\":\"Golem Name Here\"}',Text3:'{\"text\":\"☠\"}',Text4:'{\"text\":\"A great Golem.\"}'}}"
 						}
 					]
 				}
