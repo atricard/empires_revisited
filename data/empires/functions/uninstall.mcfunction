@@ -36,5 +36,14 @@ scoreboard objectives remove emp_has_gui
 scoreboard objectives remove emp_use_wfoas
 scoreboard objectives remove emp_plant_seed
 scoreboard objectives remove emp_use_tool
+#Station Harvests
+scoreboard objectives add emp_fill_wheat dummy
+scoreboard objectives add emp_fill_carrot dummy
+scoreboard objectives add emp_fill_potato dummy
+scoreboard objectives add emp_fill_beetroot dummy
+scoreboard objectives add emp_fill_pumpkin dummy
+scoreboard objectives add emp_fill_melon dummy
+scoreboard objectives add emp_fill_apple dummy
+scoreboard objectives add emp_fill_sweet_berries dummy
 #KILL!!!!
 kill @e[tag=empbl]

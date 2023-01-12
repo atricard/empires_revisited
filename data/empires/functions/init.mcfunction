@@ -45,3 +45,7 @@ scoreboard objectives add emp_fill_wheat dummy
 scoreboard objectives add emp_fill_carrot dummy
 scoreboard objectives add emp_fill_potato dummy
 scoreboard objectives add emp_fill_beetroot dummy
+scoreboard objectives add emp_fill_pumpkin dummy
+scoreboard objectives add emp_fill_melon dummy
+scoreboard objectives add emp_fill_apple dummy
+scoreboard objectives add emp_fill_sweet_berries dummy

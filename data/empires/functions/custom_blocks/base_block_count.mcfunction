@@ -1,5 +1,5 @@
 #Modifier
-scoreboard players remove @s[tag=blocks_only,scores={emp_block_goal=..500}] emp_block_goal 50
+scoreboard players remove @s[tag=blocks_only,scores={emp_block_goal=51..500}] emp_block_goal 50
 scoreboard players remove @s[tag=blocks_only,scores={emp_block_goal=500..1000}] emp_block_goal 100
 scoreboard players set @s emp_turn_lock 0
 #Set Block Counts for Displays
