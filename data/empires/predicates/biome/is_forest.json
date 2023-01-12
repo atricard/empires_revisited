@@ -1,0 +1,59 @@
+{
+	"condition": "minecraft:alternative",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"location": {
+					"biome": "minecraft:birch_forest"
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"location": {
+					"biome": "minecraft:grove"
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"location": {
+					"biome": "minecraft:dark_forest"
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"location": {
+					"biome": "minecraft:old_growth_birch_forest"
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"location": {
+					"biome": "minecraft:flower_forest"
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"location": {
+					"biome": "minecraft:forest"
+				}
+			}
+		}
+	]
+}
