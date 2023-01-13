@@ -1,1 +1,1 @@
-execute unless data block ~ ~ ~ Items[{Slot:0b}].tag.jobsite run function empires:reject_item/slots/insert_jobsite_doc
+function empires:reject_item/slots/3_locked
