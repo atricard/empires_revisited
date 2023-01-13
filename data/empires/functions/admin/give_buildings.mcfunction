@@ -16,7 +16,11 @@ loot give @s loot empires:custom_blocks/market
 loot give @s loot empires:custom_blocks/blast_mine
 loot give @s loot empires:custom_blocks/arena
 loot give @s loot empires:custom_blocks/factory
-loot give @s loot empires:custom_blocks/workshop
+loot give @s loot empires:custom_blocks/apiary
+loot give @s loot empires:custom_blocks/brewery
+loot give @s loot empires:custom_blocks/butcher
+loot give @s loot empires:custom_blocks/dyery
+loot give @s loot empires:custom_blocks/glassmaker
 loot give @s loot empires:custom_blocks/plantation
 loot give @s loot empires:custom_blocks/harbor
 loot give @s loot empires:custom_blocks/power_plant

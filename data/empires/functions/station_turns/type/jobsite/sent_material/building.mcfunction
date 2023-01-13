@@ -15,7 +15,11 @@ execute if entity @s[tag=lumbermill] if predicate empires:biome/is_jungle run su
 execute if entity @s[tag=lumbermill] if predicate empires:biome/is_savanna run summon marker ~ ~ ~ {Tags:["emp_sent_material","lumbermill","lumbermill_acacia"]}
 execute if entity @s[tag=blast_mine] run summon marker ~ ~ ~ {Tags:["emp_sent_material","blast_mine"]}
 execute if entity @s[tag=factory] run summon marker ~ ~ ~ {Tags:["emp_sent_material","factory"]}
-execute if entity @s[tag=workshop] run summon marker ~ ~ ~ {Tags:["emp_sent_material","workshop"]}
+execute if entity @s[tag=apiary] run summon marker ~ ~ ~ {Tags:["emp_sent_material","apiary"]}
+execute if entity @s[tag=brewery] run summon marker ~ ~ ~ {Tags:["emp_sent_material","brewery"]}
+execute if entity @s[tag=butcher] run function empires:station_turns/type/jobsite/sent_material/type_nest/butcher
+execute if entity @s[tag=dyery] run summon marker ~ ~ ~ {Tags:["emp_sent_material","dyery"]}
+execute if entity @s[tag=glassmaker] run summon marker ~ ~ ~ {Tags:["emp_sent_material","glassmaker"]}
 execute if entity @s[tag=harbor] run summon marker ~ ~ ~ {Tags:["emp_sent_material","harbor"]}
 #Message
 execute as @a[predicate=empires:message_id] run tellraw @s [{"text":"<⚑>","color":"#00BFFF"},{"text":" Turn ","color":"white"},{"score":{"name":"@s","objective":"emp_turn"},"color":"white"},{"text":": ","color":"white"},{"selector":"@e[type=marker,tag=emp_sent_worker,sort=nearest,limit=1]","color":"yellow"},{"text":" sent materials to a storage building.","color":"white"}]

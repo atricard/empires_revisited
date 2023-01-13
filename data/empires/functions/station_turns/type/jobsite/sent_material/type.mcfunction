@@ -18,8 +18,18 @@ execute if entity @s[tag=lumbermill_dark_oak] run loot insert ~ ~ ~ loot empires
 execute if entity @s[tag=lumbermill_spruce] run loot insert ~ ~ ~ loot empires:station/free_stuff/lumbermill_spruce
 execute if entity @s[tag=lumbermill_jungle] run loot insert ~ ~ ~ loot empires:station/free_stuff/lumbermill_jungle
 execute if entity @s[tag=lumbermill_acacia] run loot insert ~ ~ ~ loot empires:station/free_stuff/lumbermill_acacia
-#Rest
+#
 execute if entity @s[tag=blast_mine] run loot insert ~ ~ ~ loot empires:station/free_stuff/blast_mine
 execute if entity @s[tag=factory] run loot insert ~ ~ ~ loot empires:station/free_stuff/factory
-execute if entity @s[tag=workshop] run loot insert ~ ~ ~ loot empires:station/free_stuff/workshop
+execute if entity @s[tag=apiary] run loot insert ~ ~ ~ loot empires:station/free_stuff/apiary
+execute if entity @s[tag=brewery] run loot insert ~ ~ ~ loot empires:station/free_stuff/brewery
+#Butcher Meat
+execute if entity @s[tag=butcher_chicken] run loot insert ~ ~ ~ loot empires:station/free_stuff/butcher_chicken
+execute if entity @s[tag=butcher_cow] run loot insert ~ ~ ~ loot empires:station/free_stuff/butcher_cow
+execute if entity @s[tag=butcher_pig] run loot insert ~ ~ ~ loot empires:station/free_stuff/butcher_pig
+execute if entity @s[tag=butcher_rabbit] run loot insert ~ ~ ~ loot empires:station/free_stuff/butcher_rabbit
+execute if entity @s[tag=butcher_sheep] run loot insert ~ ~ ~ loot empires:station/free_stuff/butcher_sheep
+#
+execute if entity @s[tag=dyery] run loot insert ~ ~ ~ loot empires:station/free_stuff/dyery
+execute if entity @s[tag=glassmaker] run loot insert ~ ~ ~ loot empires:station/free_stuff/glassmaker
 execute if entity @s[tag=harbor] run loot insert ~ ~ ~ loot empires:station/free_stuff/harbor

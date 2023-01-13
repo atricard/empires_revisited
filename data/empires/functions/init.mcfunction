@@ -49,3 +49,9 @@ scoreboard objectives add emp_fill_pumpkin dummy
 scoreboard objectives add emp_fill_melon dummy
 scoreboard objectives add emp_fill_apple dummy
 scoreboard objectives add emp_fill_sweet_berries dummy
+#Butcher Harvests
+scoreboard objectives add emp_butcher_chicken dummy
+scoreboard objectives add emp_butcher_cow dummy
+scoreboard objectives add emp_butcher_pig dummy
+scoreboard objectives add emp_butcher_rabbit dummy
+scoreboard objectives add emp_butcher_sheep dummy

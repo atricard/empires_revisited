@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potion",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"text\":\"Mead\",\"color\":\"gold\",\"italic\":false}'},CustomPotionEffects:[{Id:6,Amplifier:1b,Duration:1,ShowParticles:0b},{Id:9,Amplifier:0b,Duration:1200,ShowParticles:0b},{Id:11,Amplifier:0b,Duration:1200}],CustomPotionColor:16763904}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

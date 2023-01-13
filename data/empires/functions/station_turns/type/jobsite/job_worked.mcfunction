@@ -8,7 +8,11 @@ execute if entity @s[tag=blacksmith] run function empires:station_turns/type/job
 execute if entity @s[tag=lumbermill] run function empires:station_turns/type/jobsite/type/lumbermill
 execute if entity @s[tag=blast_mine] run function empires:station_turns/type/jobsite/type/blast_mine
 execute if entity @s[tag=factory] run function empires:station_turns/type/jobsite/type/factory
-execute if entity @s[tag=workshop] run function empires:station_turns/type/jobsite/type/workshop
+execute if entity @s[tag=apiary] run function empires:station_turns/type/jobsite/type/apiary
+execute if entity @s[tag=brewery] run function empires:station_turns/type/jobsite/type/brewery
+execute if entity @s[tag=butcher] run function empires:station_turns/type/jobsite/type/butcher
+execute if entity @s[tag=dyery] run function empires:station_turns/type/jobsite/type/dyery
+execute if entity @s[tag=glassmaker] run function empires:station_turns/type/jobsite/type/glassmaker
 execute if entity @s[tag=plantation] run function empires:station_turns/type/jobsite/type/plantation
 execute if entity @s[tag=harbor] run function empires:station_turns/type/jobsite/type/harbor
 #Turn Catch-up
