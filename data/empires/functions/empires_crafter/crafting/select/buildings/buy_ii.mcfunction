@@ -1,7 +1,11 @@
-execute unless data block ~ ~ ~ Items[{Slot:0b}].tag.gui if score @s[advancements={empires:discovered/mercantilism=true}] emp_production matches 106.. run function empires:empires_crafter/crafting/select/buildings/transactions/plantation
-execute unless data block ~ ~ ~ Items[{Slot:1b}].tag.gui if score @s[advancements={empires:discovered/mercantilism=true}] emp_production matches 132.. run function empires:empires_crafter/crafting/select/buildings/transactions/harbor
-execute unless data block ~ ~ ~ Items[{Slot:2b}].tag.gui if score @s[advancements={empires:discovered/steampower=true}] emp_production matches 150.. run function empires:empires_crafter/crafting/select/buildings/transactions/power_plant
-execute unless data block ~ ~ ~ Items[{Slot:3b}].tag.gui if score @s[advancements={empires:discovered/banking=true}] emp_production matches 156.. run function empires:empires_crafter/crafting/select/buildings/transactions/bank
-execute unless data block ~ ~ ~ Items[{Slot:4b}].tag.gui if score @s[advancements={empires:discovered/education=true}] emp_production matches 150.. run function empires:empires_crafter/crafting/select/buildings/transactions/university
+execute unless data block ~ ~ ~ Items[{Slot:0b}].tag.gui if score @s[advancements={empires:discovered/guilding=true}] emp_production matches 108.. run function empires:empires_crafter/crafting/select/buildings/transactions/apiary
+execute unless data block ~ ~ ~ Items[{Slot:1b}].tag.gui if score @s[advancements={empires:discovered/guilding=true}] emp_production matches 124.. run function empires:empires_crafter/crafting/select/buildings/transactions/brewery
+execute unless data block ~ ~ ~ Items[{Slot:2b}].tag.gui if score @s[advancements={empires:discovered/guilding=true}] emp_production matches 112.. run function empires:empires_crafter/crafting/select/buildings/transactions/glassmaker
+execute unless data block ~ ~ ~ Items[{Slot:3b}].tag.gui if score @s[advancements={empires:discovered/guilding=true}] emp_production matches 102.. run function empires:empires_crafter/crafting/select/buildings/transactions/dyery
+execute unless data block ~ ~ ~ Items[{Slot:4b}].tag.gui if score @s[advancements={empires:discovered/mercantilism=true}] emp_production matches 106.. run function empires:empires_crafter/crafting/select/buildings/transactions/plantation
+execute unless data block ~ ~ ~ Items[{Slot:5b}].tag.gui if score @s[advancements={empires:discovered/mercantilism=true}] emp_production matches 132.. run function empires:empires_crafter/crafting/select/buildings/transactions/harbor
+execute unless data block ~ ~ ~ Items[{Slot:6b}].tag.gui if score @s[advancements={empires:discovered/steampower=true}] emp_production matches 150.. run function empires:empires_crafter/crafting/select/buildings/transactions/power_plant
+execute unless data block ~ ~ ~ Items[{Slot:7b}].tag.gui if score @s[advancements={empires:discovered/banking=true}] emp_production matches 156.. run function empires:empires_crafter/crafting/select/buildings/transactions/bank
+execute unless data block ~ ~ ~ Items[{Slot:8b}].tag.gui if score @s[advancements={empires:discovered/education=true}] emp_production matches 150.. run function empires:empires_crafter/crafting/select/buildings/transactions/university
 #Click Sound
 function empires:empires_crafter/crafting/click
