@@ -22,3 +22,4 @@ loot give @s loot empires:custom_blocks/harbor
 loot give @s loot empires:custom_blocks/power_plant
 loot give @s loot empires:custom_blocks/bank
 loot give @s loot empires:custom_blocks/university
+playsound entity.item.pickup player @s

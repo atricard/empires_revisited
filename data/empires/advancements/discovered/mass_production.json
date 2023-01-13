@@ -1,7 +1,7 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:dispenser"
+        "item": "minecraft:loom"
       },
       "title": {
         "text": "Mass Production",
@@ -14,7 +14,7 @@
           "italic": false
         },
         {
-          "text": "Factory",
+          "text": "Textile Factory",
           "color": "green",
           "italic": false
         }

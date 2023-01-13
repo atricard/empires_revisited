@@ -9,3 +9,5 @@ execute if score @s emp_crafter_page matches 4 run function empires:empires_craf
 execute if score @s emp_crafter_page matches 5 run function empires:empires_crafter/crafting/select/citizen/all
 execute if score @s emp_crafter_page matches 6 run function empires:empires_crafter/crafting/select/shop/all
 execute if score @s emp_crafter_page matches 7 run function empires:empires_crafter/crafting/select/info/all
+execute if score @s emp_crafter_page matches 8 run function empires:empires_crafter/crafting/select/block_shop/all_i
+execute if score @s emp_crafter_page matches 9 run function empires:empires_crafter/crafting/select/block_shop/all_ii

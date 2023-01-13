@@ -11,3 +11,6 @@ execute if score @s emp_crafter_page matches 5 run function empires:empires_craf
 execute if score @s emp_crafter_page matches 6 run function empires:empires_crafter/crafting/pages/shop
 #Info Menu
 execute if score @s emp_crafter_page matches 7 run function empires:empires_crafter/crafting/pages/info
+#Block Shop
+execute if score @s emp_crafter_page matches 8 run function empires:empires_crafter/crafting/pages/block_shop_i
+execute if score @s emp_crafter_page matches 9 run function empires:empires_crafter/crafting/pages/block_shop_ii
