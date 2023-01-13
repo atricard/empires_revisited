@@ -23,6 +23,7 @@ execute if entity @e[type=glow_item_frame,tag=temple,tag=!empbl_inactive,tag=emp
 execute if entity @e[type=glow_item_frame,tag=garden,tag=!empbl_inactive,distance=..50] run function empires:station_turns/type/house/events/type/building/garden
 execute if entity @e[type=glow_item_frame,tag=market,tag=!empbl_inactive,tag=emp_buff_math,distance=..50] run scoreboard players add @s emp_motivation 3
 execute if entity @e[type=glow_item_frame,tag=arena,tag=!empbl_inactive,distance=..50] if predicate empires:chance/50 run function empires:station_turns/type/house/events/type/building/arena
+execute if entity @e[type=glow_item_frame,tag=brewery,tag=!empbl_inactive,distance=..40] if predicate empires:chance/50 run function empires:station_turns/type/house/events/type/building/brewery
 #execute if entity @e[type=glow_item_frame,tag=factory,tag=!empbl_inactive,distance=..25] if predicate empires:chance/50 run function empires:station_turns/type/house/events/type/building/factory
 execute if entity @e[type=glow_item_frame,tag=power_plant,tag=!empbl_inactive,distance=..25] if predicate empires:chance/50 run scoreboard players add @s emp_motivation 3
 #Overflow
