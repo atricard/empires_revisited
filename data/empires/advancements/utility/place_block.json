@@ -44,6 +44,6 @@
     }
   },
   "rewards": {
-    "function": "empires:building/start_place_block"
+    "function": "empires:building/raycast/block/start"
   }
 }

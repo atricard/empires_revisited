@@ -6,13 +6,13 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:spruce_log",
+            "name": "minecraft:spruce_planks",
             "functions": [
               {
                 "function": "minecraft:set_count",
                 "count": {
-                  "min": 4,
-                  "max": 16
+                  "min": 16,
+                  "max": 64
                 }
               }
             ]

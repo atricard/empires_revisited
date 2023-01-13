@@ -12,7 +12,7 @@
       }
     },
     "rewards": {
-      "function": "empires:building/start_place_block_arch"
+      "function": "empires:building/raycast/architecture_block/start"
     }
   }
   

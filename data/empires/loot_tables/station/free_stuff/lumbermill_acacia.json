@@ -6,13 +6,13 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:acacia_log",
+            "name": "minecraft:acacia_planks",
             "functions": [
               {
                 "function": "minecraft:set_count",
                 "count": {
-                  "min": 4,
-                  "max": 16
+                  "min": 16,
+                  "max": 64
                 }
               }
             ]

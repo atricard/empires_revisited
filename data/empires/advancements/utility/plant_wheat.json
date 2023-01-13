@@ -8,6 +8,6 @@
     }
   },
   "rewards": {
-    "function": "empires:building/start_plant_wheat"
+    "function": "empires:building/raycast/wheat/start"
   }
 }
