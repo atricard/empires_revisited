@@ -30,5 +30,6 @@ execute if entity @s[tag=bank] run function empires:custom_blocks/bank/set_barre
 execute if entity @s[tag=university] run function empires:custom_blocks/university/set_barrel
 #Goals
 execute as @e[type=glow_item_frame,tag=!set_goal,distance=..1,sort=nearest,limit=1] run function empires:custom_blocks/base_block_goal
+execute if entity @s[tag=emp_active] as @e[type=glow_item_frame,distance=..1,sort=nearest,limit=1] run function empires:custom_blocks/activate
 #End
 kill @s

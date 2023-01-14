@@ -10,7 +10,30 @@
             {
               "function": "minecraft:set_nbt",
               "tag": "{display:{Name:'{\"text\":\"Mason\",\"italic\":false,\"color\":\"green\"}',Lore:['{\"text\":\"- Jobsite Building -\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"+3 🪓\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"Sent Materials: Brick\",\"color\":\"yellow\",\"italic\":false}']},CustomModelData:440001,empires_egg:1b,EntityTag:{id:\"minecraft:area_effect_cloud\",Duration:1,Radius:0f,Age:1,Tags:[\"empbl_init\",\"mason\"]}}"
-            }
+            },
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Enchantments:[{}],EntityTag:{id:\"minecraft:area_effect_cloud\",Duration:1,Radius:0f,Age:1,Tags:[\"empbl_init\",\"emp_active\",\"mason\"]}}",
+							"conditions": [
+								{
+									"condition": "minecraft:inverted",
+									"term": {
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"nbt": "{Tags:[\"empbl_inactive\"]}"
+										}
+									}
+								},
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"type": "minecraft:glow_item_frame"
+									}
+								}
+							]
+						}
           ]
         }
       ]
