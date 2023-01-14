@@ -15,7 +15,11 @@ market
 blast_mine
 arena
 factory
-workshop
+apirary
+butcher
+brewery
+glassmaker
+dyery
 plantation
 harbor
 power_plant

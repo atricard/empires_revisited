@@ -13,6 +13,19 @@
                 "count": 1
               }
             ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:rabbit_hide",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            ]
           }
         ]
       }

@@ -1,4 +1,4 @@
-tellraw @a [{"text":"<⚑>","color":"#00bfff","bold":false},{"text":" Empires Revisited ","color":"gray","italic":true},{"text":"v0.1.4-beta1","color":"aqua","underlined":true},{"text":" reloaded.","color":"gray","italic":true}]
+tellraw @a [{"text":"<⚑>","color":"#00bfff","bold":false},{"text":" Empires Revisited ","color":"gray","italic":true},{"text":"v0.2.0-beta","color":"aqua","underlined":true},{"text":" reloaded.","color":"gray","italic":true}]
 #Scoreboard Objectives
     #Building Detector Block Counts
 scoreboard objectives add emp_use_allay_egg minecraft.used:minecraft.allay_spawn_egg
@@ -13,6 +13,7 @@ scoreboard objectives add emp_wheat_goal dummy
 scoreboard objectives add emp_turn dummy
 scoreboard objectives add emp_turn_lock dummy
 scoreboard objectives add emp_id dummy
+scoreboard objectives add emp_playing dummy
 scoreboard objectives add emp_cooldown dummy
 scoreboard objectives add emp_vote_turn dummy
     #Jobsite Block Coords

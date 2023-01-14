@@ -23,7 +23,7 @@ item replace block ~ ~ ~ container.20 with structure_void{display:{Name:'{"text"
 item replace block ~ ~ ~ container.21 with structure_void{display:{Name:'{"text":"Slot Disabled","color":"#24015b","italic":false}'},CustomModelData:1,gui:1b}
 item replace block ~ ~ ~ container.22 with structure_void{display:{Name:'{"text":"Slot Disabled","color":"#24015b","italic":false}'},CustomModelData:1,gui:1b}
 item replace block ~ ~ ~ container.23 with structure_void{display:{Name:'{"text":"Slot Disabled","color":"#24015b","italic":false}'},CustomModelData:1,gui:1b}
-item replace block ~ ~ ~ container.24 with structure_void{display:{Name:'{"text":"Slot Disabled","color":"#24015b","italic":false}'},CustomModelData:1,gui:1b}
 #Tutorial Page
+item replace block ~ ~ ~ container.24 with bell{display:{Name:'{"text":"Toggle Session","color":"aqua","italic":false}',Lore:['{"text":"Leave or join the current","color":"gray","italic":false}','{"text":"session of Empires Revisited.","color":"gray","italic":false}']},gui:1b}
 item replace block ~ ~ ~ container.25 with clock{display:{Name:'{"text":"Vote for next Turn","color":"aqua","italic":false}'},gui:1b}
 item replace block ~ ~ ~ container.26 with bookshelf{display:{Name:'{"text":"Information","color":"#ff0099","italic":false}'},gui:1b}

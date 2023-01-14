@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Butcher\",\"italic\":false,\"color\":\"green\"}',Lore:['{\"text\":\"- Jobsite Building -\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"+4 🍖\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"Sent Materials: Raw Meat depending on surrounding\",\"color\":\"yellow\",\"italic\":false}']},CustomModelData:440001,EntityTag:{id:\"minecraft:area_effect_cloud\",Duration:1,Radius:0f,Age:1,Tags:[\"empbl_init\",\"butcher\"]}}"
+              "tag": "{display:{Name:'{\"text\":\"Butcher\",\"italic\":false,\"color\":\"green\"}',Lore:['{\"text\":\"- Jobsite Building -\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"+4 🍖\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"Sent Materials: Raw Meat depending on surrounding\",\"color\":\"yellow\",\"italic\":false}']},CustomModelData:440001,empires_egg:1b,EntityTag:{id:\"minecraft:area_effect_cloud\",Duration:1,Radius:0f,Age:1,Tags:[\"empbl_init\",\"butcher\"]}}"
             }
           ]
         }

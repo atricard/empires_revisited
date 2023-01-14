@@ -1,0 +1,14 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"equipment": {
+			"mainhand": {
+				"items": [
+					"minecraft:allay_spawn_egg"
+				],
+				"nbt": "{empires_egg:1b}"
+			}
+		}
+	}
+}

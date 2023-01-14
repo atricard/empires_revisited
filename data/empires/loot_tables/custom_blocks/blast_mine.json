@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Blast Mine\",\"italic\":false,\"color\":\"green\"}',Lore:['{\"text\":\"- Jobsite Building -\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"+9 🪓\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"Sent Materials: Cobbled Deepslate,\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"Raw Gold, Diamond, Redstone Dust,\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"Lapis Lazuli\",\"color\":\"yellow\",\"italic\":false}']},CustomModelData:440001,EntityTag:{id:\"minecraft:area_effect_cloud\",Duration:1,Radius:0f,Age:1,Tags:[\"empbl_init\",\"blast_mine\"]}}"
+              "tag": "{display:{Name:'{\"text\":\"Blast Mine\",\"italic\":false,\"color\":\"green\"}',Lore:['{\"text\":\"- Jobsite Building -\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"+9 🪓\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"Sent Materials: Cobbled Deepslate,\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"Raw Gold, Diamond, Redstone Dust,\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"Lapis Lazuli\",\"color\":\"yellow\",\"italic\":false}']},CustomModelData:440001,empires_egg:1b,EntityTag:{id:\"minecraft:area_effect_cloud\",Duration:1,Radius:0f,Age:1,Tags:[\"empbl_init\",\"blast_mine\"]}}"
             }
           ]
         }

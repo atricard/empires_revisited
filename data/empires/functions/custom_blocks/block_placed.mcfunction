@@ -31,5 +31,4 @@ execute if entity @s[tag=university] run function empires:custom_blocks/universi
 #Goals
 execute as @e[type=glow_item_frame,tag=!set_goal,distance=..1,sort=nearest,limit=1] run function empires:custom_blocks/base_block_goal
 #End
-scoreboard players reset @a emp_use_allay_egg
 kill @s
