@@ -53,5 +53,32 @@ __Empires Patch Notes: v0.1.4__
 - Added a timed predicate to loading turns-- hopefully halves lag and works
 - Document cooldowns now message the owner when they end.
 
+__Empires Patch Notes: v0.2.0__
+- Optimised player functions by a lot
+- Added a small block shop in the Empires Crafter
+- Added Golem Eyes, unlocked with Logistics (replaced Commercial Goods Invention)
+    - Golem Eyes placed in 3rd slot in Houses and Jobsites to reveal what they lead to (Jobsite or Storage)
+- Buffed Storehouse storage and removed Warehouses
+- Added building Textile Factory (replaces Factory)
+- Added 6 new buildings
+    - Plantation
+    - Apiary
+    - Brewery
+    - Butcher
+    - Glass Workshop
+    - Dye Factory
+- Added Harvest mechanic, where some Bulletins will do in-world work
+    - Plantations, Fields (replace Wheat Fields), and Butchers all use the Harvest mechanic
+        - Butchers turn adult livestock into babies and produce the appropriate raw Meat.
+        - Fields harvest Wheat, Carrots, Potatoes and Beetroot in a 9x9x9 area.
+        - Plantations harvest Wheat, Carrots, Potatoes, Beetroot, Pumpkins, Melons, Apples, and Sweet Berries in a 15x15x15 area.
+- Golems now remove 1 food per Turn, but don’t require it to live.
+- Seasons’ food gift doubled.
+- Factories, Arena, and Brewery usefulness as an amenity now based on a coin flip, to represent whether Golems choose to use them or not.
+- Grave Signs added, placed in the 3rd slot of the House
+    - When a Golem dies, that sign is engraved with their name
+- Sawmill now gives planks and not logs
+- Added Kuba and Glider to possible name list
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Thanks for reading! @here
