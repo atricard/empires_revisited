@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Golem Eye\",\"italic\":false,\"color\":\"aqua\"}'},CustomModelData:440006,golem_eye:1b}"
+              "tag": "{display:{Name:'{\"text\":\"Golem Eye\",\"italic\":false,\"color\":\"aqua\"}'},CustomModelData:440006,golem_eye:1b,HideFlags:127}"
             }
           ]
         }

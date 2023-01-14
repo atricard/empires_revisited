@@ -5,6 +5,7 @@ execute store result score @s emp_fill_potato run fill ~7 ~7 ~7 ~-7 ~-7 ~-7 mine
 execute store result score @s emp_fill_beetroot run fill ~7 ~7 ~7 ~-7 ~-7 ~-7 minecraft:beetroots[age=0] replace minecraft:beetroots[age=3]
 execute store result score @s emp_fill_pumpkin run fill ~7 ~7 ~7 ~-7 ~-7 ~-7 minecraft:air replace minecraft:pumpkin
 execute store result score @s emp_fill_melon run fill ~7 ~7 ~7 ~-7 ~-7 ~-7 minecraft:air replace minecraft:melon
-execute store result score @s emp_fill_apple run fill ~7 ~7 ~7 ~-7 ~-7 ~-7 minecraft:oak_leaves replace minecraft:oak_leaves
+execute store result score @s emp_fill_apple run fill ~7 ~7 ~7 ~-7 ~-7 ~-7 minecraft:oak_leaves[persistent=true,waterlogged=false] replace minecraft:oak_leaves[persistent=true,waterlogged=false]
+execute store result score @s emp_fill_apple run fill ~7 ~7 ~7 ~-7 ~-7 ~-7 minecraft:oak_leaves[persistent=false,waterlogged=false] replace minecraft:oak_leaves[persistent=false,waterlogged=false]
 execute store result score @s emp_fill_sweet_berries run fill ~7 ~7 ~7 ~-7 ~-7 ~-7 minecraft:sweet_berry_bush[age=1] replace minecraft:sweet_berry_bush[age=3]
 execute if data block ~ ~ ~ Items[{Slot:9b}].tag.storage run function empires:station_turns/type/jobsite/sent_material/building

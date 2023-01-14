@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Plague Vial\",\"italic\":false,\"color\":\"yellow\"}',Lore:['{\"text\":\"Right-click to infect the nearest House within 15 blocks.\",\"color\":\"red\",\"italic\":false}']},Enchantments:[{}],CustomModelData:440000,plague_vial:1b,HideFlags:127}"
+              "tag": "{display:{Name:'{\"text\":\"Heart Locket\",\"italic\":false,\"color\":\"aqua\"}'},CustomModelData:440007,golem_heart:1b,HideFlags:127}"
             }
           ]
         }
