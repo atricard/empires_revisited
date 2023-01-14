@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Heart Locket\",\"italic\":false,\"color\":\"aqua\"}'},CustomModelData:440007,golem_heart:1b,HideFlags:127}"
+              "tag": "{display:{Name:'{\"text\":\"Heart Locket\",\"italic\":false,\"color\":\"gold\"}'},CustomModelData:440007,golem_heart:1b,HideFlags:127}"
             }
           ]
         }

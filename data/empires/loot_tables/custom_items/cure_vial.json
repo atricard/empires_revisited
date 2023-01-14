@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Cure Vial\",\"italic\":false,\"color\":\"yellow\"}',Lore:['{\"text\":\"Right-click to cure the nearest House within 15 blocks.\",\"color\":\"green\",\"italic\":false}']},Enchantments:[{}],CustomModelData:440001,cure_vial:1b,HideFlags:127}"
+              "tag": "{display:{Name:'{\"text\":\"Cure Vial\",\"italic\":false,\"color\":\"white\"}',Lore:['{\"text\":\"Right-click to cure the nearest House within 15 blocks.\",\"color\":\"green\",\"italic\":false}']},Enchantments:[{}],CustomModelData:440001,cure_vial:1b,HideFlags:127}"
             }
           ]
         }
