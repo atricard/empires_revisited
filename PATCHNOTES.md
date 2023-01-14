@@ -80,5 +80,10 @@ __Empires Patch Notes: v0.2.0__
 - Sawmill now gives planks and not logs
 - Added Kuba and Glider to possible name list
 
+__Empires Patch Notes: v0.2.1__
+- Added option to pause the player's session of Empires
+- Activated Bulletins can now be picked up and moved
+- Butcher loot more accurately reflects real drops
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Thanks for reading! @here
