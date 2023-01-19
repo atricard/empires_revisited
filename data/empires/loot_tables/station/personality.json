@@ -1,0 +1,163 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:stone_button",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'[{\"text\":\"Personality: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"Athletic\",\"color\":\"#00fa9a\",\"bold\":false,\"italic\":false}]'},personality:1}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:stone_button",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'[{\"text\":\"Personality: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"Hygienic\",\"color\":\"#00fa9a\",\"bold\":false,\"italic\":false}]'},personality:2}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:stone_button",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'[{\"text\":\"Personality: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"Green Thumb\",\"color\":\"#00fa9a\",\"bold\":false,\"italic\":false}]'},personality:3}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:stone_button",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'[{\"text\":\"Personality: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"Entrepreneur\",\"color\":\"#00fa9a\",\"bold\":false,\"italic\":false}]'},personality:4}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:stone_button",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'[{\"text\":\"Personality: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"Creative\",\"color\":\"#00fa9a\",\"bold\":false,\"italic\":false}]'},personality:5}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:stone_button",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'[{\"text\":\"Personality: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"Lazy\",\"color\":\"#00fa9a\",\"bold\":false,\"italic\":false}]'},personality:6}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:stone_button",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'[{\"text\":\"Personality: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"Loner\",\"color\":\"#00fa9a\",\"bold\":false,\"italic\":false}]'},personality:7}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:stone_button",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'[{\"text\":\"Personality: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"Nerd\",\"color\":\"#00fa9a\",\"bold\":false,\"italic\":false}]'},personality:8}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:stone_button",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'[{\"text\":\"Personality: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"Small Appetite\",\"color\":\"#00fa9a\",\"bold\":false,\"italic\":false}]'},personality:9}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:stone_button",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'[{\"text\":\"Personality: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"Gluttonous\",\"color\":\"#00fa9a\",\"bold\":false,\"italic\":false}]'},personality:10}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:stone_button",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'[{\"text\":\"Personality: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"Disruptive\",\"color\":\"#00fa9a\",\"bold\":false,\"italic\":false}]'},personality:11}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:stone_button",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'[{\"text\":\"Personality: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"Nondrinker\",\"color\":\"#00fa9a\",\"bold\":false,\"italic\":false}]'},personality:12}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:stone_button",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'[{\"text\":\"Personality: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"Pious\",\"color\":\"#00fa9a\",\"bold\":false,\"italic\":false}]'},personality:13}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "minecraft:stone_button",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'[{\"text\":\"Personality: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"Ordinary\",\"color\":\"#00fa9a\",\"bold\":false,\"italic\":false}]'},personality:0}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

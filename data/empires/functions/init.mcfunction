@@ -26,6 +26,7 @@ scoreboard objectives add emp_pos_eye_z dummy
 scoreboard objectives add golem_eye_distance dummy
 #Stats
 scoreboard objectives add emp_motivation dummy
+scoreboard objectives add emp_personality dummy
 scoreboard objectives add emp_production dummy
 scoreboard objectives add emp_production_cap dummy
 scoreboard objectives add emp_invention dummy

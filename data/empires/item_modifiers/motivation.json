@@ -1,43 +1,48 @@
 {
-  "function": "minecraft:set_lore",
-  "entity": "this",
-  "lore": [
-    {
-      "text": "-----------",
-      "color": "yellow",
-      "italic": false
-    },
-    {
-      "nbt": "saved_name",
-      "storage": "empires:saved_name",
-      "interpret": true
-    },
-    [
-      {
-        "text": "Motivation: ",
-        "color": "gray",
-        "italic": false
-      },
-      [
-        {
-          "score": {
-            "name": "@e[type=glow_item_frame,tag=house,distance=..1,sort=nearest,limit=1]",
-            "objective": "emp_motivation"
-          },
-          "color": "#dc143c",
-          "bold": false,
-          "italic": false,
-          "extra": [
-            {
-              "text": "%",
-              "color": "gray",
-              "bold": false,
-              "italic": false
-            }
-          ]
-        }
-      ]
-    ]
-  ],
-  "replace": true
+	"function": "minecraft:set_lore",
+	"entity": "this",
+	"lore": [
+		{
+			"text": "-----------",
+			"color": "yellow",
+			"italic": false
+		},
+		{
+			"nbt": "saved_name",
+			"storage": "empires:saved_name",
+			"interpret": true
+		},
+		[
+			{
+				"text": "Motivation: ",
+				"color": "gray",
+				"italic": false
+			},
+			[
+				{
+					"score": {
+						"name": "@e[type=glow_item_frame,tag=house,distance=..1,sort=nearest,limit=1]",
+						"objective": "emp_motivation"
+					},
+					"color": "#dc143c",
+					"bold": false,
+					"italic": false,
+					"extra": [
+						{
+							"text": "%",
+							"color": "gray",
+							"bold": false,
+							"italic": false
+						}
+					]
+				}
+			]
+		],
+		{
+			"nbt": "personality_name",
+			"storage": "empires:personality_name",
+			"interpret": true
+		}
+	],
+	"replace": true
 }

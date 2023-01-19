@@ -1,0 +1,2 @@
+tellraw @s [{"text":"<⚑>","color":"#00BFFF"},{"text":" Turn ","color":"white"},{"score":{"name":"@s","objective":"emp_turn"},"color":"white"},{"text":": ","color":"white"},{"nbt":"Items[{Slot:0b}].tag.name_data","block":"~ ~ ~","interpret":true,"color":"yellow"},{"text":" did some extra labor.","color":"green"},{"text":" +1","color":"#d2691e","extra":[{"text":"🪓"}]}]
+scoreboard players add @s emp_production 1

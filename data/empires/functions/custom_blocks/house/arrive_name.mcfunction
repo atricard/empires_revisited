@@ -1,10 +1,16 @@
+#Loot Stands
 summon armor_stand ~ ~1 ~ {Marker:1b,Invisible:1b,Tags:["the_almighty_namer"]}
 loot replace entity @e[type=armor_stand,tag=the_almighty_namer,sort=nearest,limit=1] armor.head loot empires:station/first_name
-execute as @e[type=armor_stand,tag=the_almighty_namer,sort=nearest,limit=1] run data modify entity @s CustomName set from entity @s ArmorItems[3].tag.display.Name
+summon armor_stand ~ ~1 ~ {Marker:1b,Invisible:1b,Tags:["the_almighty_gifter"]}
+loot replace entity @e[type=armor_stand,tag=the_almighty_gifter,sort=nearest,limit=1] armor.head loot empires:station/personality
+#
 execute if data block ~ ~ ~ Items[{Slot:0b}].tag.blank_citizen run loot replace block ~ ~ ~ container.0 loot empires:station/citizen_doc
 execute as @e[type=armor_stand,tag=the_almighty_namer,sort=nearest,limit=1] run data modify block ~ ~ ~ Items[{Slot:0b}].tag.name_data set from entity @s ArmorItems[3].tag.display.Name
+execute as @e[type=armor_stand,tag=the_almighty_gifter,sort=nearest,limit=1] run data modify block ~ ~ ~ Items[{Slot:0b}].tag.personality set from entity @s ArmorItems[3].tag.personality
 execute store result block ~ ~ ~ Items[{Slot:0b}].tag.emp_id int 1 run scoreboard players get @s emp_id
+#End
 kill @e[type=armor_stand,tag=the_almighty_namer]
+kill @e[type=armor_stand,tag=the_almighty_gifter]
 #???
 function empires:custom_blocks/house/motivate_init
 #Messages
