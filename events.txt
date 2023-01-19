@@ -1,6 +1,0 @@
-emp_accident_construction
-emp_accident_fell
-emp_accident_sickness
-emp_accident_sawblade
-emp_accident_haggled
-emp_accident_blast
