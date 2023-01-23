@@ -14,8 +14,8 @@
 			"italic": false,
 			"extra": [
 				{
-					"nbt": "saved_name",
-					"storage": "empires:saved_name",
+					"nbt": "Items[{Slot:0b}].tag.name_data",
+					"block": "~ ~ ~",
 					"interpret": true,
 					"color": "#f4a460"
 				}
@@ -48,13 +48,13 @@
 			]
 		],
 		{
-			"nbt": "personality_name",
-			"storage": "empires:personality_name",
+			"nbt": "Items[{Slot:0b}].tag.saved_name_personality",
+			"block": "~ ~ ~",
 			"interpret": true
 		},
 		{
-			"nbt": "personality_name_second",
-			"storage": "empires:personality_name",
+			"nbt": "Items[{Slot:0b}].tag.saved_name_personality_second",
+			"block": "~ ~ ~",
 			"interpret": true
 		}
 	],
