@@ -14,7 +14,7 @@
 			"italic": false,
 			"extra": [
 				{
-					"nbt": "Items[{Slot:0b}].tag.name_data",
+					"nbt": "Items[{Slot:10b}].tag.name_data",
 					"block": "~ ~ ~",
 					"interpret": true,
 					"color": "#f4a460"
@@ -48,12 +48,12 @@
 			]
 		],
 		{
-			"nbt": "Items[{Slot:0b}].tag.saved_name_personality",
+			"nbt": "Items[{Slot:10b}].tag.saved_name_personality",
 			"block": "~ ~ ~",
 			"interpret": true
 		},
 		{
-			"nbt": "Items[{Slot:0b}].tag.saved_name_personality_second",
+			"nbt": "Items[{Slot:10b}].tag.saved_name_personality_second",
 			"block": "~ ~ ~",
 			"interpret": true
 		}

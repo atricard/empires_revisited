@@ -35,7 +35,7 @@ execute if entity @s[tag=power_plant] run function empires:custom_blocks/power_p
 execute if entity @s[tag=bank] run function empires:custom_blocks/bank/run
 execute if entity @s[tag=university] run function empires:custom_blocks/university/run
 #Generic
-execute if predicate empires:half_time if entity @s[tag=emp_jobsite] if data block ~ ~ ~ Items[{Slot:18b}].tag.golem_eye run function empires:custom_items/golem_eye/marker
+execute if predicate empires:half_time if entity @s[tag=emp_jobsite] if data block ~ ~ ~ Items[{Slot:16b}].tag.golem_eye run function empires:custom_items/golem_eye/marker
 #End Stuff
 #Broken/Drop Item Conditions
 execute if entity @s[tag=empbl_inactive] if entity @e[type=glow_item_frame,tag=empbl_building,distance=0.1..1] run function empires:custom_blocks/suffer

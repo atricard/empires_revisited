@@ -1,2 +1,2 @@
-execute if data block ~ ~ ~ Items[{Slot:0b}].tag.citizen run function empires:station_turns/type/house/start
+execute if data block ~ ~ ~ Items[{Slot:10b}].tag.citizen run function empires:station_turns/type/house/start
 execute if score @s emp_cooldown matches 0..2 run function empires:station_turns/type/house/cooldown

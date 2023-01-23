@@ -1,4 +1,4 @@
-item replace block ~ ~ ~ container.0 with air
+item replace block ~ ~ ~ container.10 with air
 scoreboard players set @s emp_motivation 100
 #Message
 scoreboard players operation $message_id emp_id = @s emp_id

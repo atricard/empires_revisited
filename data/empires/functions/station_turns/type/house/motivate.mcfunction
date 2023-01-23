@@ -1,7 +1,8 @@
 #REMINDER:
     ## this file is being run as and at the house custom block!
-execute store result score @s emp_motivation run data get block ~ ~ ~ Items[{Slot:0b}].tag.emp_motivation
+execute store result score @s emp_motivation run data get block ~ ~ ~ Items[{Slot:10b}].tag.emp_motivation
 function empires:station_turns/type/house/events/personality
+function empires:station_turns/type/house/events/reactions
 function empires:station_turns/type/house/events/all
 #Motivation Focused
 scoreboard players remove @s emp_motivation 4
@@ -19,9 +20,9 @@ execute if entity @s[tag=emp_accident_construction] run function empires:station
 execute if entity @s[tag=emp_accident_fell] run function empires:station_turns/type/house/events/type/fell
         #Sickness
 execute if entity @s[tag=emp_cured] run function empires:station_turns/type/house/events/type/cured
-execute if entity @e[type=glow_item_frame,tag=hospital,tag=!empbl_inactive,distance=..50] if data block ~ ~ ~ Items[{Slot:0b}].tag.sick run function empires:custom_blocks/hospital/cure
-execute if data block ~ ~ ~ Items[{Slot:0b}].tag.sick run function empires:station_turns/type/house/events/type/sickness_continue
-execute unless entity @s[tag=emp_personality_hygienic] unless data block ~ ~ ~ Items[{Slot:0b}].tag.sick if entity @s[tag=emp_accident_sickness] run function empires:station_turns/type/house/events/type/sickness
+execute if entity @e[type=glow_item_frame,tag=hospital,tag=!empbl_inactive,distance=..50] if data block ~ ~ ~ Items[{Slot:10b}].tag.sick run function empires:custom_blocks/hospital/cure
+execute if data block ~ ~ ~ Items[{Slot:10b}].tag.sick run function empires:station_turns/type/house/events/type/sickness_continue
+execute unless entity @s[tag=emp_personality_hygienic] unless data block ~ ~ ~ Items[{Slot:10b}].tag.sick if entity @s[tag=emp_accident_sickness] run function empires:station_turns/type/house/events/type/sickness
 execute if entity @s[tag=emp_personality_hygienic] if entity @s[tag=emp_accident_sickness] run function empires:station_turns/type/house/events/type/avoid_sickness
         #Others
 execute if entity @s[tag=emp_accident_sawblade] run function empires:station_turns/type/house/events/type/sawblade
@@ -51,15 +52,15 @@ execute if entity @s[tag=emp_gossip_compliment] run function empires:station_tur
 execute if entity @s[tag=emp_gossip_flirt] run function empires:station_turns/type/house/events/type/gossip/flirt
 #Overflow
 execute if score @s emp_motivation matches 101.. run scoreboard players set @s emp_motivation 100
-execute if score @s emp_motivation matches 0..10 run tellraw @a[predicate=empires:message_id] [{"text":"<⚑>","color":"#00BFFF"},{"text":" Turn ","color":"white"},{"score":{"name":"@s","objective":"emp_turn"},"color":"white"},{"text":": ","color":"white"},{"nbt":"Items[{Slot:0b}].tag.name_data","block":"~ ~ ~","interpret":true,"color":"#f4a460"},{"text":" is at 10% Morale or less!","color":"yellow"}]
+execute if score @s emp_motivation matches 0..10 run tellraw @a[predicate=empires:message_id] [{"text":"<⚑>","color":"#00BFFF"},{"text":" Turn ","color":"white"},{"score":{"name":"@s","objective":"emp_turn"},"color":"white"},{"text":": ","color":"white"},{"nbt":"Items[{Slot:10b}].tag.name_data","block":"~ ~ ~","interpret":true,"color":"#f4a460"},{"text":" is at 10% Morale or less!","color":"yellow"}]
 #Remove Event Tags
 function empires:station_turns/type/house/remove_tag
 #Return JSON
-data modify storage empires:saved_name saved_name set from block ~ ~ ~ Items[{Slot:0b}].tag.name_data
-data modify storage empires:personality_name personality_name set from block ~ ~ ~ Items[{Slot:0b}].tag.saved_personality
-data modify storage empires:personality_name personality_name_second set from block ~ ~ ~ Items[{Slot:0b}].tag.saved_personality_second
-item modify block ~ ~ ~ container.0 empires:motivation
+data modify storage empires:saved_name saved_name set from block ~ ~ ~ Items[{Slot:10b}].tag.name_data
+data modify storage empires:personality_name personality_name set from block ~ ~ ~ Items[{Slot:10b}].tag.saved_personality
+data modify storage empires:personality_name personality_name_second set from block ~ ~ ~ Items[{Slot:10b}].tag.saved_personality_second
+item modify block ~ ~ ~ container.10 empires:motivation
 #Return NBT
-execute store result block ~ ~ ~ Items[{Slot:0b}].tag.emp_motivation int 1 run scoreboard players get @s emp_motivation
+execute store result block ~ ~ ~ Items[{Slot:10b}].tag.emp_motivation int 1 run scoreboard players get @s emp_motivation
 #Messages
 execute if score @s emp_motivation matches ..0 run function empires:station_turns/type/house/leave

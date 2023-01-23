@@ -9,6 +9,7 @@ tag @s remove emp_event_art
 tag @s remove emp_cured
 #Personalities
 tag @s remove emp_personality_normal
+tag @s remove emp_personality_sadist
 tag @s remove emp_personality_hygienic
 tag @s remove emp_personality_slob
 tag @s remove emp_personality_nerd

@@ -8,4 +8,4 @@ execute store result score @s emp_fill_melon run fill ~7 ~7 ~7 ~-7 ~-7 ~-7 minec
 execute store result score @s emp_fill_apple run fill ~7 ~7 ~7 ~-7 ~-7 ~-7 minecraft:oak_leaves[persistent=true,waterlogged=false] replace minecraft:oak_leaves[persistent=true,waterlogged=false]
 execute store result score @s emp_fill_apple run fill ~7 ~7 ~7 ~-7 ~-7 ~-7 minecraft:oak_leaves[persistent=false,waterlogged=false] replace minecraft:oak_leaves[persistent=false,waterlogged=false]
 execute store result score @s emp_fill_sweet_berries run fill ~7 ~7 ~7 ~-7 ~-7 ~-7 minecraft:sweet_berry_bush[age=1] replace minecraft:sweet_berry_bush[age=3]
-execute if data block ~ ~ ~ Items[{Slot:9b}].tag.storage run function empires:station_turns/type/jobsite/sent_material/building
+execute if data block ~ ~ ~ Items[{Slot:13b}].tag.emp_storage run function empires:station_turns/type/jobsite/sent_material/building
