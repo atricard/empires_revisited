@@ -1,0 +1,39 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:oak_button",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'[{\"text\":\"Trait: \",\"color\":\"gray\",\"bold\":false,\"italic\":false},{\"text\":\"Studious\",\"color\":\"#fa8072\",\"bold\":false,\"italic\":false}]'},personality:4}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:oak_button",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'[{\"text\":\"Trait: \",\"color\":\"gray\",\"bold\":false,\"italic\":false},{\"text\":\"Prankster\",\"color\":\"#fa8072\",\"bold\":false,\"italic\":false}]'},personality:5}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:oak_button",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'[{\"text\":\"Trait: \",\"color\":\"gray\",\"bold\":false,\"italic\":false},{\"text\":\"Ordinary\",\"color\":\"#fa8072\",\"bold\":false,\"italic\":false}]'},personality:0}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

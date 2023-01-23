@@ -1,0 +1,256 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "empires:station/personality/opposites/hygiene",
+					"conditions": [
+						{
+							"condition": "minecraft:inverted",
+							"term": {
+								"condition": "minecraft:entity_scores",
+								"entity": "this",
+								"scores": {
+									"emp_personality": {
+										"min": 2,
+										"max": 3
+									}
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "empires:station/personality/opposites/science",
+					"conditions": [
+						{
+							"condition": "minecraft:inverted",
+							"term": {
+								"condition": "minecraft:entity_scores",
+								"entity": "this",
+								"scores": {
+									"emp_personality": {
+										"min": 4,
+										"max": 5
+									}
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "empires:station/personality/opposites/art",
+					"conditions": [
+						{
+							"condition": "minecraft:inverted",
+							"term": {
+								"condition": "minecraft:entity_scores",
+								"entity": "this",
+								"scores": {
+									"emp_personality": {
+										"min": 10,
+										"max": 11
+									}
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "empires:station/personality/opposites/drinking",
+					"conditions": [
+						{
+							"condition": "minecraft:inverted",
+							"term": {
+								"condition": "minecraft:entity_scores",
+								"entity": "this",
+								"scores": {
+									"emp_personality": {
+										"min": 14,
+										"max": 15
+									}
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "empires:station/personality/opposites/flirt",
+					"conditions": [
+						{
+							"condition": "minecraft:inverted",
+							"term": {
+								"condition": "minecraft:entity_scores",
+								"entity": "this",
+								"scores": {
+									"emp_personality": {
+										"min": 24,
+										"max": 25
+									}
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "empires:station/personality/opposites/food",
+					"conditions": [
+						{
+							"condition": "minecraft:inverted",
+							"term": {
+								"condition": "minecraft:entity_scores",
+								"entity": "this",
+								"scores": {
+									"emp_personality": {
+										"min": 8,
+										"max": 9
+									}
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "empires:station/personality/opposites/kindness",
+					"conditions": [
+						{
+							"condition": "minecraft:inverted",
+							"term": {
+								"condition": "minecraft:entity_scores",
+								"entity": "this",
+								"scores": {
+									"emp_personality": {
+										"min": 20,
+										"max": 21
+									}
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "empires:station/personality/opposites/outlook",
+					"conditions": [
+						{
+							"condition": "minecraft:inverted",
+							"term": {
+								"condition": "minecraft:entity_scores",
+								"entity": "this",
+								"scores": {
+									"emp_personality": {
+										"min": 18,
+										"max": 19
+									}
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "empires:station/personality/opposites/religion",
+					"conditions": [
+						{
+							"condition": "minecraft:inverted",
+							"term": {
+								"condition": "minecraft:entity_scores",
+								"entity": "this",
+								"scores": {
+									"emp_personality": {
+										"min": 16,
+										"max": 17
+									}
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "empires:station/personality/opposites/sadism",
+					"conditions": [
+						{
+							"condition": "minecraft:inverted",
+							"term": {
+								"condition": "minecraft:entity_scores",
+								"entity": "this",
+								"scores": {
+									"emp_personality": {
+										"min": 1,
+										"max": 1
+									}
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "empires:station/personality/opposites/social",
+					"conditions": [
+						{
+							"condition": "minecraft:inverted",
+							"term": {
+								"condition": "minecraft:entity_scores",
+								"entity": "this",
+								"scores": {
+									"emp_personality": {
+										"min": 12,
+										"max": 13
+									}
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "empires:station/personality/opposites/work",
+					"conditions": [
+						{
+							"condition": "minecraft:inverted",
+							"term": {
+								"condition": "minecraft:entity_scores",
+								"entity": "this",
+								"scores": {
+									"emp_personality": {
+										"min": 6,
+										"max": 7
+									}
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "empires:station/personality/opposites/money",
+					"conditions": [
+						{
+							"condition": "minecraft:inverted",
+							"term": {
+								"condition": "minecraft:entity_scores",
+								"entity": "this",
+								"scores": {
+									"emp_personality": {
+										"min": 24,
+										"max": 25
+									}
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

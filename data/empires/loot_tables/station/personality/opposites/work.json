@@ -1,0 +1,39 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:oak_button",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'[{\"text\":\"Trait: \",\"color\":\"gray\",\"bold\":false,\"italic\":false},{\"text\":\"Hard Worker\",\"color\":\"#fa8072\",\"bold\":false,\"italic\":false}]'},personality:6}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:oak_button",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'[{\"text\":\"Trait: \",\"color\":\"gray\",\"bold\":false,\"italic\":false},{\"text\":\"Lazy\",\"color\":\"#fa8072\",\"bold\":false,\"italic\":false}]'},personality:7}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:oak_button",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'[{\"text\":\"Trait: \",\"color\":\"gray\",\"bold\":false,\"italic\":false},{\"text\":\"Ordinary\",\"color\":\"#fa8072\",\"bold\":false,\"italic\":false}]'},personality:0}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -8,13 +8,22 @@
 			"italic": false
 		},
 		{
-			"nbt": "saved_name",
-			"storage": "empires:saved_name",
-			"interpret": true
+			"text": "Name: ",
+			"color": "gray",
+			"bold": false,
+			"italic": false,
+			"extra": [
+				{
+					"nbt": "saved_name",
+					"storage": "empires:saved_name",
+					"interpret": true,
+					"color": "#cd853f"
+				}
+			]
 		},
 		[
 			{
-				"text": "Motivation: ",
+				"text": "Morale: ",
 				"color": "gray",
 				"italic": false
 			},
@@ -40,6 +49,11 @@
 		],
 		{
 			"nbt": "personality_name",
+			"storage": "empires:personality_name",
+			"interpret": true
+		},
+		{
+			"nbt": "personality_name_second",
 			"storage": "empires:personality_name",
 			"interpret": true
 		}

@@ -1,2 +1,0 @@
-tellraw @s [{"text":"<⚑>","color":"#00BFFF"},{"text":" Turn ","color":"white"},{"score":{"name":"@s","objective":"emp_turn"},"color":"white"},{"text":": ","color":"white"},{"nbt":"Items[{Slot:0b}].tag.name_data","block":"~ ~ ~","interpret":true,"color":"yellow"},{"text":" ate extra Food.","color":"red"},{"text":" -1","color":"#32cd32","extra":[{"text":"🍖"}]}]
-scoreboard players remove @s emp_food 1

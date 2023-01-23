@@ -1,0 +1,29 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:oak_button",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'[{\"text\":\"Trait: \",\"color\":\"gray\",\"bold\":false,\"italic\":false},{\"text\":\"Sadist\",\"color\":\"#fa8072\",\"bold\":false,\"italic\":false}]'},personality:1}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:oak_button",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'[{\"text\":\"Trait: \",\"color\":\"gray\",\"bold\":false,\"italic\":false},{\"text\":\"Ordinary\",\"color\":\"#fa8072\",\"bold\":false,\"italic\":false}]'},personality:0}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -18,9 +18,9 @@ __Empires Patch Notes: v0.1.0__
     - This way, players whose Citizens have died and have no Food can wait through Turns to retry the game.
 - Citizens acquired through spending Food Points in the Empires Crafter
     - Citizens have a unique name
-    - Citizens have a stat called “Motivation”, from 0-100%
-        - *Motivation is raised by having Amenity Bulletins closeby*
-        - *Motivation decreases by 2% each Turn, and can be lowered further by random events that mostly predicate on nearby Bulletins*
+    - Citizens have a stat called “Morale”, from 0-100%
+        - *Morale is raised by having Amenity Bulletins closeby*
+        - *Morale decreases by 2% each Turn, and can be lowered further by random events that mostly predicate on nearby Bulletins*
     - Citizens can work jobs at other Bulletins through assignment at Houses
     - Certain jobsites that are being worked by a Citizen can send materials to storage though storage assignment at Jobsites
 - Added Plague Vial item, forces a sickness event at the nearest House when used
@@ -50,7 +50,7 @@ __Empires Patch Notes: v0.1.3__
 
 __Empires Patch Notes: v0.1.4__
 - Fixed the Cure Vial doing nothing
-- Being cured of sickness now gives a message on turn and adds 7% Motivation back
+- Being cured of sickness now gives a message on turn and adds 7% Morale back
 - Turn locks now work the job correctly on the 1st turn
 - Added Building Shop sounds and messages
 - Added a timed predicate to loading turns-- hopefully halves lag and works
@@ -127,12 +127,13 @@ university
 #00bfff - Empires Datapack
 #24015b - Disabled Slot
 #ff0099 - Selection Slot
-#dc143c - Motivation
+#dc143c - Morale
 #d2691e - 🪓 Production
 #40e0d0 - 🧪 Invention
 #32cd32 - 🍖 Food
 #ffd700 - ⓓ Money
-
+#cd853f - Golem Clay/Name
+#fa8072 - Personality
 #ffd700 - Seasons
 
 Building Types:
@@ -148,12 +149,4 @@ red - Not Accepted
 gold - Arrows/Direction (Used for skip option button)
 green - Building Names, Completion
 gray - Transitions, "/", ":", etc.
-yellow - Descriptions, Pronouns
-
-#Event Types
-emp_accident_construction
-emp_accident_fell
-emp_accident_sickness
-emp_accident_sawblade
-emp_accident_haggled
-emp_accident_blast
+yellow - Descriptions

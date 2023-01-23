@@ -10,7 +10,7 @@ scoreboard players set @s emp_production_cap 25
 scoreboard players set @s emp_invention 0
 scoreboard players set @s emp_invention_cap 25
 scoreboard players set @s emp_money 0
-scoreboard players set @s emp_money_cap 25
+scoreboard players set @s emp_money_cap 50
 scoreboard players set @s emp_food 25
 scoreboard players set @s emp_food_cap 25
 #Items

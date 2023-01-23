@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Golem Document",
+								"text": "Clay Golem",
 								"color": "green",
 								"italic": false,
 								"underlined": false
@@ -38,14 +38,15 @@
 									"extra": [
 										{
 											"nbt": "ArmorItems[3].tag.display.Name",
-											"entity": "@e[type=armor_stand,tag=the_almighty_namer,sort=nearest,limit=1]",
+											"entity": "@e[type=armor_stand,tag=emp_magi_one,sort=nearest,limit=1]",
+											"color": "#cd853f",
 											"interpret": true
 										}
 									]
 								},
 								[
 									{
-										"text": "Motivation: ",
+										"text": "Morale: ",
 										"color": "gray",
 										"italic": false
 									},
@@ -67,9 +68,14 @@
 									]
 								],
 								{
-									"nbt": "ArmorItems[3].tag.display.Name",
-									"entity": "@e[type=armor_stand,tag=the_almighty_gifter,sort=nearest,limit=1]",
-									"interpret": true
+									"text": "Personality Trait",
+									"color": "gray",
+									"italic": false
+								},
+								{
+									"text": "Personality Trait",
+									"color": "gray",
+									"italic": false
 								}
 							]
 						}

@@ -1,6 +1,6 @@
 item replace block ~ ~ ~ container.0 with allay_spawn_egg{display:{Name:'{"text":"Buildings","color":"#ff0099","italic":false}'},CustomModelData:440001,gui:1b,HideFlags:127}
 item replace block ~ ~ ~ container.1 with knowledge_book{display:{Name:'{"text":"Inventions","color":"#ff0099","italic":false}'},gui:1b,HideFlags:127}
-item replace block ~ ~ ~ container.2 with jigsaw{display:{Name:'{"text":"Golems","color":"#ff0099","italic":false}'},CustomModelData:440003,gui:1b,HideFlags:127}
+item replace block ~ ~ ~ container.2 with jigsaw{display:{Name:'{"text":"Golems","color":"#ff0099","italic":false}'},CustomModelData:440000,gui:1b,HideFlags:127}
 item replace block ~ ~ ~ container.3 with warped_fungus_on_a_stick{display:{Name:'{"text":"Special Items","color":"#ff0099","italic":false}'},CustomModelData:440007,gui:1b,HideFlags:127}
 item replace block ~ ~ ~ container.4 with jungle_planks{display:{Name:'{"text":"Block Shop","color":"#ff0099","italic":false}'},gui:1b,HideFlags:127}
 item replace block ~ ~ ~ container.9 with structure_void{display:{Name:'{"text":"View 🪓 Points","color":"#d2691e","italic":false}'},CustomModelData:3,gui:1b,HideFlags:127}

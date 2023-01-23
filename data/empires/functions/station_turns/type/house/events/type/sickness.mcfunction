@@ -1,3 +1,3 @@
-tellraw @a[predicate=empires:message_id] [{"text":"<⚑>","color":"#00BFFF"},{"text":" Turn ","color":"white"},{"score":{"name":"@s","objective":"emp_turn"},"color":"white"},{"text":": ","color":"white"},{"nbt":"Items[{Slot:0b}].tag.name_data","block":"~ ~ ~","interpret":true,"color":"yellow"},{"text":" has become sick. (-10 Motivation per turn without Hospital)","color":"red"}]
+tellraw @a[predicate=empires:message_id] [{"text":"<⚑>","color":"#00BFFF"},{"text":" Turn ","color":"white"},{"score":{"name":"@s","objective":"emp_turn"},"color":"white"},{"text":": ","color":"white"},{"nbt":"Items[{Slot:0b}].tag.name_data","block":"~ ~ ~","interpret":true,"color":"#cd853f"},{"text":" has become sick. (-10 Morale per turn without Hospital)","color":"red"}]
 data modify block ~ ~ ~ Items[{Slot:0b}].tag.sick set value 1b
 scoreboard players remove @s emp_motivation 10

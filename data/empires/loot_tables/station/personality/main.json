@@ -1,0 +1,61 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "empires:station/personality/opposites/hygiene"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "empires:station/personality/opposites/science"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "empires:station/personality/opposites/art"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "empires:station/personality/opposites/drinking"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "empires:station/personality/opposites/flirt"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "empires:station/personality/opposites/food"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "empires:station/personality/opposites/kindness"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "empires:station/personality/opposites/outlook"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "empires:station/personality/opposites/religion"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "empires:station/personality/opposites/sadism"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "empires:station/personality/opposites/social"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "empires:station/personality/opposites/work"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "empires:station/personality/opposites/money"
+				}
+			]
+		}
+	]
+}

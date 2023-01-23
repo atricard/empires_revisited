@@ -1,2 +1,0 @@
-tellraw @s [{"text":"<⚑>","color":"#00BFFF"},{"text":" Turn ","color":"white"},{"score":{"name":"@s","objective":"emp_turn"},"color":"white"},{"text":": ","color":"white"},{"nbt":"Items[{Slot:0b}].tag.name_data","block":"~ ~ ~","interpret":true,"color":"yellow"},{"text":" disrupted crucial research.","color":"red"},{"text":" -1","color":"#40e0d0","extra":[{"text":"🧪"}]}]
-scoreboard players remove @s emp_invention 1

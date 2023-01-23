@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Brewery\",\"italic\":false,\"color\":\"green\"}',Lore:['{\"text\":\"- Amenity Building -\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"+3 ⓓ\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"Flips coin for +3% Motivation (Radius: 40 Blocks)\",\"color\":\"yellow\",\"italic\":false}']},CustomModelData:440001,empires_egg:1b,EntityTag:{id:\"minecraft:area_effect_cloud\",Duration:1,Radius:0f,Age:1,Tags:[\"empbl_init\",\"brewery\"]}}"
+              "tag": "{display:{Name:'{\"text\":\"Brewery\",\"italic\":false,\"color\":\"green\"}',Lore:['{\"text\":\"- Amenity Building -\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"+3 ⓓ\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"Flips coin for +3% Morale (Radius: 40 Blocks)\",\"color\":\"yellow\",\"italic\":false}']},CustomModelData:440001,empires_egg:1b,EntityTag:{id:\"minecraft:area_effect_cloud\",Duration:1,Radius:0f,Age:1,Tags:[\"empbl_init\",\"brewery\"]}}"
             },
 						{
 							"function": "minecraft:set_nbt",

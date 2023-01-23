@@ -1,0 +1,2 @@
+tellraw @s [{"text":"<⚑>","color":"#00BFFF"},{"text":" Turn ","color":"white"},{"score":{"name":"@s","objective":"emp_turn"},"color":"white"},{"text":": ","color":"white"},{"nbt":"Items[{Slot:0b}].tag.name_data","block":"~ ~ ~","interpret":true,"color":"#cd853f"},{"text":" saved up some extra Money.","color":"green"},{"text":" +1","color":"#ffd700","extra":[{"text":"ⓓ"}]}]
+scoreboard players add @s emp_money 1
