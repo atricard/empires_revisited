@@ -17,7 +17,7 @@
 					"nbt": "saved_name",
 					"storage": "empires:saved_name",
 					"interpret": true,
-					"color": "#cd853f"
+					"color": "#f4a460"
 				}
 			]
 		},
@@ -33,7 +33,7 @@
 						"name": "@e[type=glow_item_frame,tag=house,distance=..1,sort=nearest,limit=1]",
 						"objective": "emp_motivation"
 					},
-					"color": "#dc143c",
+					"color": "#ff0000",
 					"bold": false,
 					"italic": false,
 					"extra": [

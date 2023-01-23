@@ -39,7 +39,7 @@
 										{
 											"nbt": "ArmorItems[3].tag.display.Name",
 											"entity": "@e[type=armor_stand,tag=emp_magi_one,sort=nearest,limit=1]",
-											"color": "#cd853f",
+											"color": "#f4a460",
 											"interpret": true
 										}
 									]
@@ -53,7 +53,7 @@
 									[
 										{
 											"text": "null",
-											"color": "#dc143c",
+											"color": "#ff0000",
 											"bold": false,
 											"italic": false,
 											"extra": [

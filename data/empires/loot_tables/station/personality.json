@@ -10,7 +10,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{display:{Name:'[{\"text\":\"Athletic\",\"color\":\"#fa8072\",\"bold\":false,\"italic\":false}]'},personality:1}"
+							"tag": "{display:{Name:'[{\"text\":\"Athletic\",\"color\":\"#fffacd\",\"bold\":false,\"italic\":false}]'},personality:1}"
 						}
 					]
 				},
@@ -21,7 +21,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{display:{Name:'[{\"text\":\"Hygienic\",\"color\":\"#fa8072\",\"bold\":false,\"italic\":false}]'},personality:2}"
+							"tag": "{display:{Name:'[{\"text\":\"Hygienic\",\"color\":\"#fffacd\",\"bold\":false,\"italic\":false}]'},personality:2}"
 						}
 					]
 				},
@@ -32,7 +32,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{display:{Name:'[{\"text\":\"Green Thumb\",\"color\":\"#fa8072\",\"bold\":false,\"italic\":false}]'},personality:3}"
+							"tag": "{display:{Name:'[{\"text\":\"Green Thumb\",\"color\":\"#fffacd\",\"bold\":false,\"italic\":false}]'},personality:3}"
 						}
 					]
 				},
@@ -43,7 +43,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{display:{Name:'[{\"text\":\"Entrepreneur\",\"color\":\"#fa8072\",\"bold\":false,\"italic\":false}]'},personality:4}"
+							"tag": "{display:{Name:'[{\"text\":\"Entrepreneur\",\"color\":\"#fffacd\",\"bold\":false,\"italic\":false}]'},personality:4}"
 						}
 					]
 				},
@@ -54,7 +54,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{display:{Name:'[{\"text\":\"Art Lover\",\"color\":\"#fa8072\",\"bold\":false,\"italic\":false}]'},personality:5}"
+							"tag": "{display:{Name:'[{\"text\":\"Art Lover\",\"color\":\"#fffacd\",\"bold\":false,\"italic\":false}]'},personality:5}"
 						}
 					]
 				},
@@ -65,7 +65,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{display:{Name:'[{\"text\":\"Lazy\",\"color\":\"#fa8072\",\"bold\":false,\"italic\":false}]'},personality:6}"
+							"tag": "{display:{Name:'[{\"text\":\"Lazy\",\"color\":\"#fffacd\",\"bold\":false,\"italic\":false}]'},personality:6}"
 						}
 					]
 				},
@@ -76,7 +76,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{display:{Name:'[{\"text\":\"Loner\",\"color\":\"#fa8072\",\"bold\":false,\"italic\":false}]'},personality:7}"
+							"tag": "{display:{Name:'[{\"text\":\"Loner\",\"color\":\"#fffacd\",\"bold\":false,\"italic\":false}]'},personality:7}"
 						}
 					]
 				},
@@ -87,7 +87,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{display:{Name:'[{\"text\":\"Nerd\",\"color\":\"#fa8072\",\"bold\":false,\"italic\":false}]'},personality:8}"
+							"tag": "{display:{Name:'[{\"text\":\"Nerd\",\"color\":\"#fffacd\",\"bold\":false,\"italic\":false}]'},personality:8}"
 						}
 					]
 				},
@@ -98,7 +98,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{display:{Name:'[{\"text\":\"Small Appetite\",\"color\":\"#fa8072\",\"bold\":false,\"italic\":false}]'},personality:9}"
+							"tag": "{display:{Name:'[{\"text\":\"Small Appetite\",\"color\":\"#fffacd\",\"bold\":false,\"italic\":false}]'},personality:9}"
 						}
 					]
 				},
@@ -109,7 +109,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{display:{Name:'[{\"text\":\"Gluttonous\",\"color\":\"#fa8072\",\"bold\":false,\"italic\":false}]'},personality:10}"
+							"tag": "{display:{Name:'[{\"text\":\"Gluttonous\",\"color\":\"#fffacd\",\"bold\":false,\"italic\":false}]'},personality:10}"
 						}
 					]
 				},
@@ -120,7 +120,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{display:{Name:'[{\"text\":\"Disruptive\",\"color\":\"#fa8072\",\"bold\":false,\"italic\":false}]'},personality:11}"
+							"tag": "{display:{Name:'[{\"text\":\"Disruptive\",\"color\":\"#fffacd\",\"bold\":false,\"italic\":false}]'},personality:11}"
 						}
 					]
 				},
@@ -131,7 +131,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{display:{Name:'[{\"text\":\"Nondrinker\",\"color\":\"#fa8072\",\"bold\":false,\"italic\":false}]'},personality:12}"
+							"tag": "{display:{Name:'[{\"text\":\"Nondrinker\",\"color\":\"#fffacd\",\"bold\":false,\"italic\":false}]'},personality:12}"
 						}
 					]
 				},
@@ -142,7 +142,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{display:{Name:'[{\"text\":\"Pious\",\"color\":\"#fa8072\",\"bold\":false,\"italic\":false}]'},personality:13}"
+							"tag": "{display:{Name:'[{\"text\":\"Pious\",\"color\":\"#fffacd\",\"bold\":false,\"italic\":false}]'},personality:13}"
 						}
 					]
 				},
@@ -153,7 +153,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{display:{Name:'[{\"text\":\"Ordinary\",\"color\":\"#fa8072\",\"bold\":false,\"italic\":false}]'},personality:0}"
+							"tag": "{display:{Name:'[{\"text\":\"Ordinary\",\"color\":\"#fffacd\",\"bold\":false,\"italic\":false}]'},personality:0}"
 						}
 					]
 				}

@@ -1,2 +1,2 @@
-tellraw @s [{"text":"<⚑>","color":"#00BFFF"},{"text":" Turn ","color":"white"},{"score":{"name":"@s","objective":"emp_turn"},"color":"white"},{"text":": ","color":"white"},{"nbt":"Items[{Slot:0b}].tag.name_data","block":"~ ~ ~","interpret":true,"color":"#cd853f"},{"text":" ate extra Food.","color":"red"},{"text":" -1","color":"#32cd32","extra":[{"text":"🍖"}]}]
+tellraw @s [{"text":"<⚑>","color":"#00BFFF"},{"text":" Turn ","color":"white"},{"score":{"name":"@s","objective":"emp_turn"},"color":"white"},{"text":": ","color":"white"},{"nbt":"Items[{Slot:0b}].tag.name_data","block":"~ ~ ~","interpret":true,"color":"#f4a460"},{"text":" ate extra Food.","color":"red"},{"text":" -1","color":"#32cd32","extra":[{"text":"🍖"}]}]
 scoreboard players remove @s emp_food 1

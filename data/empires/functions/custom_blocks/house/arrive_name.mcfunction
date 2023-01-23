@@ -24,4 +24,4 @@ function empires:custom_blocks/house/motivate_init
 #Messages
 playsound block.enchantment_table.use block @a
 playsound entity.villager.celebrate block @a ~ ~ ~ 1 1.22 1
-#execute as @a[predicate=empires:message_id] run tellraw @s [{"text":"<⚑>","color":"#00BFFF"},{"text":" Turn ","color":"white"},{"score":{"name":"@s","objective":"emp_turn"},"color":"white"},{"text":": ","color":"white"},{"nbt":"Items[{Slot:0b}].tag.name_data","block":"~ ~ ~","interpret":true,"color":"#cd853f"},{"text":" arrived. Welcome!","color":"green"}]
+#execute as @a[predicate=empires:message_id] run tellraw @s [{"text":"<⚑>","color":"#00BFFF"},{"text":" Turn ","color":"white"},{"score":{"name":"@s","objective":"emp_turn"},"color":"white"},{"text":": ","color":"white"},{"nbt":"Items[{Slot:0b}].tag.name_data","block":"~ ~ ~","interpret":true,"color":"#f4a460"},{"text":" arrived. Welcome!","color":"green"}]

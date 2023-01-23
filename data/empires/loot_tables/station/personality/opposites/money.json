@@ -9,7 +9,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{display:{Name:'[{\"text\":\"Trait: \",\"color\":\"gray\",\"bold\":false,\"italic\":false},{\"text\":\"Entrepreneur\",\"color\":\"#fa8072\",\"bold\":false,\"italic\":false}]'},personality:24}"
+							"tag": "{display:{Name:'[{\"text\":\"Trait: \",\"color\":\"gray\",\"bold\":false,\"italic\":false},{\"text\":\"Entrepreneur\",\"color\":\"#fffacd\",\"bold\":false,\"italic\":false}]'},personality:24}"
 						}
 					]
 				},
@@ -19,7 +19,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{display:{Name:'[{\"text\":\"Trait: \",\"color\":\"gray\",\"bold\":false,\"italic\":false},{\"text\":\"Kleptomaniac\",\"color\":\"#fa8072\",\"bold\":false,\"italic\":false}]'},personality:25}"
+							"tag": "{display:{Name:'[{\"text\":\"Trait: \",\"color\":\"gray\",\"bold\":false,\"italic\":false},{\"text\":\"Kleptomaniac\",\"color\":\"#fffacd\",\"bold\":false,\"italic\":false}]'},personality:25}"
 						}
 					]
 				},
@@ -29,7 +29,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{display:{Name:'[{\"text\":\"Trait: \",\"color\":\"gray\",\"bold\":false,\"italic\":false},{\"text\":\"Ordinary\",\"color\":\"#fa8072\",\"bold\":false,\"italic\":false}]'},personality:0}"
+							"tag": "{display:{Name:'[{\"text\":\"Trait: \",\"color\":\"gray\",\"bold\":false,\"italic\":false},{\"text\":\"Ordinary\",\"color\":\"#fffacd\",\"bold\":false,\"italic\":false}]'},personality:0}"
 						}
 					]
 				}

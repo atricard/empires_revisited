@@ -9,7 +9,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{display:{Name:'[{\"text\":\"Trait: \",\"color\":\"gray\",\"bold\":false,\"italic\":false},{\"text\":\"Recluse\",\"color\":\"#fa8072\",\"bold\":false,\"italic\":false}]'},personality:12}"
+							"tag": "{display:{Name:'[{\"text\":\"Trait: \",\"color\":\"gray\",\"bold\":false,\"italic\":false},{\"text\":\"Recluse\",\"color\":\"#fffacd\",\"bold\":false,\"italic\":false}]'},personality:12}"
 						}
 					]
 				},
@@ -19,7 +19,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{display:{Name:'[{\"text\":\"Trait: \",\"color\":\"gray\",\"bold\":false,\"italic\":false},{\"text\":\"Extrovert\",\"color\":\"#fa8072\",\"bold\":false,\"italic\":false}]'},personality:13}"
+							"tag": "{display:{Name:'[{\"text\":\"Trait: \",\"color\":\"gray\",\"bold\":false,\"italic\":false},{\"text\":\"Extrovert\",\"color\":\"#fffacd\",\"bold\":false,\"italic\":false}]'},personality:13}"
 						}
 					]
 				},
@@ -29,7 +29,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{display:{Name:'[{\"text\":\"Trait: \",\"color\":\"gray\",\"bold\":false,\"italic\":false},{\"text\":\"Ordinary\",\"color\":\"#fa8072\",\"bold\":false,\"italic\":false}]'},personality:0}"
+							"tag": "{display:{Name:'[{\"text\":\"Trait: \",\"color\":\"gray\",\"bold\":false,\"italic\":false},{\"text\":\"Ordinary\",\"color\":\"#fffacd\",\"bold\":false,\"italic\":false}]'},personality:0}"
 						}
 					]
 				}

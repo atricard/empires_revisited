@@ -9,7 +9,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{display:{Name:'[{\"text\":\"Trait: \",\"color\":\"gray\",\"bold\":false,\"italic\":false},{\"text\":\"Hard Worker\",\"color\":\"#fa8072\",\"bold\":false,\"italic\":false}]'},personality:6}"
+							"tag": "{display:{Name:'[{\"text\":\"Trait: \",\"color\":\"gray\",\"bold\":false,\"italic\":false},{\"text\":\"Hard Worker\",\"color\":\"#fffacd\",\"bold\":false,\"italic\":false}]'},personality:6}"
 						}
 					]
 				},
@@ -19,7 +19,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{display:{Name:'[{\"text\":\"Trait: \",\"color\":\"gray\",\"bold\":false,\"italic\":false},{\"text\":\"Lazy\",\"color\":\"#fa8072\",\"bold\":false,\"italic\":false}]'},personality:7}"
+							"tag": "{display:{Name:'[{\"text\":\"Trait: \",\"color\":\"gray\",\"bold\":false,\"italic\":false},{\"text\":\"Lazy\",\"color\":\"#fffacd\",\"bold\":false,\"italic\":false}]'},personality:7}"
 						}
 					]
 				},
@@ -29,7 +29,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{display:{Name:'[{\"text\":\"Trait: \",\"color\":\"gray\",\"bold\":false,\"italic\":false},{\"text\":\"Ordinary\",\"color\":\"#fa8072\",\"bold\":false,\"italic\":false}]'},personality:0}"
+							"tag": "{display:{Name:'[{\"text\":\"Trait: \",\"color\":\"gray\",\"bold\":false,\"italic\":false},{\"text\":\"Ordinary\",\"color\":\"#fffacd\",\"bold\":false,\"italic\":false}]'},personality:0}"
 						}
 					]
 				}

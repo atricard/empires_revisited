@@ -127,13 +127,13 @@ university
 #00bfff - Empires Datapack
 #24015b - Disabled Slot
 #ff0099 - Selection Slot
-#dc143c - Morale
+#ff0000 - Morale
 #d2691e - 🪓 Production
 #40e0d0 - 🧪 Invention
 #32cd32 - 🍖 Food
 #ffd700 - ⓓ Money
-#cd853f - Golem Clay/Name
-#fa8072 - Personality
+#f4a460 - Golem Clay/Name
+#fffacd - Personality
 #ffd700 - Seasons
 
 Building Types:
