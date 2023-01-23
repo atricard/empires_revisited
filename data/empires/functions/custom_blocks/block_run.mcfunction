@@ -4,6 +4,7 @@ execute unless predicate empires:in_overworld run function empires:custom_blocks
 #Slots
 execute if entity @s[tag=empbl_building,tag=!storehouse] run function empires:custom_blocks/slots
 execute if entity @s[tag=empbl_building,tag=storehouse] run function empires:custom_blocks/warehouse_slots
+execute if entity @s[tag=empbl_building] run function empires:custom_blocks/lock_main
 #Block Types
 execute if entity @s[tag=empires_crafter] run function empires:empires_crafter/crafting/main
 execute if entity @s[tag=house] run function empires:custom_blocks/house/run
