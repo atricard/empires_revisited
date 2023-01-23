@@ -17,7 +17,7 @@
 					"nbt": "Items[{Slot:10b}].tag.name_data",
 					"block": "~ ~ ~",
 					"interpret": true,
-					"color": "#f4a460"
+					"color": "#deb887"
 				}
 			]
 		},

@@ -13,7 +13,7 @@
 							"entity": "this",
 							"name": {
 								"text": "Clay Golem",
-								"color": "green",
+								"color": "#cd853f",
 								"italic": false,
 								"underlined": false
 							}
@@ -39,7 +39,7 @@
 										{
 											"nbt": "ArmorItems[3].tag.display.Name",
 											"entity": "@e[type=armor_stand,tag=emp_magi_one,sort=nearest,limit=1]",
-											"color": "#f4a460",
+											"color": "#deb887",
 											"interpret": true
 										}
 									]

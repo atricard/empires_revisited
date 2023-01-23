@@ -132,7 +132,8 @@ university
 #40e0d0 - 🧪 Invention
 #32cd32 - 🍖 Food
 #ffd700 - ⓓ Money
-#f4a460 - Golem Clay/Name
+#deb887 - Golem Name
+#cd853f - Golem Clay
 #fffacd - Personality
 #ffd700 - Seasons
 

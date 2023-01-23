@@ -52,7 +52,7 @@ execute if entity @s[tag=emp_gossip_compliment] run function empires:station_tur
 execute if entity @s[tag=emp_gossip_flirt] run function empires:station_turns/type/house/events/type/gossip/flirt
 #Overflow
 execute if score @s emp_motivation matches 101.. run scoreboard players set @s emp_motivation 100
-execute if score @s emp_motivation matches 0..10 run tellraw @a[predicate=empires:message_id] [{"text":"<⚑>","color":"#00BFFF"},{"text":" Turn ","color":"white"},{"score":{"name":"@s","objective":"emp_turn"},"color":"white"},{"text":": ","color":"white"},{"nbt":"Items[{Slot:10b}].tag.name_data","block":"~ ~ ~","interpret":true,"color":"#f4a460"},{"text":" is at 10% Morale or less!","color":"yellow"}]
+execute if score @s emp_motivation matches 0..10 run tellraw @a[predicate=empires:message_id] [{"text":"<⚑>","color":"#00BFFF"},{"text":" Turn ","color":"white"},{"score":{"name":"@s","objective":"emp_turn"},"color":"white"},{"text":": ","color":"white"},{"nbt":"Items[{Slot:10b}].tag.name_data","block":"~ ~ ~","interpret":true,"color":"#deb887"},{"text":" is at 10% Morale or less!","color":"yellow"}]
 #Remove Event Tags
 function empires:station_turns/type/house/remove_tag
 #Return JSON
