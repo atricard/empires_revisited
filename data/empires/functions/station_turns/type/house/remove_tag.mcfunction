@@ -5,7 +5,8 @@ tag @s remove emp_accident_sickness
 tag @s remove emp_accident_sawblade
 tag @s remove emp_accident_haggled
 tag @s remove emp_accident_blast
-tag @s remove emp_event_art
+tag @s remove emp_event_art_like
+tag @s remove emp_event_art_dislike
 tag @s remove emp_cured
 #Personalities
 tag @s remove emp_personality_normal

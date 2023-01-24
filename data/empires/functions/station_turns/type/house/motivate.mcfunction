@@ -1,5 +1,7 @@
 #REMINDER:
     ## this file is being run as and at the house custom block!
+#Remove Event Tags
+function empires:station_turns/type/house/remove_tag
 execute store result score @s emp_motivation run data get block ~ ~ ~ Items[{Slot:10b}].tag.emp_motivation
 function empires:station_turns/type/house/events/personality
 function empires:station_turns/type/house/events/reactions
@@ -53,8 +55,6 @@ execute if entity @s[tag=emp_gossip_flirt] run function empires:station_turns/ty
 #Overflow
 execute if score @s emp_motivation matches 101.. run scoreboard players set @s emp_motivation 100
 execute if score @s emp_motivation matches 0..10 run tellraw @a[predicate=empires:message_id] [{"text":"<⚑>","color":"#00BFFF"},{"text":" Turn ","color":"white"},{"score":{"name":"@s","objective":"emp_turn"},"color":"white"},{"text":": ","color":"white"},{"nbt":"Items[{Slot:10b}].tag.name_data","block":"~ ~ ~","interpret":true,"color":"#deb887"},{"text":" is at 10% Morale or less!","color":"yellow"}]
-#Remove Event Tags
-function empires:station_turns/type/house/remove_tag
 #Return JSON
 data modify storage empires:saved_name saved_name set from block ~ ~ ~ Items[{Slot:10b}].tag.name_data
 data modify storage empires:personality_name personality_name set from block ~ ~ ~ Items[{Slot:10b}].tag.saved_personality

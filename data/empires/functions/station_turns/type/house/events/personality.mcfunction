@@ -2,7 +2,7 @@
 execute store result score @s emp_personality run data get block ~ ~ ~ Items[{Slot:10b}].tag.personality
 execute store result score @s emp_personality_second run data get block ~ ~ ~ Items[{Slot:10b}].tag.personality_second
 #Main
-execute if score @s emp_personality matches 100 run tag @s add emp_personality_normal
+execute if score @s emp_personality matches 0 run tag @s add emp_personality_normal
 execute if score @s emp_personality matches 1 run tag @s add emp_personality_sadist
 execute if score @s emp_personality matches 2 run tag @s add emp_personality_hygienic
 execute if score @s emp_personality matches 3 run tag @s add emp_personality_slob
@@ -29,7 +29,7 @@ execute if score @s emp_personality matches 23 run tag @s add emp_personality_pr
 execute if score @s emp_personality matches 24 run tag @s add emp_personality_thrifty
 execute if score @s emp_personality matches 25 run tag @s add emp_personality_klepto
 #Second
-execute if score @s emp_personality_second matches 100 run tag @s add emp_personality_normal
+execute if score @s emp_personality_second matches 0 run tag @s add emp_personality_normal
 execute if score @s emp_personality_second matches 1 run tag @s add emp_personality_sadist
 execute if score @s emp_personality_second matches 2 run tag @s add emp_personality_hygienic
 execute if score @s emp_personality_second matches 3 run tag @s add emp_personality_slob
