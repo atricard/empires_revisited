@@ -1,0 +1,83 @@
+[
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{personality:0,personality_second:0}"
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"text": "-----------",
+				"color": "yellow",
+				"italic": false
+			},
+			{
+				"text": "Name: ",
+				"color": "gray",
+				"bold": false,
+				"italic": false,
+				"extra": [
+					{
+						"nbt": "Items[{Slot:10b}].tag.name_data",
+						"block": "~ ~ ~",
+						"interpret": true,
+						"color": "#deb887"
+					}
+				]
+			},
+			[
+				{
+					"text": "Morale: ",
+					"color": "gray",
+					"italic": false
+				},
+				[
+					{
+						"nbt": "Items[{Slot:10b}].tag.emp_motivation",
+						"block": "~ ~ ~",
+						"interpret": true,
+						"color": "#ff0000",
+						"extra": [
+							{
+								"text": "%",
+								"color": "gray",
+								"bold": false,
+								"italic": false
+							}
+						]
+					}
+				]
+			],
+			{
+				"text": "Trait: ",
+				"color": "gray",
+				"bold": false,
+				"italic": false,
+				"extra": [
+					{
+						"text": "Lobotimized",
+						"color": "#fffacd",
+						"bold": false,
+						"italic": false
+					}
+				]
+			},
+			{
+				"text": "Trait: ",
+				"color": "gray",
+				"bold": false,
+				"italic": false,
+				"extra": [
+					{
+						"text": "Lobotimized",
+						"color": "#fffacd",
+						"bold": false,
+						"italic": false
+					}
+				]
+			}
+		],
+		"replace": true
+	}
+]

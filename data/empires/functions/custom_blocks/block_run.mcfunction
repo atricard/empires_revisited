@@ -7,6 +7,7 @@ execute if entity @s[tag=empbl_building,tag=storehouse] run function empires:cus
 execute if entity @s[tag=empbl_building] run function empires:custom_blocks/lock_main
 #Block Types
 execute if entity @s[tag=empires_crafter] run function empires:empires_crafter/crafting/main
+execute if entity @s[tag=pottery_wheel] if block ~ ~ ~ barrel[open=true] run function empires:pottery_wheel/crafting/select/pages_main
 execute if entity @s[tag=house] run function empires:custom_blocks/house/run
 execute if entity @s[tag=wheat_field] run function empires:custom_blocks/wheat_field/run
 execute if entity @s[tag=mine] run function empires:custom_blocks/mine/run

@@ -127,7 +127,7 @@ university
 #00bfff - Empires Datapack
 #24015b - Disabled Slot
 #ff0099 - Selection Slot
-#ff4500 - Morale
+#ff0000 - Morale
 #d2691e - 🪓 Production
 #40e0d0 - 🧪 Invention
 #32cd32 - 🍖 Food

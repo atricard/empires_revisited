@@ -1,5 +1,6 @@
 #Egg Types
 execute if entity @s[tag=empires_crafter] run function empires:empires_crafter/place
+execute if entity @s[tag=pottery_wheel] run function empires:pottery_wheel/place
     #Buildings
 execute if entity @s[tag=house] run function empires:custom_blocks/house/set_barrel
 execute if entity @s[tag=wheat_field] run function empires:custom_blocks/wheat_field/set_barrel
