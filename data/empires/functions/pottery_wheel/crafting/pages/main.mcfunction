@@ -12,7 +12,7 @@ item replace block ~ ~ ~ container.9 with structure_void{display:{Name:'{"text":
 item replace block ~ ~ ~ container.12 with yellow_dye{display:{Name:'{"text":"Use Dye","color":"yellow","italic":false}'},CustomModelData:440001,gui:1b,HideFlags:127}
 item replace block ~ ~ ~ container.13 with structure_void{display:{Name:'{"text":"Slot Disabled","color":"#24015b","italic":false}'},CustomModelData:1,gui:1b}
 item replace block ~ ~ ~ container.14 with structure_void{display:{Name:'{"text":"Slot Disabled","color":"#24015b","italic":false}'},CustomModelData:1,gui:1b}
-item replace block ~ ~ ~ container.15 with clay_ball{display:{Name:'{"text":"Lobotimize","color":"yellow","italic":false}'},CustomModelData:440001,gui:1b,HideFlags:127}
+item replace block ~ ~ ~ container.15 with clay_ball{display:{Name:'{"text":"Lobotimize","color":"red","italic":false}'},CustomModelData:440001,gui:1b,HideFlags:127}
 item replace block ~ ~ ~ container.16 with structure_void{display:{Name:'{"text":"Slot Disabled","color":"#24015b","italic":false}'},CustomModelData:1,gui:1b}
 item replace block ~ ~ ~ container.17 with structure_void{display:{Name:'{"text":"Slot Disabled","color":"#24015b","italic":false}'},CustomModelData:1,gui:1b}
 item replace block ~ ~ ~ container.18 with structure_void{display:{Name:'{"text":"Slot Disabled","color":"#24015b","italic":false}'},CustomModelData:1,gui:1b}

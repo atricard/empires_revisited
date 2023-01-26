@@ -1,13 +1,11 @@
 #Events
 tag @s remove emp_accident_construction
 tag @s remove emp_accident_fell
-tag @s remove emp_accident_sickness
 tag @s remove emp_accident_sawblade
 tag @s remove emp_accident_haggled
 tag @s remove emp_accident_blast
 tag @s remove emp_event_art_like
 tag @s remove emp_event_art_dislike
-tag @s remove emp_cured
 #Personalities
 tag @s remove emp_personality_normal
 tag @s remove emp_personality_sadist
@@ -42,7 +40,3 @@ tag @s remove emp_personality_loves_compliment
 tag @s remove emp_personality_hates_compliment
 tag @s remove emp_personality_loves_insult
 tag @s remove emp_personality_hates_insult
-#Gossips
-tag @s remove emp_gossip_flirt
-tag @s remove emp_gossip_compliment
-tag @s remove emp_gossip_insult

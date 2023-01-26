@@ -1,5 +1,5 @@
 #particle
-particle electric_spark ~ ~ ~ 0 0 0 0 1 normal
+particle dust 0.824 0.502 0.204 1 ~ ~ ~ 0 0 0 0 1 normal
 #distance so it doesnt fly off into infinity
 scoreboard players add global_score golem_eye_distance 1
 #prox
