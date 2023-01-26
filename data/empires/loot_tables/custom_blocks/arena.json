@@ -9,11 +9,11 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{display:{Name:'{\"text\":\"Arena\",\"italic\":false,\"color\":\"green\"}',Lore:['{\"text\":\"- Amenity Building -\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"Flips coin for +9% Morale (Radius: 50 Blocks)\",\"color\":\"yellow\",\"italic\":false}']},CustomModelData:440001,empires_egg:1b,EntityTag:{id:\"minecraft:area_effect_cloud\",Duration:1,Radius:0f,Age:1,Tags:[\"empbl_init\",\"arena\"]}}"
+							"tag": "{display:{Name:'{\"text\":\"Arena\",\"italic\":false,\"color\":\"green\"}',Lore:['{\"text\":\"- Amenity Building -\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"Flips coin for +9% Morale (Radius: 50 Blocks)\",\"color\":\"yellow\",\"italic\":false}']},CustomModelData:440001,empires_egg:1b,EntityTag:{id:\"minecraft:area_effect_cloud\",Duration:1,Radius:0f,Age:1,Tags:[\"emp_block_init\",\"emp_arena\"]}}"
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{Enchantments:[{}],EntityTag:{id:\"minecraft:area_effect_cloud\",Duration:1,Radius:0f,Age:1,Tags:[\"empbl_init\",\"emp_active\",\"arena\"]}}",
+							"tag": "{Enchantments:[{}],EntityTag:{id:\"minecraft:area_effect_cloud\",Duration:1,Radius:0f,Age:1,Tags:[\"emp_block_init\",\"emp_active\",\"emp_arena\"]}}",
 							"conditions": [
 								{
 									"condition": "minecraft:inverted",
@@ -21,7 +21,7 @@
 										"condition": "minecraft:entity_properties",
 										"entity": "this",
 										"predicate": {
-											"nbt": "{Tags:[\"empbl_inactive\"]}"
+											"nbt": "{Tags:[\"emp_building_inactive\"]}"
 										}
 									}
 								},

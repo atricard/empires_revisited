@@ -17,4 +17,4 @@ execute unless data block ~ ~ ~ Items[{Slot:6b}].tag.gui run item replace block 
 execute unless data block ~ ~ ~ Items[{Slot:7b}].tag.gui run item replace block ~ ~ ~ container.7 with structure_void{display:{Name:'{"text":"Slot Disabled","color":"#24015b","italic":false}'},CustomModelData:1,gui:1b}
 execute unless data block ~ ~ ~ Items[{Slot:8b}].tag.gui run item replace block ~ ~ ~ container.8 with structure_void{display:{Name:'{"text":"Slot Disabled","color":"#24015b","italic":false}'},CustomModelData:1,gui:1b}
 #Remove Tag from Rejected Item
-tag @e[type=item,tag=rejected_item,limit=1,sort=nearest] remove rejected_item
+tag @e[type=item,tag=emp_rejected_item,limit=1,sort=nearest] remove emp_rejected_item

@@ -7,4 +7,4 @@ execute unless data block ~ ~ ~ Items[{Slot:10b}].tag.gui run item replace block
 execute unless data block ~ ~ ~ Items[{Slot:13b}].tag.gui run item replace block ~ ~ ~ container.13 with barrier{display:{Name:'{"text":"Slot Locked","color":"red","italic":false}'},gui:1b}
 execute unless data block ~ ~ ~ Items[{Slot:16b}].tag.gui run item replace block ~ ~ ~ container.16 with barrier{display:{Name:'{"text":"Slot Locked","color":"red","italic":false}'},gui:1b}
 #Remove Tag from Rejected Item
-tag @e[type=item,tag=rejected_item,limit=1,sort=nearest] remove rejected_item
+tag @e[type=item,tag=emp_rejected_item,limit=1,sort=nearest] remove emp_rejected_item

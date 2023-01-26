@@ -9,11 +9,11 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Plantation\",\"italic\":false,\"color\":\"green\"}',Lore:['{\"text\":\"- Jobsite Building -\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"+9 🍖\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"+3 ⓓ\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"Harvests: Wheat, Potato, Carrot,\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"Beetroot, Pumpkin, Melon,\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"Apple\",\"color\":\"yellow\",\"italic\":false}']},CustomModelData:440001,empires_egg:1b,EntityTag:{id:\"minecraft:area_effect_cloud\",Duration:1,Radius:0f,Age:1,Tags:[\"empbl_init\",\"plantation\"]}}"
+              "tag": "{display:{Name:'{\"text\":\"Plantation\",\"italic\":false,\"color\":\"green\"}',Lore:['{\"text\":\"- Jobsite Building -\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"+9 🍖\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"+3 ⓓ\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"Harvests: Wheat, Potato, Carrot,\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"Beetroot, Pumpkin, Melon,\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"Apple\",\"color\":\"yellow\",\"italic\":false}']},CustomModelData:440001,empires_egg:1b,EntityTag:{id:\"minecraft:area_effect_cloud\",Duration:1,Radius:0f,Age:1,Tags:[\"emp_block_init\",\"emp_plantation\"]}}"
             },
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{Enchantments:[{}],EntityTag:{id:\"minecraft:area_effect_cloud\",Duration:1,Radius:0f,Age:1,Tags:[\"empbl_init\",\"emp_active\",\"plantation\"]}}",
+							"tag": "{Enchantments:[{}],EntityTag:{id:\"minecraft:area_effect_cloud\",Duration:1,Radius:0f,Age:1,Tags:[\"emp_block_init\",\"emp_active\",\"emp_plantation\"]}}",
 							"conditions": [
 								{
 									"condition": "minecraft:inverted",
@@ -21,7 +21,7 @@
 										"condition": "minecraft:entity_properties",
 										"entity": "this",
 										"predicate": {
-											"nbt": "{Tags:[\"empbl_inactive\"]}"
+											"nbt": "{Tags:[\"emp_building_inactive\"]}"
 										}
 									}
 								},

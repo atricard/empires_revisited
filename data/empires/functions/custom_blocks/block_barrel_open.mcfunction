@@ -1,0 +1,34 @@
+#Slots
+execute if entity @s[tag=emp_building,tag=!emp_storehouse] run function empires:custom_blocks/slots
+execute if entity @s[tag=emp_building,tag=emp_storehouse] run function empires:custom_blocks/warehouse_slots
+execute if entity @s[tag=emp_building] run function empires:custom_blocks/lock_main
+#Block Types
+execute if entity @s[tag=empires_crafter] run function empires:empires_crafter/crafting/main
+execute if entity @s[tag=emp_pottery_wheel] run function empires:pottery_wheel/crafting/select/pages_main
+execute if entity @s[tag=emp_house] run function empires:custom_blocks/house/run
+execute if entity @s[tag=emp_wheat_field] run function empires:custom_blocks/wheat_field/run
+execute if entity @s[tag=emp_mine] run function empires:custom_blocks/mine/run
+execute if entity @s[tag=emp_fishery] run function empires:custom_blocks/fishery/run
+execute if entity @s[tag=emp_garden] run function empires:custom_blocks/garden/run
+execute if entity @s[tag=emp_temple] run function empires:custom_blocks/temple/run
+execute if entity @s[tag=emp_watermill] run function empires:custom_blocks/watermill/run
+execute if entity @s[tag=emp_storehouse] run function empires:custom_blocks/storehouse/run
+execute if entity @s[tag=emp_mason] run function empires:custom_blocks/mason/run
+execute if entity @s[tag=emp_blacksmith] run function empires:custom_blocks/blacksmith/run
+execute if entity @s[tag=emp_observatory] run function empires:custom_blocks/observatory/run
+execute if entity @s[tag=emp_hospital] run function empires:custom_blocks/hospital/run
+execute if entity @s[tag=emp_lumbermill] run function empires:custom_blocks/lumbermill/run
+execute if entity @s[tag=emp_market] run function empires:custom_blocks/market/run
+execute if entity @s[tag=emp_blast_mine] run function empires:custom_blocks/blast_mine/run
+execute if entity @s[tag=emp_arena] run function empires:custom_blocks/arena/run
+execute if entity @s[tag=emp_factory] run function empires:custom_blocks/factory/run
+execute if entity @s[tag=emp_apiary] run function empires:custom_blocks/apiary/run
+execute if entity @s[tag=emp_brewery] run function empires:custom_blocks/brewery/run
+execute if entity @s[tag=emp_butcher] run function empires:custom_blocks/butcher/run
+execute if entity @s[tag=emp_dyery] run function empires:custom_blocks/dyery/run
+execute if entity @s[tag=emp_glassmaker] run function empires:custom_blocks/glassmaker/run
+execute if entity @s[tag=emp_plantation] run function empires:custom_blocks/plantation/run
+execute if entity @s[tag=emp_harbor] run function empires:custom_blocks/harbor/run
+execute if entity @s[tag=emp_power_plant] run function empires:custom_blocks/power_plant/run
+execute if entity @s[tag=emp_bank] run function empires:custom_blocks/bank/run
+execute if entity @s[tag=emp_university] run function empires:custom_blocks/university/run

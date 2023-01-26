@@ -5,4 +5,4 @@ execute unless data block ~ ~ ~ Items[{Slot:26b}].tag.gui run function empires:e
 #Click Gui
 execute as @p[distance=..10,scores={emp_has_gui=1..}] run function empires:empires_crafter/crafting/select/tech/buy_ii
 #Refresh
-function empires:empires_crafter/crafting/refresh
+function empires:empires_crafter/crafting/pages/tech_ii

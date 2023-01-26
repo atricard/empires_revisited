@@ -7,4 +7,4 @@ execute at @s run particle enchanted_hit ~ ~0.5 ~ 0.6 0.6 0.6 0.1 15 normal
 #IMPORTANT: Turn matching
 scoreboard players operation @s emp_turn = @a[tag=emp_block_display] emp_turn
 #End
-tag @s remove empbl_inactive
+tag @s remove emp_building_inactive

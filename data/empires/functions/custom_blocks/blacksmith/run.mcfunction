@@ -1,1 +1,1 @@
-execute unless data block ~ ~ ~ Items[{Slot:10b}].tag.emp_jobsite run function empires:reject_item/slots/insert_jobsite_doc
+execute if entity @s[tag=emp_lost_paper] run function empires:reject_item/slots/insert_jobsite_doc

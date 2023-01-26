@@ -26,4 +26,4 @@ execute if data block ~ ~ ~ Items[{Slot:24b}] unless data block ~ ~ ~ Items[{Slo
 execute if data block ~ ~ ~ Items[{Slot:25b}] unless data block ~ ~ ~ Items[{Slot:25b}].tag.gui run function empires:reject_item/25
 execute if data block ~ ~ ~ Items[{Slot:26b}] unless data block ~ ~ ~ Items[{Slot:26b}].tag.gui run function empires:reject_item/26
 #End
-tag @e[type=item,tag=rejected_item,limit=1,sort=nearest] remove rejected_item
+tag @e[type=item,tag=emp_rejected_item,limit=1,sort=nearest] remove emp_rejected_item

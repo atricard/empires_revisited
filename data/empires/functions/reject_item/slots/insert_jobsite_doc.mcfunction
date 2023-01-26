@@ -3,4 +3,5 @@ execute if data block ~ ~ ~ Items[{Slot:10b}] unless data block ~ ~ ~ Items[{Slo
 #Slot Empty
 function empires:station_turns/insert_jobsite_doc
 #Tag from Rejected Item
-tag @e[type=item,tag=rejected_item,limit=1,sort=nearest] remove rejected_item
+tag @e[type=item,tag=emp_rejected_item,limit=1,sort=nearest] remove emp_rejected_item
+tag @s remove emp_lost_paper

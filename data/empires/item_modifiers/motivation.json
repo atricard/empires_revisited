@@ -30,7 +30,7 @@
 			[
 				{
 					"score": {
-						"name": "@e[type=glow_item_frame,tag=house,distance=..1,sort=nearest,limit=1]",
+						"name": "@e[type=glow_item_frame,tag=emp_house,distance=..1,sort=nearest,limit=1]",
 						"objective": "emp_motivation"
 					},
 					"color": "#ff0000",

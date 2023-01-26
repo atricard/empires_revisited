@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"text\":\"Empires Crafter\",\"italic\":false}'},CustomModelData:440000,empires_egg:1b,EntityTag:{id:\"minecraft:area_effect_cloud\",Duration:1,Radius:0f,Age:1,Tags:[\"empbl_init\",\"empires_crafter\"]}}"
+                "tag": "{display:{Name:'{\"text\":\"Empires Crafter\",\"italic\":false}'},CustomModelData:440000,empires_egg:1b,EntityTag:{id:\"minecraft:area_effect_cloud\",Duration:1,Radius:0f,Age:1,Tags:[\"emp_block_init\",\"empires_crafter\"]}}"
               }
             ]
           }

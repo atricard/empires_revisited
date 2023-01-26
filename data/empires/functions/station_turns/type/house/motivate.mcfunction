@@ -22,7 +22,7 @@ execute if entity @s[tag=emp_accident_construction] run function empires:station
 execute if entity @s[tag=emp_accident_fell] run function empires:station_turns/type/house/events/type/fell
         #Sickness
 execute if entity @s[tag=emp_cured] run function empires:station_turns/type/house/events/type/cured
-execute if entity @e[type=glow_item_frame,tag=hospital,tag=!empbl_inactive,distance=..50] if data block ~ ~ ~ Items[{Slot:10b}].tag.sick run function empires:custom_blocks/hospital/cure
+execute if entity @e[type=glow_item_frame,tag=emp_hospital,tag=!emp_building_inactive,distance=..50] if data block ~ ~ ~ Items[{Slot:10b}].tag.sick run function empires:custom_blocks/hospital/cure
 execute if data block ~ ~ ~ Items[{Slot:10b}].tag.sick run function empires:station_turns/type/house/events/type/sickness_continue
 execute unless entity @s[tag=emp_personality_hygienic] unless data block ~ ~ ~ Items[{Slot:10b}].tag.sick if entity @s[tag=emp_accident_sickness] run function empires:station_turns/type/house/events/type/sickness
 execute if entity @s[tag=emp_personality_hygienic] if entity @s[tag=emp_accident_sickness] run function empires:station_turns/type/house/events/type/avoid_sickness
@@ -38,16 +38,16 @@ execute if entity @s[tag=emp_personality_kind] run function empires:station_turn
 execute if entity @s[tag=emp_personality_cruel] run function empires:station_turns/type/house/events/type/personality/cruel
 execute if entity @s[tag=emp_personality_flirt] run function empires:station_turns/type/house/events/type/personality/flirt
         #Buildings
-execute if entity @e[type=glow_item_frame,tag=temple,tag=!empbl_inactive,distance=..30] run function empires:station_turns/type/house/events/type/building/temple
-execute if entity @s[tag=emp_personality_pious] if entity @e[type=glow_item_frame,tag=temple,tag=!empbl_inactive,distance=..30] run function empires:station_turns/type/house/events/type/building/temple_like
-execute if entity @s[tag=emp_personality_blasphemer] if entity @e[type=glow_item_frame,tag=temple,tag=!empbl_inactive,distance=..30] run function empires:station_turns/type/house/events/type/building/temple_dislike
-execute if entity @e[type=glow_item_frame,tag=temple,tag=!empbl_inactive,tag=emp_buff_printing,distance=..50] run scoreboard players add @s emp_motivation 2
-execute if entity @e[type=glow_item_frame,tag=garden,tag=!empbl_inactive,distance=..50] run function empires:station_turns/type/house/events/type/building/garden
-execute if entity @e[type=glow_item_frame,tag=market,tag=!empbl_inactive,tag=emp_buff_math,distance=..50] run scoreboard players add @s emp_motivation 3
-execute if entity @e[type=glow_item_frame,tag=arena,tag=!empbl_inactive,distance=..50] if predicate empires:chance/50 run function empires:station_turns/type/house/events/type/building/arena
-execute unless entity @s[tag=emp_personality_nondrinker] if entity @e[type=glow_item_frame,tag=brewery,tag=!empbl_inactive,distance=..40] if predicate empires:chance/50 run function empires:station_turns/type/house/events/type/building/brewery
-execute if entity @s[tag=emp_personality_towndrunk] if entity @e[type=glow_item_frame,tag=brewery,tag=!empbl_inactive,distance=..40] if predicate empires:chance/50 run function empires:station_turns/type/house/events/type/personality/towndrunk
-execute if entity @e[type=glow_item_frame,tag=power_plant,tag=!empbl_inactive,distance=..25] if predicate empires:chance/50 run scoreboard players add @s emp_motivation 3
+execute if entity @e[type=glow_item_frame,tag=emp_temple,tag=!emp_building_inactive,distance=..30] run function empires:station_turns/type/house/events/type/building/temple
+execute if entity @s[tag=emp_personality_pious] if entity @e[type=glow_item_frame,tag=emp_temple,tag=!emp_building_inactive,distance=..30] run function empires:station_turns/type/house/events/type/building/temple_like
+execute if entity @s[tag=emp_personality_blasphemer] if entity @e[type=glow_item_frame,tag=emp_temple,tag=!emp_building_inactive,distance=..30] run function empires:station_turns/type/house/events/type/building/temple_dislike
+execute if entity @e[type=glow_item_frame,tag=emp_temple,tag=!emp_building_inactive,tag=emp_buff_printing,distance=..50] run scoreboard players add @s emp_motivation 2
+execute if entity @e[type=glow_item_frame,tag=emp_garden,tag=!emp_building_inactive,distance=..50] run function empires:station_turns/type/house/events/type/building/garden
+execute if entity @e[type=glow_item_frame,tag=emp_market,tag=!emp_building_inactive,tag=emp_buff_math,distance=..50] run scoreboard players add @s emp_motivation 3
+execute if entity @e[type=glow_item_frame,tag=emp_arena,tag=!emp_building_inactive,distance=..50] if predicate empires:chance/50 run function empires:station_turns/type/house/events/type/building/arena
+execute unless entity @s[tag=emp_personality_nondrinker] if entity @e[type=glow_item_frame,tag=emp_brewery,tag=!emp_building_inactive,distance=..40] if predicate empires:chance/50 run function empires:station_turns/type/house/events/type/building/brewery
+execute if entity @s[tag=emp_personality_towndrunk] if entity @e[type=glow_item_frame,tag=emp_brewery,tag=!emp_building_inactive,distance=..40] if predicate empires:chance/50 run function empires:station_turns/type/house/events/type/personality/towndrunk
+execute if entity @e[type=glow_item_frame,tag=emp_power_plant,tag=!emp_building_inactive,distance=..25] if predicate empires:chance/50 run scoreboard players add @s emp_motivation 3
 #Gossip
 execute if entity @s[tag=emp_gossip_insult] run function empires:station_turns/type/house/events/type/gossip/insult
 execute if entity @s[tag=emp_gossip_compliment] run function empires:station_turns/type/house/events/type/gossip/compliment

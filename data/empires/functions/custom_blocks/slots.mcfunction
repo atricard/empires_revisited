@@ -1,5 +1,5 @@
 #On Cooldown
-execute if score @s[tag=house] emp_cooldown matches 0..2 if data block ~ ~ ~ Items[{Slot:10b}] unless data block ~ ~ ~ Items[{Slot:10b}].tag.gui run function empires:reject_item/10
+execute if score @s[tag=emp_house] emp_cooldown matches 0..2 if data block ~ ~ ~ Items[{Slot:10b}] unless data block ~ ~ ~ Items[{Slot:10b}].tag.gui run function empires:reject_item/10
 #Foreign Item in Slot
 execute if data block ~ ~ ~ Items[{Slot:0b}] unless data block ~ ~ ~ Items[{Slot:0b}].tag.gui run function empires:reject_item/0
 execute if data block ~ ~ ~ Items[{Slot:1b}] unless data block ~ ~ ~ Items[{Slot:1b}].tag.gui run function empires:reject_item/1
@@ -26,7 +26,7 @@ execute if data block ~ ~ ~ Items[{Slot:24b}] unless data block ~ ~ ~ Items[{Slo
 execute if data block ~ ~ ~ Items[{Slot:25b}] unless data block ~ ~ ~ Items[{Slot:25b}].tag.gui run function empires:reject_item/25
 execute if data block ~ ~ ~ Items[{Slot:26b}] unless data block ~ ~ ~ Items[{Slot:26b}].tag.gui run function empires:reject_item/26
 #Slot Empty
-execute if entity @s[tag=house] run function empires:custom_blocks/house/cooldown
+execute if entity @s[tag=emp_house] run function empires:custom_blocks/house/cooldown
 execute unless data block ~ ~ ~ Items[{Slot:0b}].tag.gui run item replace block ~ ~ ~ container.0 with structure_void{display:{Name:'{"text":"Slot Disabled","color":"#24015b","italic":false}'},CustomModelData:1,gui:1b}
 execute unless data block ~ ~ ~ Items[{Slot:1b}].tag.gui run item replace block ~ ~ ~ container.1 with structure_void{display:{Name:'{"text":"Slot Disabled","color":"#24015b","italic":false}'},CustomModelData:1,gui:1b}
 execute unless data block ~ ~ ~ Items[{Slot:2b}].tag.gui run item replace block ~ ~ ~ container.2 with structure_void{display:{Name:'{"text":"Slot Disabled","color":"#24015b","italic":false}'},CustomModelData:1,gui:1b}
@@ -52,4 +52,4 @@ execute unless data block ~ ~ ~ Items[{Slot:24b}].tag.gui run item replace block
 execute unless data block ~ ~ ~ Items[{Slot:25b}].tag.gui run item replace block ~ ~ ~ container.25 with structure_void{display:{Name:'{"text":"Slot Disabled","color":"#24015b","italic":false}'},CustomModelData:1,gui:1b}
 execute unless data block ~ ~ ~ Items[{Slot:26b}].tag.gui run item replace block ~ ~ ~ container.26 with structure_void{display:{Name:'{"text":"Slot Disabled","color":"#24015b","italic":false}'},CustomModelData:1,gui:1b}
 #Remove Tag from Rejected Item
-tag @e[type=item,tag=rejected_item,limit=1,sort=nearest] remove rejected_item
+tag @e[type=item,tag=emp_rejected_item,limit=1,sort=nearest] remove emp_rejected_item

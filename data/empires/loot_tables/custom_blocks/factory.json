@@ -9,11 +9,11 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Textile Factory\",\"italic\":false,\"color\":\"green\"}',Lore:['{\"text\":\"- Jobsite Building -\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"+14 🪓\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"Sent Materials: White Wool\",\"color\":\"yellow\",\"italic\":false}']},CustomModelData:440001,empires_egg:1b,EntityTag:{id:\"minecraft:area_effect_cloud\",Duration:1,Radius:0f,Age:1,Tags:[\"empbl_init\",\"factory\"]}}"
+              "tag": "{display:{Name:'{\"text\":\"Textile Factory\",\"italic\":false,\"color\":\"green\"}',Lore:['{\"text\":\"- Jobsite Building -\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"+14 🪓\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"Sent Materials: White Wool\",\"color\":\"yellow\",\"italic\":false}']},CustomModelData:440001,empires_egg:1b,EntityTag:{id:\"minecraft:area_effect_cloud\",Duration:1,Radius:0f,Age:1,Tags:[\"emp_block_init\",\"emp_factory\"]}}"
             },
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{Enchantments:[{}],EntityTag:{id:\"minecraft:area_effect_cloud\",Duration:1,Radius:0f,Age:1,Tags:[\"empbl_init\",\"emp_active\",\"factory\"]}}",
+							"tag": "{Enchantments:[{}],EntityTag:{id:\"minecraft:area_effect_cloud\",Duration:1,Radius:0f,Age:1,Tags:[\"emp_block_init\",\"emp_active\",\"emp_factory\"]}}",
 							"conditions": [
 								{
 									"condition": "minecraft:inverted",
@@ -21,7 +21,7 @@
 										"condition": "minecraft:entity_properties",
 										"entity": "this",
 										"predicate": {
-											"nbt": "{Tags:[\"empbl_inactive\"]}"
+											"nbt": "{Tags:[\"emp_building_inactive\"]}"
 										}
 									}
 								},

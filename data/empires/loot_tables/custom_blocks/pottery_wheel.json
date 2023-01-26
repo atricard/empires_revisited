@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"text\":\"Pottery Wheel\",\"italic\":false}'},CustomModelData:440002,empires_egg:1b,EntityTag:{id:\"minecraft:area_effect_cloud\",Duration:1,Radius:0f,Age:1,Tags:[\"empbl_init\",\"pottery_wheel\"]}}"
+                "tag": "{display:{Name:'{\"text\":\"Pottery Wheel\",\"italic\":false}'},CustomModelData:440002,empires_egg:1b,EntityTag:{id:\"minecraft:area_effect_cloud\",Duration:1,Radius:0f,Age:1,Tags:[\"emp_block_init\",\"emp_pottery_wheel\"]}}"
               }
             ]
           }
