@@ -2,3 +2,4 @@ tellraw @a[predicate=empires:message_id] [{"text":"<⚑>","color":"#00BFFF"},{"t
 scoreboard players add @s emp_motivation 7
 data remove block ~ ~ ~ Items[{Slot:10b}].tag.sick
 tag @s remove emp_accident_sickness
+tag @s remove emp_cured
